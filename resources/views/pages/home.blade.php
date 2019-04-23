@@ -8,7 +8,11 @@
 <section class="content">
 	<article class="inner-content">
 		<h1>Paris Valley Ranch</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda mollitia magnam at laudantium odit tenetur, amet optio deserunt esse, consequatur aspernatur veniam, quae accusantium animi similique. Reprehenderit dignissimos sint veritatis.</p>
+		<hr>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda mollitia magnam at laudantium odit tenetur, amet optio deserunt esse, consequatur aspernatur veniam, quae accusantium animi similique. Reprehenderit dignissimos sint veritatis.
+		</p>
+		<hr>
 	</article>
 	<article class="grid-cards">
 		<ul class="cards">

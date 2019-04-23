@@ -603,7 +603,7 @@ li li {
 }
 
 a {
-  color: #db3716;
+  color: #B58B2D;
   text-decoration: none;
 }
 
@@ -1047,7 +1047,7 @@ footer {
   float: left;
   margin-left: 0;
   margin-right: 0;
-  background: #00123a;
+  background: #1c1b12;
   margin-top: 5%;
   color: white;
   font-size: 12px;
@@ -1061,7 +1061,7 @@ footer .site-footer {
 }
 
 footer .site-footer a {
-  color: #db3716;
+  color: #B58B2D;
 }
 
 @media (min-width: 47em) {
@@ -1734,7 +1734,7 @@ fieldset .legend {
 }
 
 .btn {
-  background-color: #db3716;
+  background-color: #B58B2D;
   color: white;
   border: 0;
   border-radius: 3px;
@@ -1748,7 +1748,7 @@ fieldset .legend {
 }
 
 .button {
-  background-color: #db3716;
+  background-color: #B58B2D;
   color: white;
   border: 0;
   border-radius: 3px;
@@ -1767,19 +1767,6 @@ img {
   height: auto;
   max-width: 100%;
   vertical-align: middle;
-}
-
-.btn {
-  background-color: white;
-  border: 1px solid #cccccc;
-  color: #696969;
-  padding: 0.5rem;
-  text-transform: lowercase;
-}
-
-.btn--block {
-  display: block;
-  width: 100%;
 }
 
 .cards {
