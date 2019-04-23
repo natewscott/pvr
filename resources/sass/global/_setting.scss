@@ -52,58 +52,9 @@ a {
     }
 }
 
-.content-aside {
-    @include full;
-
-    @include breakpoint(large) {
-        padding-left: 0;
-    }
-
-
-    display: flex;
-    flex-direction: column;
-
-    @include breakpoint(medium) {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
-
-#lead-in {
+.inner-content {
     max-width: 1080px;
     margin: 0 auto;
-    clear: both;
-}
-
-.lead-in-aside {
-    max-width: 1000px;
-}
-
-.aside-content {
-    max-width: 380px;
-}
-
-.lead-in-text {
-    margin-bottom: 1.25%;
-}
-
-.history.lead-in-text {
-    max-width: 800px;
-    float: left;
-}
-
-aside {
-    video {
-        margin-left: 1.25%;
-    }
-}
-
-#mob-app {
-    .content-aside {
-        img {
-            max-width: 180px;
-        }
-    }
 }
 
 .app-items {

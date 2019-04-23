@@ -1,18 +1,14 @@
-header {
-    @include full;
-}
-
 .brand {
   position: absolute;
   padding-left: 20px;
   float: left;
-  max-width: 125px;
   line-height: 70px;
   text-transform: uppercase;
   font-size: 1.4em;
 }
 .brand a,
 .brand a:visited {
+  // color: #ffffff;
   text-decoration: none;
 }
 
@@ -38,6 +34,7 @@ nav ul li a:visited {
   display: block;
   padding: 0 20px;
   line-height: 70px;
+  // background: #262626;
   color: black;
   text-decoration: none;
 }
