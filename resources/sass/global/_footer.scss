@@ -1,0 +1,110 @@
+/**
+ * the sticky footer mixin
+ **/
+@mixin sticky-footer($footer-height, $wrapper-selector: unquote(".page-wrap"), $container-selector: unquote(".main-content"), $footer-selector: unquote(".site-footer")) {
+    html, body {
+        height: 100%;
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #{$wrapper-selector} {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin-bottom: -$footer-height;
+
+        #{$container-selector} {
+            padding: 0 0 $footer-height 0;
+        }
+    }
+
+    #{$footer-selector} {
+        height: $footer-height;
+    }
+}
+
+/**
+ * the sticky footer implementation
+ **/
+@include sticky-footer(auto);
+
+footer {
+    @include full;
+
+    background: darken($primary, 20%);
+    margin-top: 5%;
+    color: white;
+    font-size: 12px;
+
+    .site-footer {
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        margin-bottom: 20%;
+
+        a {
+            color: $link;
+        }
+
+        @include breakpoint(medium) {
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 0;
+        }
+
+
+        article {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 10%;
+
+            @include breakpoint(medium) {
+                align-items: flex-start;
+                margin-bottom: 0;
+            }
+        }
+
+        h2 {
+            text-align: center;
+
+            @include responsive-typography(24px, 28px, false);
+
+            text-transform: uppercase;
+            margin: 0;
+
+            @include breakpoint(medium) {
+                text-align: left;
+            }
+        }
+
+        p,
+        li {
+            @include responsive-typography(18px, 21px, false);
+
+            font-weight: 300;
+            margin: 0;
+        }
+    }
+
+    img {
+        width: 50%;
+
+        @include breakpoint(medium) {
+            width: 100%;
+        }
+    }
+
+    .footer-link {
+        letter-spacing: .065em;
+    }
+
+    #copyright {
+        display: flex;
+        justify-content: center;
+    }
+}

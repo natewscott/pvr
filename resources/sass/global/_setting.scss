@@ -1,0 +1,123 @@
+body, html {
+    @include full;
+
+    padding: 0;
+    font-family: $sans-serif;
+    font-weight: 300;
+
+    @include border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        margin-bottom: 2%;
+    }
+}
+
+a {
+    color: $link;
+    text-decoration: none;
+}
+
+.page-wrap {
+    @include full;
+}
+
+.main-content {
+    @include full;
+}
+
+.content {
+    @include full;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0 5%;
+
+    @include breakpoint(large) {
+        padding: 0 5%;
+    }
+}
+
+.content-aside {
+    @include full;
+
+    @include breakpoint(large) {
+        padding-left: 0;
+    }
+
+
+    display: flex;
+    flex-direction: column;
+
+    @include breakpoint(medium) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+#lead-in {
+    max-width: 1080px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.lead-in-aside {
+    max-width: 1000px;
+}
+
+.aside-content {
+    max-width: 380px;
+}
+
+.lead-in-text {
+    margin-bottom: 1.25%;
+}
+
+.history.lead-in-text {
+    max-width: 800px;
+    float: left;
+}
+
+aside {
+    video {
+        margin-left: 1.25%;
+    }
+}
+
+#mob-app {
+    .content-aside {
+        img {
+            max-width: 180px;
+        }
+    }
+}
+
+.app-items {
+    li {
+        margin: 1.5%;
+        display: inline-block;
+    }
+}
+
+.alert-messages {
+    clear: both;
+    text-align: center;
+    background-color: lightgreen;
+    width: 50%;
+    border-radius: 10px;
+    margin: 0 25%;
+}

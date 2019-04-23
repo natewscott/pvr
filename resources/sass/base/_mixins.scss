@@ -1,0 +1,67 @@
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin full {
+    clear: both;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@mixin border-box {
+    *, *:before, *:after {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}
+
+/* BREAKPOINT MIXINS */
+@mixin bp-small {
+    @media (min-width: 480px) {
+        @content;
+    }
+}
+
+@mixin bp-normal {
+    @media (min-width: 960px) {
+        @content;
+    }
+}
+
+@mixin breakpoint($point) {
+    @if $point == large {
+        @media (min-width: $large) {
+            @content;
+        }
+    }
+
+    // @else if $point == laptop {
+    //     @media (min-width: 64em) {
+    //         @content;
+    //     }
+    // }
+
+    @else if $point == medium {
+        @media (min-width: $medium) {
+            @content;
+        }
+    }
+
+    @else if $point == small {
+        @media (min-width: $small) {
+            @content;
+        }
+    }
+
+    @else if $point == mobile {
+        @media (max-width: $mobile) {
+            @content;
+        }
+    }
+}
