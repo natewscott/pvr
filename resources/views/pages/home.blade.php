@@ -20,9 +20,11 @@
 				<div class="card">
 					<div class="card-image card-image-main-house"></div>
 					<div class="card-content">
-						<div class="card-title">Flex</div>
-						<p class="card-text">This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and third parameters (flex-shrink and flex-basis) are optional. Default is 0 1 auto. </p>
-						<button class="btn btn-block card-btn">Button</button>
+						<div class="card-title">Accomodations</div>
+						<p class="card-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur nostrum, perferendis quasi non dolores, ut quae voluptatum consequuntur ea nam facilis enim quidem sequi. Quis tempore maxime natus, excepturi eius!
+						</p>
+						{{-- <button class="btn btn-block card-btn">Button</button> --}}
 					</div>
 				</div>
 			</li>
@@ -30,9 +32,11 @@
 				<div class="card">
 					<div class="card-image card-image-range"></div>
 					<div class="card-content">
-						<div class="card-title">Flex Grow</div>
-						<p class="card-text">This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
-						<button class="btn btn--block card__btn">Button</button>
+						<div class="card-title">Shooting</div>
+						<p class="card-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, impedit nostrum nulla non quis repellat ad mollitia! Eos earum animi minus. Laboriosam suscipit explicabo voluptates voluptatem quae, unde similique quos.
+						</p>
+						{{-- <button class="btn btn-block card-btn">Button</button> --}}
 					</div>
 				</div>
 			</li>
@@ -40,9 +44,11 @@
 				<div class="card">
 					<div class="card-image card-image-quads"></div>
 					<div class="card-content">
-						<div class="card-title">Flex Shrink</div>
-						<p class="card-text">This defines the ability for a flex item to shrink if necessary. Negative numbers are invalid.</p>
-						<button class="btn btn-block card-btn">Button</button>
+						<div class="card-title">Riding</div>
+						<p class="card-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, laboriosam obcaecati. Consequuntur totam facilis quibusdam quia, nobis quis ut minus neque nesciunt autem facere odit at architecto, necessitatibus. Deleniti, obcaecati.
+						</p>
+						{{-- <button class="btn btn-block card-btn">Button</button> --}}
 					</div>
 				</div>
 			</li>
