@@ -1777,19 +1777,19 @@ img {
   padding: 0;
 }
 
-.cards__item {
+.cards-item {
   display: flex;
   padding: 1rem;
 }
 
 @media (min-width: 40rem) {
-  .cards__item {
+  .cards-item {
     width: 50%;
   }
 }
 
 @media (min-width: 56rem) {
-  .cards__item {
+  .cards-item {
     width: 33.3333%;
   }
 }
@@ -1803,19 +1803,19 @@ img {
   overflow: hidden;
 }
 
-.card:hover .card__image {
+.card:hover .card-image {
   -webkit-filter: contrast(100%);
   filter: contrast(100%);
 }
 
-.card__content {
+.card-content {
   display: flex;
   flex: 1 1 auto;
   flex-direction: column;
   padding: 1rem;
 }
 
-.card__image {
+.card-image {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1827,35 +1827,31 @@ img {
   transition: filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91), -webkit-filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
 }
 
-.card__image::before {
+.card-image::before {
   content: "";
   display: block;
   padding-top: 56.25%;
 }
 
 @media (min-width: 40rem) {
-  .card__image::before {
+  .card-image::before {
     padding-top: 66.6%;
   }
 }
 
-.card__image--flowers {
-  background-image: url(https://unsplash.it/800/600?image=82);
+.card-image-main-house {
+  background-image: url(/img/cards/main-house.jpg);
 }
 
-.card__image--river {
-  background-image: url(https://unsplash.it/800/600?image=11);
+.card-image-range {
+  background-image: url(/img/cards/shooting-range.jpg);
 }
 
-.card__image--record {
-  background-image: url(https://unsplash.it/800/600?image=39);
+.card-image-quads {
+  background-image: url(/img/cards/quads.jpg);
 }
 
-.card__image--fence {
-  background-image: url(https://unsplash.it/800/600?image=59);
-}
-
-.card__title {
+.card-title {
   color: #696969;
   font-size: 1.25rem;
   font-weight: 300;
@@ -1863,7 +1859,7 @@ img {
   text-transform: uppercase;
 }
 
-.card__text {
+.card-text {
   flex: 1 1 auto;
   font-size: 0.875rem;
   line-height: 1.5;
