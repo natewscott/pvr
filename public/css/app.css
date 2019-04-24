@@ -1886,3 +1886,37 @@ img {
   background-image: url(/img/hero/pvr-valley.jpg);
 }
 
+#links-hero {
+  background-image: url(/img/hero/salinas-valley.jpg);
+}
+
+#links-page .links {
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 5%;
+  margin-bottom: 2%;
+}
+
+#links-page .links h1 {
+  color: #5B5639;
+  text-align: left;
+  line-height: 1.25;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+
+#links-page .links img {
+  float: left;
+  width: 100%;
+  margin-right: 5%;
+}
+
+@media (min-width: 47em) {
+  #links-page .links img {
+    width: 25%;
+  }
+}
+

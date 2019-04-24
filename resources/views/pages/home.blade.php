@@ -24,7 +24,7 @@
 						<p class="card-text">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur nostrum, perferendis quasi non dolores, ut quae voluptatum consequuntur ea nam facilis enim quidem sequi. Quis tempore maxime natus, excepturi eius!
 						</p>
-						{{-- <button class="btn btn-block card-btn">Button</button> --}}
+						<a href="{{ route('ranch') }} ">Read More</a>
 					</div>
 				</div>
 			</li>
@@ -36,7 +36,7 @@
 						<p class="card-text">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, impedit nostrum nulla non quis repellat ad mollitia! Eos earum animi minus. Laboriosam suscipit explicabo voluptates voluptatem quae, unde similique quos.
 						</p>
-						{{-- <button class="btn btn-block card-btn">Button</button> --}}
+						<a href="{{ route('shooting')}} ">Read More</a>
 					</div>
 				</div>
 			</li>
@@ -48,7 +48,7 @@
 						<p class="card-text">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, laboriosam obcaecati. Consequuntur totam facilis quibusdam quia, nobis quis ut minus neque nesciunt autem facere odit at architecto, necessitatibus. Deleniti, obcaecati.
 						</p>
-						{{-- <button class="btn btn-block card-btn">Button</button> --}}
+						<a href="{{ route('riding')}} ">Read More</a>
 					</div>
 				</div>
 			</li>

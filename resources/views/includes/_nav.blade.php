@@ -22,7 +22,7 @@
                 <a href="{{ route('main house')}} ">Main House</a>
               </li>
               <li>
-                <a href="{{ route('bunk-house')}} ">Bunk House</a>
+                <a href="{{ route('bunk_house')}} ">Bunk House</a>
               </li>
               <li>
                 <a href="{{ route('party pad')}} ">Party Pad</a>
@@ -33,7 +33,7 @@
             </ul>
           </li>
           <li>
-            <a href="{{ route('links')}} ">Links</a>
+            <a href="{{ route('links')}} ">Salinas Valley</a>
           </li>
         </ul>
       </nav>
