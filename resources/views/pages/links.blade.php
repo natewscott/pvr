@@ -13,7 +13,7 @@
 			<img src="img/links/street-scene.jpg" alt="">
 			<h1>Monterey County Historical Society</h1>
 			<p>
-				Founded in 1933, and incorporated in 1955, the Monterey County Historical Society is a non-profit organization dedicated to the ongoing preservation of our own past. The Society is responsible for a massive collection of family, city and county archival materials. These rare and valuable documents are housed in our temperature and humidity controlled archival vault. Scholars, authors, students, attorneys and the public are using these historical documents for research purposes at an ever-increasing rate.
+				Founded in 1933, and incorporated in 1955, the Monterey County Historical Society is a non-profit organization dedicated to the ongoing preservation of our own past. The Society is responsible for a massive collection of family, city and county archival materials. 
 			</p>
 			<a href="http://mchsmuseum.com/salinas/" target="_blank">Visit Site</a>
 		</article>
