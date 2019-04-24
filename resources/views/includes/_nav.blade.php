@@ -2,7 +2,7 @@
   <section class="navigation">
     <article class="nav-container">
       <div class="brand">
-        <a href="">
+        <a href="{{ route('home') }} ">
           <img src="img/misc/pvr-letters-logo.svg" alt="">
         </a>
       </div>
@@ -13,27 +13,27 @@
             <a href="">Home</a>
           </li>
           <li>
-            <a href="">History</a>
+            <a href="{{ route('history') }} ">History</a>
           </li>
           <li>
             <a href="#!">The Ranch</a>
             <ul class="nav-dropdown">
               <li>
-                <a href="">Main House</a>
+                <a href="{{ route('main house')}} ">Main House</a>
               </li>
               <li>
-                <a href="">Bunk House</a>
+                <a href="{{ route('bunk-house')}} ">Bunk House</a>
               </li>
               <li>
-                <a href="">Party Pad</a>
+                <a href="{{ route('party pad')}} ">Party Pad</a>
               </li>
               <li>
-                <a href="">Around the Ranch</a>
+                <a href="{{ route('ranch')}} ">Around the Ranch</a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="">Links</a>
+            <a href="{{ route('links')}} ">Links</a>
           </li>
         </ul>
       </nav>
