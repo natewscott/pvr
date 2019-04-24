@@ -36,6 +36,7 @@ footer {
     @include full;
 
     background: darken($primary, 20%);
+    text-align: center;
     margin-top: 5%;
     color: white;
     font-size: 12px;

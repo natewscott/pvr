@@ -1049,6 +1049,7 @@ footer {
   margin-left: 0;
   margin-right: 0;
   background: #1c1b12;
+  text-align: center;
   margin-top: 5%;
   color: white;
   font-size: 12px;
@@ -1888,6 +1889,10 @@ img {
 
 #links-hero {
   background-image: url(/img/hero/salinas-valley.jpg);
+}
+
+#ranch-hero {
+  background-image: url(/img/hero/ranch-gate.jpg);
 }
 
 #links-page .links {
