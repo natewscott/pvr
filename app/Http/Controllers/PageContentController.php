@@ -18,8 +18,8 @@ class PageContentController extends Controller
     public function riding() {
     	return view('riding');
     }
-    public function links() {
-    	return view('pages/links');
+    public function info() {
+    	return view('pages/info');
     }
     public function party_pad() {
     	return view('pages/party_pad');
@@ -27,10 +27,16 @@ class PageContentController extends Controller
     public function bunk_house() {
     	return view('pages/bunk_house');
     }
+    public function activities() {
+        return view('pages/activities');
+    }
     public function shooting() {
     	return view('pages/shooting');
     }
-    public function ranch() {
-    	return view('pages/ranch');
+    public function accommodations() {
+    	return view('pages/accommodations');
+    }
+    public function contact() {
+        return view('pages/contact');
     }
 }

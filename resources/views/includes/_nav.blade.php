@@ -13,10 +13,10 @@
             <a href="">Home</a>
           </li>
           <li>
-            <a href="{{ route('history') }} ">History</a>
+            <a href="{{ route('history') }} ">About Us</a>
           </li>
           <li>
-            <a href="#!">The Ranch</a>
+            <a href="#!">Accommodations</a>
             <ul class="nav-dropdown">
               <li>
                 <a href="{{ route('main house')}} ">Main House</a>
@@ -27,13 +27,30 @@
               <li>
                 <a href="{{ route('party pad')}} ">Party Pad</a>
               </li>
-              <li>
+              {{-- <li>
                 <a href="{{ route('ranch')}} ">Around the Ranch</a>
+              </li> --}}
+            </ul>
+          </li>
+          <li>
+            <a href="#!">Ranch Activities</a>
+            <ul class="nav-dropdown">
+              <li>
+                <a href="{{ route('shooting')}} ">Shooting Range</a>
+              </li>
+              <li>
+                <a href="{{ route('bunk_house')}} ">Riding</a>
+              </li>
+              <li>
+                <a href="{{ route('party pad')}} ">Hunting</a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="{{ route('links')}} ">Salinas Valley</a>
+            <a href="{{ route('info')}} ">Ranch Info</a>
+          </li>
+          <li>
+            <a href="{{ route('contact')}} ">Contact Us</a>
           </li>
         </ul>
       </nav>

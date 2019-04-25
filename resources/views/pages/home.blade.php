@@ -24,31 +24,31 @@
 						<p class="card-text">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur nostrum, perferendis quasi non dolores, ut quae voluptatum consequuntur ea nam facilis enim quidem sequi. Quis tempore maxime natus, excepturi eius!
 						</p>
-						<a href="{{ route('ranch') }} ">Read More</a>
+						<a href="{{ route('accommodations') }} ">Read More</a>
 					</div>
 				</div>
 			</li>
 			<li class="cards-item">
 				<div class="card">
-					<div class="card-image card-image-range"></div>
+					<div class="card-image card-image-activities"></div>
 					<div class="card-content">
-						<div class="card-title">Shooting</div>
+						<div class="card-title">Ranch Activities</div>
 						<p class="card-text">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, impedit nostrum nulla non quis repellat ad mollitia! Eos earum animi minus. Laboriosam suscipit explicabo voluptates voluptatem quae, unde similique quos.
 						</p>
-						<a href="{{ route('shooting')}} ">Read More</a>
+						<a href="{{ route('activities')}} ">Read More</a>
 					</div>
 				</div>
 			</li>
 			<li class="cards-item">
 				<div class="card">
-					<div class="card-image card-image-quads"></div>
+					<div class="card-image card-image-info"></div>
 					<div class="card-content">
-						<div class="card-title">Riding</div>
+						<div class="card-title">Ranch Info</div>
 						<p class="card-text">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, laboriosam obcaecati. Consequuntur totam facilis quibusdam quia, nobis quis ut minus neque nesciunt autem facere odit at architecto, necessitatibus. Deleniti, obcaecati.
 						</p>
-						<a href="{{ route('riding')}} ">Read More</a>
+						<a href="{{ route('info')}} ">Read More</a>
 					</div>
 				</div>
 			</li>
