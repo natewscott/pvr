@@ -3,7 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Paris Valley Ranch</title>
+        <title>Paris Valley Ranch @yield('title')</title>
+        <meta name="description" content="@yield('description')">
+        <meta name="keywords" content="@yield('keywords')">
         <!-- Place favicon.ico in the root directory -->
         <link rel="apple-touch-icon" sizes="180x180" href="{{asset('favico/apple-touch-icon.png')}} ">
         <link rel="icon" type="image/png" sizes="32x32" href="{{asset('favico/favicon-32x32.png')}} ">
