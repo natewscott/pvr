@@ -1911,6 +1911,10 @@ img {
   background-image: url(/img/hero/party-pad.jpg);
 }
 
+#riding-hero {
+  background-image: url(/img/hero/riding.jpg);
+}
+
 #article-img-text .img-text {
   clear: both;
   width: 100%;

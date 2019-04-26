@@ -16,7 +16,7 @@ class PageContentController extends Controller
     	return view ('pages/about');
     }
     public function riding() {
-    	return view('riding');
+    	return view('pages/riding');
     }
     public function info() {
     	return view('pages/info');

@@ -10,9 +10,6 @@
         <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
         <ul class="nav-list">
           <li>
-            <a href="{{ route('about') }} ">About Us</a>
-          </li>
-          <li>
             <a href="#!">Accommodations</a>
             <ul class="nav-dropdown">
               <li>
@@ -36,12 +33,15 @@
                 <a href="{{ route('shooting')}} ">Shooting Range</a>
               </li>
               <li>
-                <a href="{{ route('bunk_house')}} ">Riding</a>
+                <a href="{{ route('riding')}} ">Riding</a>
               </li>
               <li>
                 <a href="{{ route('party pad')}} ">Hunting</a>
               </li>
             </ul>
+          </li>
+          <li>
+            <a href="{{ route('about') }} ">About Us</a>
           </li>
           <li>
             <a href="{{ route('info')}} ">Ranch Info</a>
