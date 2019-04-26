@@ -55,6 +55,10 @@ a {
 .inner-content {
     max-width: 1080px;
     margin: 0 auto;
+
+    h1 {
+        font-weight: 300;
+    }
 }
 
 .app-items {

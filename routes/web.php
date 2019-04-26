@@ -17,7 +17,7 @@
 
 // Static Pages
 Route::get('/', 'PageContentController@home')->name('home');
-Route::get('history', 'PageContentController@history')->name('history');
+Route::get('about', 'PageContentController@about')->name('about');
 Route::get('riding', 'PageContentController@riding')->name('riding');
 Route::get('info', 'PageContentController@info')->name('info');
 Route::get('main_house', 'PageContentController@main_house')->name('main house');

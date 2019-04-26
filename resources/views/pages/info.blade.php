@@ -5,11 +5,11 @@
 		
 	</article>
 </section>
-<section class="content" id="links-page">
+<section class="content" id="article-img-text">
 	<article class="inner-content">
 		<h1>Things to do near by</h1>
 		<hr>
-		<article class="links">
+		<article class="img-text">
 			<img src="img/links/street-scene.jpg" alt="">
 			<h1>Monterey County Historical Society</h1>
 			<p>
@@ -17,7 +17,7 @@
 			</p>
 			<a href="http://mchsmuseum.com/salinas/" target="_blank">Visit Site</a>
 		</article>
-		<article class="links">
+		<article class="img-text">
 			<img src="img/links/MC-Weekly.png" alt="">
 			<h1>Monterey County Weekly</h1>
 			<p>
@@ -25,7 +25,7 @@
 			</p>
 			<a href="http://www.montereycountyweekly.com/" target="_blank">Visit Site</a>
 		</article>
-		<article class="links">
+		<article class="img-text">
 			<img src="img/links/crs.jpg" alt="">
 			<h1>The California Rodeo Salinas</h1>
 			<p>
@@ -33,7 +33,7 @@
 			</p>
 			<a href="https://www.carodeo.com/" target="_blank">Visit Site</a>
 		</article>
-		<article class="links">
+		<article class="img-text">
 			<img src="img/links/steinbeck.jpg" alt="">
 			<h1>National Steinbeck Center</h1>
 			<p>
@@ -41,7 +41,7 @@
 			</p>
 			<a href="http://www.steinbeck.org/" target="_blank">Visit Site</a>
 		</article>
-		<article class="links">
+		<article class="img-text">
 			<img src="img/links/paso-wine.jpg" alt="">
 			<h1>Monterey Wine County</h1>
 			<p>
@@ -49,7 +49,7 @@
 			</p>
 			<a href="https://montereywines.org/" target="_blank">Visit Site</a>
 		</article>
-		<article class="links">
+		<article class="img-text">
 			<img src="img/links/Monterey-Wine-Country.jpg" alt="">
 			<h1>Paso Robles Wine County</h1>
 			<p>
@@ -57,7 +57,7 @@
 			</p>
 			<a href="https://pasowine.com/" target="_blank">Visit Site</a>
 		</article>
-		<article class="links">
+		<article class="img-text">
 			<img src="img/links/hearst-castle.jpg" alt="">
 			<h1>Hearst Castle</h1>
 			<p>
