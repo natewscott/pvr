@@ -17,11 +17,11 @@
 	</article>
 </section>
 <section id="masonry">
-	<img src="img/accommodations/bunk/bunk-house-284.jpg" />
-	<img src="img/accommodations/bunk/bunk-house-291.jpg" />
-	<img src="img/accommodations/bunk/bunk-house-301.jpg" />
-	<img src="img/accommodations/bunk/bunk-house-308.jpg" />
-	<img src="img/accommodations/bunk/bunk-house-316.jpg" />
+	<img src="img/accommodations/bunk/bh-living-space.jpg" />
+	<img src="img/accommodations/bunk/bh-bathroom.jpg" />
+	<img src="img/accommodations/bunk/bh-bunks.jpg" />
+	<img src="img/accommodations/bunk/bh-sliding-door.jpg" />
+	<img src="img/accommodations/bunk/bh-bbq.jpg" />
 </section>
 <div class="lightbox">
 	<div class="title"></div>

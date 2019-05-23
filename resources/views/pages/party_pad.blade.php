@@ -17,11 +17,11 @@
 	</article>
 </section>
 <section id="masonry">
-	<img src="img/accommodations/party/party-pad-269.jpg" />
-	<img src="img/accommodations/party/party-pad-273.jpg" />
-	<img src="img/accommodations/party/party-pad-253.jpg" />
-	<img src="img/accommodations/party/party-pad-257.jpg" />
-	<img src="img/accommodations/party/party-pad-260.jpg" />	
+	<img src="img/accommodations/party/pp-bbq-pit.jpg" />
+	<img src="img/accommodations/party/pp-view.jpg" />
+	<img src="img/accommodations/party/pp-beds.jpg" />
+	<img src="img/accommodations/party/pp-beds-2.jpg" />
+	<img src="img/accommodations/party/pp-living-room.jpg" />	
 </section>
 <div class="lightbox">
 	<div class="title"></div>

@@ -22,7 +22,7 @@
 					<div class="card-content">
 						<div class="card-title">Accomodations</div>
 						<p class="card-text">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur nostrum, perferendis quasi non dolores, ut quae voluptatum consequuntur ea nam facilis enim quidem sequi. Quis tempore maxime natus, excepturi eius!
+							The Ranch has three houses for guests to stay at. The main house has two bedrooms, one bathroom and a full kitchen. The bunkhouse is an open space and then there is the party house located high up in the hills with a view out over the valley.
 						</p>
 						<a href="{{ route('accommodations') }} ">Read More</a>
 					</div>

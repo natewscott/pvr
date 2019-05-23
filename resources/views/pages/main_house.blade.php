@@ -17,19 +17,19 @@
 	</article>
 </section>
 <section id="masonry">
-	<img src="img/accommodations/main/main-house-41.jpg" />
-	<img src="img/accommodations/main/main-house-43.jpg" />
-	<img src="img/accommodations/main/main-house-54.jpg" />
-	<img src="img/accommodations/main/main-house-60.jpg" />
-	<img src="img/accommodations/main/main-house-63.jpg" />
-	<img src="img/accommodations/main/main-house-74.jpg" />
-	<img src="img/accommodations/main/main-house-90.jpg" />
-	<img src="img/accommodations/main/main-house-105.jpg" />
-	<img src="img/accommodations/main/main-house-109.jpg" />
-	<img src="img/accommodations/main/main-house-131.jpg" />
-	<img src="img/accommodations/main/main-house-137.jpg" />
-	<img src="img/accommodations/main/main-house-177.jpg" />
-	<img src="img/accommodations/main/main-house-188.jpg" />
+	<img src="img/accommodations/main/mh-entrance.jpg" />
+	<img src="img/accommodations/main/mh-entrance-2.jpg" />
+	<img src="img/accommodations/main/mh-pig.jpg" />
+	<img src="img/accommodations/main/mh-kitchen.jpg" />
+	<img src="img/accommodations/main/mh-living-tv.jpg" />
+	<img src="img/accommodations/main/mh-living-room.jpg" />
+	<img src="img/accommodations/main/mh-dining.jpg" />
+	<img src="img/accommodations/main/mh-spare-bed.jpg" />
+	<img src="img/accommodations/main/mh-bunks.jpg" />
+	<img src="img/accommodations/main/mh-master-view.jpg" />
+	<img src="img/accommodations/main/mh-master-bed.jpg" />
+	<img src="img/accommodations/main/mh-grapes-wrath.jpg" />
+	<img src="img/accommodations/main/mh-ice-deer.jpg" />
 </section>
 <div class="lightbox">
 	<div class="title"></div>
