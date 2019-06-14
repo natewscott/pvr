@@ -5,6 +5,7 @@
 </footer>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script>
+
 	(function($) { // Begin jQuery
 		$(function() { // DOM ready
 		// If a link has a dropdown, add sub menu toggle.
@@ -28,6 +29,7 @@
 		});
 		}); // end DOM ready
 		})(jQuery); // end jQuery
+
 </script>
 </body>
 </html>

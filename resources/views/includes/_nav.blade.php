@@ -21,9 +21,7 @@
               <li>
                 <a href="{{ route('party pad')}} ">Party Pad</a>
               </li>
-              {{-- <li>
-                <a href="{{ route('ranch')}} ">Around the Ranch</a>
-              </li> --}}
+              <li>
             </ul>
           </li>
           <li>
@@ -54,3 +52,4 @@
     </article>
   </section>
 </header>
+
