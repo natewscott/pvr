@@ -1,55 +1,50 @@
 <header>
-  <section class="navigation">
-    <article class="nav-container">
-      <div class="brand">
-        <a href="{{ route('home') }} ">
-          <img src="img/misc/pvr-letters-logo.svg" alt="">
-        </a>
-      </div>
-      <nav>
-        <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-        <ul class="nav-list">
-          <li>
-            <a href="#!">Accommodations</a>
-            <ul class="nav-dropdown">
-              <li>
-                <a href="{{ route('main house')}} ">Main House</a>
-              </li>
-              <li>
-                <a href="{{ route('bunk_house')}} ">Bunk House</a>
-              </li>
-              <li>
-                <a href="{{ route('party pad')}} ">Party Pad</a>
-              </li>
-              <li>
-            </ul>
-          </li>
-          <li>
-            <a href="#!">Ranch Activities</a>
-            <ul class="nav-dropdown">
-              <li>
-                <a href="{{ route('shooting')}} ">Shooting Range</a>
-              </li>
-              <li>
-                <a href="{{ route('riding')}} ">Riding</a>
-              </li>
-              <li>
-                <a href="{{ route('party pad')}} ">Hunting</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="{{ route('about') }} ">About Us</a>
-          </li>
-          <li>
-            <a href="{{ route('info')}} ">Ranch Info</a>
-          </li>
-          <li>
-            <a href="{{ route('contact')}} ">Contact Us</a>
-          </li>
+    <a href="{{ route('home')}} " class="logo o-link" id="brand">
+      <img src="img/misc/pvr-letters-logo.svg" alt="Paris Valley Ranch Logo" title="Paris Valley Ranch Logo">
+    </a>
+    <nav class="c-top-nav o-container t-slideH">
+        <a href="#" class="c-mobile-navlist-trigger nav-right o-link">&#9776;</a>
+        <ul class="c-navlist">
+            <li class="c-navlist__item">
+                <a href="#" class="c-navlist__link o-link">Home</a>
+            </li>
+            <li class="c-navlist__item">
+                <a href="#" class="c-navlist__link o-link has-dd">Accommodations</a>
+                <ul class="c-dropdown">
+                    <li class="c-dropdown__item">
+                        <a href="{{ route('main house')}} " class="c-dropdown__link o-link">Main House</a>
+                    </li>
+                    <li class="c-dropdown__item">
+                        <a href="{{ route('bunk_house')}}" class="c-dropdown__link o-link">Bunk House</a>
+                    </li>
+                    <li class="c-dropdown__item">
+                        <a href="{{ route('party pad')}}" class="c-dropdown__link o-link">Party Pad</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="c-navlist__item">
+                <a href="#" class="c-navlist__link o-link has-dd">Ranch Activities</a>
+                <ul class="c-navlist__dropdown c-dropdown">
+                    <li class="c-dropdown__item">
+                        <a href="{{ route('shooting')}} " class="c-dropdown__link o-link">Hunting</a>
+                    </li>
+                    <li class="c-dropdown__item">
+                        <a href="{{ route('riding')}} " class="c-dropdown__link o-link">Riding</a>
+                    </li>
+                    <li class="c-dropdown__item">
+                        <a href="{{ route('shooting')}} " class="c-dropdown__link o-link">Shooting Range</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="c-navlist__item">
+                <a href="{{ route('about')}} " class="c-navlist__link o-link">About</a>
+            </li>
+            <li class="c-navlist__item">
+                <a href="{{ route('info')}} " class="c-navlist__link o-link">Ranch Info</a>
+            </li>
+            <li class="c-navlist__item">
+                <a href="{{ route('contact')}} " class="c-navlist__link o-link">Contact</a>
+            </li>
         </ul>
-      </nav>
-    </article>
-  </section>
+    </nav>
 </header>
-

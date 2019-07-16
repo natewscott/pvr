@@ -4,7 +4,7 @@
 	</p>
 </footer>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script>
+{{-- <script>
 
 	(function($) { // Begin jQuery
 		$(function() { // DOM ready
@@ -30,6 +30,6 @@
 		}); // end DOM ready
 		})(jQuery); // end jQuery
 
-</script>
+</script> --}}
 </body>
 </html>

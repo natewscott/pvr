@@ -8,28 +8,54 @@
 <section class="content">
 	<article class="inner-content">
 		<h1>
-			The Main House
+		The Main House
 		</h1>
 		<hr>
 		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id magni, amet nostrum consectetur cumque quod. Reiciendis ab impedit, ducimus ut consectetur explicabo. Consequuntur pariatur inventore, nemo animi doloremque amet minus!
+			The main cabin has two bedrooms and two bathrooms, a living room and a full kitchen. This cabin can comfortably sleep up to 6 people. The main cabin is available for both hunting parties as well as special events.
 		</p>
+	</article>
+	<article class="inner-content">
+		<hr>
+		<div class="list">
+			{{-- <div class="amenities list"> --}}
+				<div class="house-title">
+					<strong>
+					Amenities
+					</strong>
+				</div>
+			{{-- </div> --}}
+			<div class="list-content">
+				<div class="list-item">
+					<i class="fas fa-tv"></i>
+					<span>T.V.</span>
+				</div>
+				<div class="list-item">
+					<i class="fab fa-grav"></i>
+					<span>Washer & Dryer</span>
+				</div>
+				<div class="list-item">
+					<i class="fas fa-fan"></i>
+					<span>Heating & Air-Conditioning</span>
+				</div>
+			</div>
+		</div>
 	</article>
 </section>
 <section id="masonry">
-	<img src="img/accommodations/main/mh-entrance.jpg" />
-	<img src="img/accommodations/main/mh-entrance-2.jpg" />
-	<img src="img/accommodations/main/mh-pig.jpg" />
-	<img src="img/accommodations/main/mh-kitchen.jpg" />
-	<img src="img/accommodations/main/mh-living-tv.jpg" />
-	<img src="img/accommodations/main/mh-living-room.jpg" />
-	<img src="img/accommodations/main/mh-dining.jpg" />
-	<img src="img/accommodations/main/mh-spare-bed.jpg" />
-	<img src="img/accommodations/main/mh-bunks.jpg" />
-	<img src="img/accommodations/main/mh-master-view.jpg" />
-	<img src="img/accommodations/main/mh-master-bed.jpg" />
-	<img src="img/accommodations/main/mh-grapes-wrath.jpg" />
-	<img src="img/accommodations/main/mh-ice-deer.jpg" />
+	<img src="img/accommodations/main/mh-entrance.jpg" alt="" title="" />
+	<img src="img/accommodations/main/mh-entrance-2.jpg" alt="" title="" />
+	<img src="img/accommodations/main/mh-pig.jpg" alt="" title="" />
+	<img src="img/accommodations/main/mh-kitchen.jpg" alt="" title="" />
+	<img src="img/accommodations/main/mh-living-tv.jpg" alt="" title="" />
+	<img src="img/accommodations/main/mh-living-room.jpg" /alt="" title="" >
+	<img src="img/accommodations/main/mh-dining.jpg" alt="" title="" />
+	<img src="img/accommodations/main/mh-spare-bed.jpg" alt="" title="" />
+	<img src="img/accommodations/main/mh-bunks.jpg" alt="" title="" />
+	<img src="img/accommodations/main/mh-master-view.jpg" alt="" title="" />
+	<img src="img/accommodations/main/mh-master-bed.jpg" alt="" title="" />
+	<img src="img/accommodations/main/mh-grapes-wrath.jpg" alt="" title="" />
+	<img src="img/accommodations/main/mh-deer-ice.jpg" alt="" title="" />
 </section>
 <div class="lightbox">
 	<div class="title"></div>

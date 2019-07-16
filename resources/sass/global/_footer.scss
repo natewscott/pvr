@@ -35,7 +35,7 @@
 footer {
     @include full;
 
-    background: darken($primary, 20%);
+    background: $secondary;
     text-align: center;
     margin-top: 5%;
     color: white;

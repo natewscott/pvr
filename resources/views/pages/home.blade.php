@@ -10,8 +10,11 @@
 		<h1>Paris Valley Ranch</h1>
 		<hr>
 		<p>
-			Paris Valley Ranch is a 1,000 Acre ranch nestled in the rolling hills of the Salinas Valley. The ranch consists of 3 grassy valleys, a full shooting range, and miles of trails perfect for quadding or dirt bike riding. Paris Valley Ranch has a main house, a bunkhouse and a “party pad” high on the hill overlooking the entire Salinas Valley. Whether you are looking to do some hunting, practice shooting, do some riding or just have a relaxing get away Paris Valley Ranch has it all.
+			Paris Valley Ranch sits on 1,000 Acres nestled in the rolling hills of San Ardo, California. The Ranch is about 45 minutes north of Paso Robles and close to some of the finest wineries in Monterey County and Paso Robles. This open range provides our guests with some picturesque views and wide range of activities like sport shooting, hunting and miles of trails perfect for quadding or dirt biking. In the evening you can relax with family and friends, while enjoying exceptional food from our private chef, ensuring you will have an adventure you will never forget.
 		</p>
+		{{-- <p>
+			At Paris Valley Ranch, 
+		</p> --}}
 		<hr>
 	</article>
 	<article class="grid-cards">
@@ -20,7 +23,7 @@
 				<div class="card">
 					<div class="card-image card-image-main-house"></div>
 					<div class="card-content">
-						<div class="card-title">Accomodations</div>
+						<div class="card-title">Accommodations</div>
 						<p class="card-text">
 							The Ranch has three houses for guests to stay at. The main house has two bedrooms, one bathroom and a full kitchen. The bunkhouse is an open space and then there is the party house located high up in the hills with a view out over the valley.
 						</p>

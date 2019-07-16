@@ -5,11 +5,11 @@
     <![endif]-->
     <!-- Add your site or application content here -->
     @include('includes/_nav')
-    <div class="page-wrap" id="home">
+    <main class="page-wrap" id="home">
         <section class="main-content">
             @yield('content')
             
         </section>
-    </div>
+    </main>
     @yield('scripts')
     @include('includes/_footer')

@@ -15,5 +15,6 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Roboto+Slab:300,400,700">
+        <script src="https://kit.fontawesome.com/867d0cdcef.js"></script>
         <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
     </head>
