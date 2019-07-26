@@ -2014,6 +2014,10 @@ img {
   background-image: url(/img/hero/riding.jpg);
 }
 
+#activities-hero {
+  background-image: url(/img/hero/activities.jpg);
+}
+
 .booking {
   background-image: url("/img/misc/pvr-booking-bg.jpg");
   background-position: center;
