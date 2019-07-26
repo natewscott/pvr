@@ -1721,6 +1721,10 @@ fieldset .legend {
   background: #e0e0e0;
   color: #333;
   border-radius: 2px;
+<<<<<<< HEAD
+=======
+  font-size: 12px;
+>>>>>>> beta
   line-height: normal;
   font-weight: bold;
   cursor: pointer;
@@ -1751,6 +1755,23 @@ fieldset .legend {
   cursor: not-allowed;
 }
 
+<<<<<<< HEAD
+=======
+.button.primary {
+  background: #59d;
+  color: #fff;
+}
+
+.button.primary:hover {
+  background: #66a3e0;
+  color: #fff;
+}
+
+.button.primary:active {
+  background: #59d;
+}
+
+>>>>>>> beta
 .buttons .button,
 .formitem .button {
   margin-right: 10px;
@@ -1774,6 +1795,7 @@ fieldset .legend {
   color: white;
   border: 0;
   border-radius: 3px;
+<<<<<<< HEAD
   padding: 0.5rem 1.75rem;
   text-transform: uppercase;
 }
@@ -1782,16 +1804,27 @@ fieldset .legend {
   background-color: #dbb96d;
 }
 
+=======
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
+
+>>>>>>> beta
 .btn-block {
   display: block;
   width: 100%;
 }
 
+<<<<<<< HEAD
 .book {
+=======
+.button {
+>>>>>>> beta
   background-color: #B58B2D;
   color: white;
   border: 0;
   border-radius: 3px;
+<<<<<<< HEAD
   padding: 0.5rem 1.75rem;
   font-weight: 400;
   font-size: 1rem;
@@ -1802,6 +1835,14 @@ fieldset .legend {
   background-color: #dbb96d;
 }
 
+=======
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+>>>>>>> beta
 .button--light {
   background: #FFF;
   color: #F00;
@@ -1944,6 +1985,7 @@ img {
 }
 
 .list .list-item > i {
+<<<<<<< HEAD
   width: 25px;
   height: 25px;
   background-repeat: no-repeat;
@@ -1966,6 +2008,9 @@ img {
 
 .icon-fan {
   background-image: url("/img/misc/fan.svg");
+=======
+  width: 35px;
+>>>>>>> beta
 }
 
 .hero {
