@@ -443,7 +443,7 @@ fieldset .legend {
   background: #e0e0e0;
   color: #333;
   border-radius: 2px;
-  font-size: 12px;
+  // font-size: 12px;
   line-height: normal;
   font-weight: bold;
   cursor: pointer;
@@ -471,17 +471,17 @@ fieldset .legend {
   box-shadow: none;
   cursor: not-allowed;
 }
-.button.primary {
-  background: #59d;
-  color: #fff;
-}
-.button.primary:hover {
-  background: #66a3e0;
-  color: #fff;
-}
-.button.primary:active {
-  background: #59d;
-}
+// .button.primary {
+//   background: #59d;
+//   color: #fff;
+// }
+// .button.primary:hover {
+//   background: #66a3e0;
+//   color: #fff;
+// }
+// .button.primary:active {
+//   background: #59d;
+// }
 .buttons .button,
 .formitem .button {
   margin-right: 10px;

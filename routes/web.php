@@ -27,3 +27,4 @@ Route::get('activities', 'PageContentController@activities')->name('activities')
 Route::get('shooting', 'PageContentController@shooting')->name('shooting');
 Route::get('accommodations', 'PageContentController@accommodations')->name('accommodations');
 Route::get('contact', 'PageContentController@contact')->name('contact');
+Route::get('book_main', 'PageContentController@book_main')->name('book main');

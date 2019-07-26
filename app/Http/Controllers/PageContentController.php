@@ -39,4 +39,7 @@ class PageContentController extends Controller
     public function contact() {
         return view('pages/contact');
     }
+    public function book_main() {
+        return view ('pages/book_main');
+    }
 }

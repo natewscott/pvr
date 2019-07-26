@@ -18,28 +18,30 @@
 	<article class="inner-content">
 		<hr>
 		<div class="list">
-			{{-- <div class="amenities list"> --}}
 				<div class="house-title">
 					<strong>
 					Amenities
 					</strong>
 				</div>
-			{{-- </div> --}}
 			<div class="list-content">
 				<div class="list-item">
-					<i class="fas fa-tv"></i>
+					<i class="icon-tv"></i>
 					<span>T.V.</span>
 				</div>
 				<div class="list-item">
-					<i class="fab fa-grav"></i>
+					<i class="icon-washer"></i>
 					<span>Washer & Dryer</span>
 				</div>
 				<div class="list-item">
-					<i class="fas fa-fan"></i>
+					<i class="icon-fan"></i>
 					<span>Heating & Air-Conditioning</span>
 				</div>
 			</div>
 		</div>
+		<div class="buttons">
+			<a href="{{ route('book main')}} " class="book button">Book Now</a>
+		</div>
+		<hr>
 	</article>
 </section>
 <section id="masonry">
