@@ -6,7 +6,7 @@
     // @include full;
 }
 
-.list .house-title {
+.list .list-title {
     flex: 1 1 33%;
 
     @include breakpoint(medium) {
@@ -43,7 +43,6 @@
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    
 }
 
 .list-item span {
@@ -51,17 +50,14 @@
     line-height: 1.1;
 }
 
-
 .icon-tv {
-    background-image: url('/img/misc/tv.svg');
+    background-image: url("/img/misc/tv.svg");
 }
 
-
 .icon-washer {
-    background-image: url('/img/misc/washer.svg');
+    background-image: url("/img/misc/washer.svg");
 }
 
 .icon-fan {
-    background-image: url('/img/misc/fan.svg');
+    background-image: url("/img/misc/fan.svg");
 }
-

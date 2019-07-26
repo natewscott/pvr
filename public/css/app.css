@@ -698,7 +698,6 @@ header {
 
 header {
   position: relative;
-  background-color: #112533;
   min-height: 50px;
 }
 
@@ -741,7 +740,6 @@ header {
   padding: 0 10px;
   list-style: none;
   margin: 0;
-  background-color: #112533;
   text-align: left;
   transition: all 400ms ease;
   -webkit-transform-origin: top;
@@ -1218,22 +1216,22 @@ input::-moz-focus-inner {
 
 .placeholder {
   color: #999;
-  font-style: italic;
+  font-weight: 200;
 }
 
 :-moz-placeholder {
   color: #999;
-  font-style: italic;
+  font-weight: 200;
 }
 
 :-ms-input-placeholder {
   color: #999;
-  font-style: italic;
+  font-weight: 200;
 }
 
 ::-webkit-input-placeholder {
   color: #999;
-  font-style: italic;
+  font-weight: 200;
 }
 
 input[type=text],
@@ -1721,10 +1719,6 @@ fieldset .legend {
   background: #e0e0e0;
   color: #333;
   border-radius: 2px;
-<<<<<<< HEAD
-=======
-  font-size: 12px;
->>>>>>> beta
   line-height: normal;
   font-weight: bold;
   cursor: pointer;
@@ -1755,23 +1749,6 @@ fieldset .legend {
   cursor: not-allowed;
 }
 
-<<<<<<< HEAD
-=======
-.button.primary {
-  background: #59d;
-  color: #fff;
-}
-
-.button.primary:hover {
-  background: #66a3e0;
-  color: #fff;
-}
-
-.button.primary:active {
-  background: #59d;
-}
-
->>>>>>> beta
 .buttons .button,
 .formitem .button {
   margin-right: 10px;
@@ -1795,7 +1772,6 @@ fieldset .legend {
   color: white;
   border: 0;
   border-radius: 3px;
-<<<<<<< HEAD
   padding: 0.5rem 1.75rem;
   text-transform: uppercase;
 }
@@ -1804,27 +1780,16 @@ fieldset .legend {
   background-color: #dbb96d;
 }
 
-=======
-  padding: 0.5rem;
-  text-transform: uppercase;
-}
-
->>>>>>> beta
 .btn-block {
   display: block;
   width: 100%;
 }
 
-<<<<<<< HEAD
 .book {
-=======
-.button {
->>>>>>> beta
   background-color: #B58B2D;
   color: white;
   border: 0;
   border-radius: 3px;
-<<<<<<< HEAD
   padding: 0.5rem 1.75rem;
   font-weight: 400;
   font-size: 1rem;
@@ -1835,14 +1800,6 @@ fieldset .legend {
   background-color: #dbb96d;
 }
 
-=======
-  padding: 0.5rem;
-  font-weight: bold;
-  font-size: 14px;
-  text-decoration: none;
-}
-
->>>>>>> beta
 .button--light {
   background: #FFF;
   color: #F00;
@@ -1951,12 +1908,12 @@ img {
   margin: 2em 0;
 }
 
-.list .house-title {
+.list .list-title {
   flex: 1 1 33%;
 }
 
 @media (min-width: 47em) {
-  .list .house-title {
+  .list .list-title {
     flex: 1 1 25%;
   }
 }
@@ -1985,7 +1942,6 @@ img {
 }
 
 .list .list-item > i {
-<<<<<<< HEAD
   width: 25px;
   height: 25px;
   background-repeat: no-repeat;
@@ -2008,9 +1964,6 @@ img {
 
 .icon-fan {
   background-image: url("/img/misc/fan.svg");
-=======
-  width: 35px;
->>>>>>> beta
 }
 
 .hero {
@@ -2059,6 +2012,30 @@ img {
 
 #riding-hero {
   background-image: url(/img/hero/riding.jpg);
+}
+
+.booking {
+  background-image: url("/img/misc/pvr-booking-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.booking form {
+  max-width: 500px;
+  background-color: white;
+}
+
+.booking fieldset {
+  border: none;
+}
+
+.booking .buttons .book {
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+.booking .c-navlist__link {
+  color: white;
 }
 
 #article-img-text .img-text {

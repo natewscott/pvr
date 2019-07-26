@@ -18,7 +18,7 @@
 	<article class="inner-content">
 		<hr>
 		<div class="list">
-				<div class="house-title">
+				<div class="list-title">
 					<strong>
 					Amenities
 					</strong>
@@ -38,8 +38,41 @@
 				</div>
 			</div>
 		</div>
+		<hr>
+	</article>
+	<article class="inner-content">
+		<div class="list">
+			<div class="list-title">
+				<strong>
+					General Pricing
+				</strong>
+			</div>
+			<div class="list-content">
+				<div class="list-item">
+					Price Per Night:
+					<strong>$1,025</strong>
+				</div>
+			</div>
+		</div>
+		<div class="list">
+			<div class="list-title">
+				<strong>
+					Day Party Pricing
+				</strong>
+			</div>
+			<div class="list-content">
+				<div class="list-item">
+					Hourly:
+					<strong>$300</strong>
+				</div>
+				<div class="list-item">
+					All Day:
+					<strong>$6,500</strong>
+				</div>
+			</div>
+		</div>
 		<div class="buttons">
-			<a href="{{ route('book main')}} " class="book button">Book Now</a>
+			<a href="{{ route('booking')}} " class="book button">Book Now</a>
 		</div>
 		<hr>
 	</article>
