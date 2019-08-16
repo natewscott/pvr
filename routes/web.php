@@ -28,3 +28,5 @@ Route::get('shooting', 'PageContentController@shooting')->name('shooting');
 Route::get('accommodations', 'PageContentController@accommodations')->name('accommodations');
 Route::get('contact', 'PageContentController@contact')->name('contact');
 Route::get('booking', 'PageContentController@booking')->name('booking');
+
+Route::get('hunting', 'PageContentController@hunting')->name('hunting');

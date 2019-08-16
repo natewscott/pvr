@@ -42,4 +42,7 @@ class PageContentController extends Controller
     public function booking() {
         return view ('pages/booking');
     }
+    public function hunting() {
+        return view ('pages/hunting');
+    }
 }

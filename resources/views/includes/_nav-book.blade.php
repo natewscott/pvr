@@ -1,6 +1,6 @@
 <header>
     <a href="{{ route('home')}} " class="logo o-link" id="brand">
-      <img src="img/misc/pvr-letters-logo-white.svg" alt="Paris Valley Ranch Logo" title="Paris Valley Ranch Logo">
+      <img src="img/misc/PVR-Lines.svg" alt="Paris Valley Ranch Logo" title="Paris Valley Ranch Logo">
     </a>
     <nav class="c-top-nav o-container t-slideH">
         <a href="#" class="c-mobile-navlist-trigger nav-right o-link">&#9776;</a>
