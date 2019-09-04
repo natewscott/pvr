@@ -29,7 +29,7 @@
 								<li>Dueling rack</li>
 								<li>Lunch included</li>
 							</ul>
-							<a href="#">Book Now</a>
+							<a href="{{ route('book hunting')}} ">Book Now</a>
 						</div>
 					</div>
 				</li>
