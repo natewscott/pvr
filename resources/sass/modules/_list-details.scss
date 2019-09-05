@@ -1,0 +1,63 @@
+.list {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 2em 0;
+
+    // @include full;
+}
+
+.list .list-title {
+    flex: 1 1 33%;
+
+    @include breakpoint(medium) {
+        flex: 1 1 25%;
+    }
+}
+
+.list .list-content {
+    flex: 1 1 67%;
+
+    @include breakpoint(medium) {
+        flex: 1 1 75%;
+    }
+
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list .list-item {
+    flex: 0 0 100%;
+
+    @include breakpoint(medium) {
+        flex: 0 0 50%;
+    }
+
+
+    margin-bottom: 16px;
+}
+
+.list .list-item > i {
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+}
+
+.list-item span {
+    margin-left: 10%;
+    line-height: 1.1;
+}
+
+.icon-tv {
+    background-image: url("/img/misc/tv.svg");
+}
+
+.icon-washer {
+    background-image: url("/img/misc/washer.svg");
+}
+
+.icon-fan {
+    background-image: url("/img/misc/fan.svg");
+}

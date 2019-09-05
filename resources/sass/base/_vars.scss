@@ -1,26 +1,18 @@
 // Colors
 
-$primary: #0033a0;
+$primary: #5B5639;
 
-//RB Blue
-$secondary: #FF530D;
+$secondary: #112533;
 
-//Orange
-$tertiary: #AD2B11;
+$tertiary: #B58B2D;
 
-//Red
-$accent: #4B6D0B;
+$accent: #5F6438;
 
-//Dark Green
-$accent-2: #9FEC0C;
-
-//Light Green
 $black: #111820;
 
-//Black
-$link: lighten($tertiary, 10%);
+$link: $tertiary;
 
-// $hover: $tertiary;
+$hover: lighten($tertiary, 20%);
 
 // // Typefaces
 

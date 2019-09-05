@@ -1,26 +1,37 @@
-
-
 button::-moz-focus-inner,
 input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
+    border: 0;
+    padding: 0;
 }
+
 .placeholder {
-  color: #999;
-  font-style: italic;
+    color: #999;
+    font-weight: 200;
+
+    // font-style: italic;
 }
+
 :-moz-placeholder {
-  color: #999;
-  font-style: italic;
+    color: #999;
+    font-weight: 200;
+
+    // font-style: italic;
 }
+
 :-ms-input-placeholder {
-  color: #999;
-  font-style: italic;
+    color: #999;
+    font-weight: 200;
+
+    // font-style: italic;
 }
+
 ::-webkit-input-placeholder {
-  color: #999;
-  font-style: italic;
+    color: #999;
+    font-weight: 200;
+
+    // font-style: italic;
 }
+
 input[type="text"],
 input[type="password"],
 input[type="number"],
@@ -35,15 +46,16 @@ input[type="datetime"],
 input[type="datetime-local"],
 select,
 textarea {
-  display: inline-block;
-  margin: 4px 0;
-  border: 1px solid #d9d9d9;
-  padding: 6px;
-  line-height: normal;
-  outline: none;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07);
-  background: #fafafa;
+    display: inline-block;
+    margin: 4px 0;
+    border: 1px solid #d9d9d9;
+    padding: 6px;
+    line-height: normal;
+    outline: none;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07);
+    background: #fafafa;
 }
+
 input[type="text"]:hover,
 input[type="password"]:hover,
 input[type="number"]:hover,
@@ -58,8 +70,9 @@ input[type="datetime"]:hover,
 input[type="datetime-local"]:hover,
 select:hover,
 textarea:hover {
-  border-color: #c0c0c0;
+    border-color: #c0c0c0;
 }
+
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="number"]:focus,
@@ -74,8 +87,9 @@ input[type="datetime"]:focus,
 input[type="datetime-local"]:focus,
 select:focus,
 textarea:focus {
-  border-color: #59d;
+    border-color: #59d;
 }
+
 input[type="text"].error,
 input[type="password"].error,
 input[type="number"].error,
@@ -90,42 +104,51 @@ input[type="datetime"].error,
 input[type="datetime-local"].error,
 select.error,
 textarea.error {
-  border: 1px solid #d23;
-  color: #d23;
+    border: 1px solid #d23;
+    color: #d23;
 }
+
 select {
-  padding: 5px;
+    padding: 5px;
 }
+
 textarea {
-  overflow-y: auto;
+    overflow-y: auto;
 }
 
 fieldset .legend {
-  margin-top: 0;
+    margin-top: 0;
 }
+
 .formrow .label {
-  font-size: 18px;
+    font-size: 18px;
 }
+
 .formrow .label.req:after {
-  content: "*";
-  color: #d23;
+    content: "*";
+    color: #d23;
 }
+
 .formrow > .label {
-  display: none;
+    display: none;
 }
+
 .formrow .formitem {
-  display: inline-block;
-  vertical-align: baseline;
-  width: 100%;
-  padding: 0 0 15px;
+    display: inline-block;
+    vertical-align: baseline;
+    width: 100%;
+    padding: 0 0 15px;
 }
+
 .formrow .formitem > * {
-  float: left;
+    float: left;
 }
+
 .formrow .formitem > .label {
-  float: none;
-  display: block;
+    float: none;
+    display: block;
 }
+
 .formrow .formitem input[type="text"],
 .formrow .formitem input[type="password"],
 .formrow .formitem input[type="number"],
@@ -140,220 +163,145 @@ fieldset .legend {
 .formrow .formitem input[type="datetime-local"],
 .formrow .formitem select,
 .formrow .formitem textarea {
-  width: 100%;
+    width: 100%;
 }
+
 .formrow .formitem label.error {
-  clear: left;
-  font-size: 11px;
-  font-weight: bold;
-  color: #d23;
+    clear: left;
+    font-size: 11px;
+    font-weight: bold;
+    color: #d23;
 }
+
 .formrow .formitem .ticks {
-  padding: 5px 0 0;
+    padding: 5px 0 0;
 }
+
 .formrow .formitem .ticks label {
-  -moz-transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-  display: inline-block;
-  color: #999;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    display: inline-block;
+    color: #999;
 }
+
 .formrow .formitem .ticks label:hover {
-  color: #666;
+    color: #666;
 }
+
 .formrow .formitem .ticks label input.checked ~ span {
-  color: #000;
+    color: #000;
 }
+
 .formrow .formitem .ticks label input:checked ~ span {
-  color: #000;
+    color: #000;
 }
+
 .formrow .formitem .ticks label > span {
-  display: block;
-  margin: 0 15px 5px 20px;
-  cursor: default;
+    display: block;
+    margin: 0 15px 5px 20px;
+    cursor: default;
 }
+
 .formrow .formitem .ticks label input[type="checkbox"],
 .formrow .formitem .ticks label input[type="radio"] {
-  float: left;
-  margin: 1px -9px 0 0;
+    float: left;
+    margin: 1px -9px 0 0;
 }
+
 .formrow .formitem .ticks label input[type="checkbox"].error ~ span,
 .formrow .formitem .ticks label input[type="radio"].error ~ span {
-  color: #d23;
+    color: #d23;
 }
+
 .formrow .formitem .rating {
-  padding: 5px 0 0;
+    padding: 5px 0 0;
 }
+
 .formrow .formitem .rating label {
-  float: right;
-  width: 42px;
-  height: 42px;
-  font-size: 42px;
-  line-height: 1;
-  cursor: pointer;
+    float: right;
+    width: 42px;
+    height: 42px;
+    font-size: 42px;
+    line-height: 1;
+    cursor: pointer;
 }
+
 .formrow .formitem .rating label:before {
-  font-family: "FontAwesome";
-  content: "\f006";
+    font-family: "FontAwesome";
+    content: "\f006";
 }
+
 .formrow .formitem .rating label span {
-  display: none;
+    display: none;
 }
+
 .formrow .formitem .rating input {
-  position: absolute;
-  z-index: -1;
-  opacity: 0;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
+
 .formrow .formitem .rating label:hover:before,
 .formrow .formitem .rating label:hover ~ label:before,
 .formrow .formitem .rating input.checked ~ label:before {
-  font-family: "FontAwesome";
-  content: "\f005";
+    font-family: "FontAwesome";
+    content: "\f005";
 }
+
 .formrow .formitem .rating input:checked ~ label:before {
-  font-family: "FontAwesome";
-  content: "\f005";
+    font-family: "FontAwesome";
+    content: "\f005";
 }
+
 .formrow .formitem .rating:hover input ~ label:before {
-  font-family: "FontAwesome";
-  content: "\f006";
+    font-family: "FontAwesome";
+    content: "\f006";
 }
+
 .formrow .formitem .rating:hover label:hover:before,
 .formrow .formitem .rating:hover label:hover ~ label:before {
-  font-family: "FontAwesome";
-  content: "\f005";
+    font-family: "FontAwesome";
+    content: "\f005";
 }
-.gt480 body {
-  padding: 40px;
-}
-.gt480 fieldset {
-  margin: 40px 0;
-  padding: 30px 40px;
-}
-.gt480 .formrow {
-  font-size: .1%;
-  line-height: 0;
-  word-spacing: -0.3em;
-  margin-right: -10px;
-}
-.gt480 .formrow .formitem {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  font-size: 15px;
-  line-height: 1.333;
-  word-spacing: 0;
-  padding-right: 10px;
-}
-.gt480 .formrow .formitem:last-child {
-  margin-right: -99px;
-}
-.gt480 .formrow .formitem:before {
-  content: "\00a0";
-  display: block;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 15px;
-  height: 15px;
-  margin-top: -15px;
-}
-.gt480 .formrow .formitem .rating label {
-  width: 24px;
-  height: 24px;
-  font-size: 24px;
-}
-.gt480 .formrow .col1of1 {
-  width: 100%;
-}
-.gt480 .formrow .col1of2 {
-  width: 50%;
-}
-.gt480 .formrow .col1of3 {
-  width: 33.33%;
-}
-.gt480 .formrow .col2of3 {
-  width: 66.66%;
-}
-.gt480 .formrow .col1of4 {
-  width: 25%;
-}
-.gt480 .formrow .col3of4 {
-  width: 75%;
-}
-.gt480 .formrow .col1of5 {
-  width: 20%;
-}
-.gt480 .formrow .col2of5 {
-  width: 40%;
-}
-.gt480 .formrow .col3of5 {
-  width: 60%;
-}
-.gt480 .formrow .col4of5 {
-  width: 80%;
-}
-.gt800 body {
-  padding: 80px;
-}
-.gt800 .wideform .formrow {
-  padding-left: 25%;
-}
-.gt800 .wideform .formrow > .label {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  font-size: 15px;
-  line-height: 1.333;
-  word-spacing: 0;
-  font-size: 12px;
-  display: inline-block;
-  vertical-align: top;
-  margin-left: -33.33333333%;
-  padding: 13px 10px 20px 3.33333333px;
-  width: 33.33333333%;
-}
-.gt800 .wideform .formrow .formitem {
-  vertical-align: top;
-}
-.gt800 .wideform .formrow .formitem:before {
-  content: none;
-}
-.gt800 .wideform .formrow .formitem > .label {
-  display: none;
-}
-.gt800 .wideform .formrow .formitem .ticks,
-.gt800 .wideform .formrow .formitem .rating {
-  padding-top: 10px;
-}
-@media screen and (min-width: 481px) {
 
-  fieldset {
+.gt480 body {
+    padding: 40px;
+}
+
+.gt480 fieldset {
     margin: 40px 0;
     padding: 30px 40px;
-  }
-  .formrow {
+}
+
+.gt480 .formrow {
     font-size: .1%;
     line-height: 0;
     word-spacing: -0.3em;
     margin-right: -10px;
-  }
-  .formrow .formitem {
+}
+
+.gt480 .formrow .formitem {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     font-size: 15px;
     line-height: 1.333;
     word-spacing: 0;
     padding-right: 10px;
-  }
-  // .formrow .formitem:last-child {
-  //   margin-right: -99px;
-  // }
-  .formrow .formitem:before {
+}
+
+.gt480 .formrow .formitem:last-child {
+    margin-right: -99px;
+}
+
+.gt480 .formrow .formitem:before {
     content: "\00a0";
     display: block;
     font-size: 12px;
@@ -361,49 +309,63 @@ fieldset .legend {
     line-height: 15px;
     height: 15px;
     margin-top: -15px;
-  }
-  .formrow .formitem .rating label {
+}
+
+.gt480 .formrow .formitem .rating label {
     width: 24px;
     height: 24px;
     font-size: 24px;
-  }
-  .formrow .col1of1 {
-    width: 100%;
-  }
-  .formrow .col1of2 {
-    width: 50%;
-  }
-  .formrow .col1of3 {
-    width: 33.33%;
-  }
-  .formrow .col2of3 {
-    width: 66.66%;
-  }
-  .formrow .col1of4 {
-    width: 25%;
-  }
-  .formrow .col3of4 {
-    width: 75%;
-  }
-  .formrow .col1of5 {
-    width: 20%;
-  }
-  .formrow .col2of5 {
-    width: 40%;
-  }
-  .formrow .col3of5 {
-    width: 60%;
-  }
-  .formrow .col4of5 {
-    width: 80%;
-  }
 }
-@media screen and (min-width: 801px) {
 
-  .wideform .formrow {
+.gt480 .formrow .col1of1 {
+    width: 100%;
+}
+
+.gt480 .formrow .col1of2 {
+    width: 50%;
+}
+
+.gt480 .formrow .col1of3 {
+    width: 33.33%;
+}
+
+.gt480 .formrow .col2of3 {
+    width: 66.66%;
+}
+
+.gt480 .formrow .col1of4 {
+    width: 25%;
+}
+
+.gt480 .formrow .col3of4 {
+    width: 75%;
+}
+
+.gt480 .formrow .col1of5 {
+    width: 20%;
+}
+
+.gt480 .formrow .col2of5 {
+    width: 40%;
+}
+
+.gt480 .formrow .col3of5 {
+    width: 60%;
+}
+
+.gt480 .formrow .col4of5 {
+    width: 80%;
+}
+
+.gt800 body {
+    padding: 80px;
+}
+
+.gt800 .wideform .formrow {
     padding-left: 25%;
-  }
-  .wideform .formrow > .label {
+}
+
+.gt800 .wideform .formrow > .label {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     font-size: 15px;
@@ -415,84 +377,220 @@ fieldset .legend {
     margin-left: -33.33333333%;
     padding: 13px 10px 20px 3.33333333px;
     width: 33.33333333%;
-  }
-  .wideform .formrow .formitem {
+}
+
+.gt800 .wideform .formrow .formitem {
     vertical-align: top;
-  }
-  .wideform .formrow .formitem:before {
+}
+
+.gt800 .wideform .formrow .formitem:before {
     content: none;
-  }
-  .wideform .formrow .formitem > .label {
+}
+
+.gt800 .wideform .formrow .formitem > .label {
     display: none;
-  }
-  .wideform .formrow .formitem .ticks,
-  .wideform .formrow .formitem .rating {
+}
+
+.gt800 .wideform .formrow .formitem .ticks,
+.gt800 .wideform .formrow .formitem .rating {
     padding-top: 10px;
-  }
 }
+
+@media screen and (min-width: 481px) {
+    fieldset {
+        margin: 40px 0;
+        padding: 30px 40px;
+    }
+
+    .formrow {
+        font-size: .1%;
+        line-height: 0;
+        word-spacing: -0.3em;
+        margin-right: -10px;
+    }
+
+    .formrow .formitem {
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        font-size: 15px;
+        line-height: 1.333;
+        word-spacing: 0;
+        padding-right: 10px;
+    }
+
+    // .formrow .formitem:last-child {
+    //   margin-right: -99px;
+    // }
+
+    .formrow .formitem:before {
+        content: "\00a0";
+        display: block;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 15px;
+        height: 15px;
+        margin-top: -15px;
+    }
+
+    .formrow .formitem .rating label {
+        width: 24px;
+        height: 24px;
+        font-size: 24px;
+    }
+
+    .formrow .col1of1 {
+        width: 100%;
+    }
+
+    .formrow .col1of2 {
+        width: 50%;
+    }
+
+    .formrow .col1of3 {
+        width: 33.33%;
+    }
+
+    .formrow .col2of3 {
+        width: 66.66%;
+    }
+
+    .formrow .col1of4 {
+        width: 25%;
+    }
+
+    .formrow .col3of4 {
+        width: 75%;
+    }
+
+    .formrow .col1of5 {
+        width: 20%;
+    }
+
+    .formrow .col2of5 {
+        width: 40%;
+    }
+
+    .formrow .col3of5 {
+        width: 60%;
+    }
+
+    .formrow .col4of5 {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .wideform .formrow {
+        padding-left: 25%;
+    }
+
+    .wideform .formrow > .label {
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        font-size: 15px;
+        line-height: 1.333;
+        word-spacing: 0;
+        font-size: 12px;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: -33.33333333%;
+        padding: 13px 10px 20px 3.33333333px;
+        width: 33.33333333%;
+    }
+
+    .wideform .formrow .formitem {
+        vertical-align: top;
+    }
+
+    .wideform .formrow .formitem:before {
+        content: none;
+    }
+
+    .wideform .formrow .formitem > .label {
+        display: none;
+    }
+
+    .wideform .formrow .formitem .ticks,
+    .wideform .formrow .formitem .rating {
+        padding-top: 10px;
+    }
+}
+
 .button {
-  -moz-transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-  display: inline-block;
-  margin: 4px 0;
-  border: 1px solid transparent;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  padding: 7px 16px;
-  text-decoration: none;
-  background: #e0e0e0;
-  color: #333;
-  border-radius: 2px;
-  font-size: 12px;
-  line-height: normal;
-  font-weight: bold;
-  cursor: pointer;
-  outline: none;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    display: inline-block;
+    margin: 4px 0;
+    border: 1px solid transparent;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 7px 16px;
+    text-decoration: none;
+    background: #e0e0e0;
+    color: #333;
+    border-radius: 2px;
+
+    // font-size: 12px;
+    line-height: normal;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
 }
+
 .button:hover {
-  background: #e5e5e5;
-  border-color: rgba(0, 0, 0, 0.25);
-  color: #000;
+    background: #e5e5e5;
+    border-color: rgba(0, 0, 0, 0.25);
+    color: #000;
 }
+
 .button:focus {
-  box-shadow: inset 0 0 0 1px #fff;
+    box-shadow: inset 0 0 0 1px #fff;
 }
+
 .button:active {
-  -moz-transition: none;
-  -webkit-transition: none;
-  transition: none;
-  background: #e0e0e0;
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+    -moz-transition: none;
+    -webkit-transition: none;
+    transition: none;
+    background: #e0e0e0;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
 }
+
 .button.disabled {
-  background: #f2f2f2;
-  border-color: rgba(0, 0, 0, 0.1);
-  color: #999;
-  box-shadow: none;
-  cursor: not-allowed;
+    background: #f2f2f2;
+    border-color: rgba(0, 0, 0, 0.1);
+    color: #999;
+    box-shadow: none;
+    cursor: not-allowed;
 }
-.button.primary {
-  background: #59d;
-  color: #fff;
-}
-.button.primary:hover {
-  background: #66a3e0;
-  color: #fff;
-}
-.button.primary:active {
-  background: #59d;
-}
+
+// .button.primary {
+//   background: #59d;
+//   color: #fff;
+// }
+
+// .button.primary:hover {
+//   background: #66a3e0;
+//   color: #fff;
+// }
+
+// .button.primary:active {
+//   background: #59d;
+// }
+
 .buttons .button,
 .formitem .button {
-  margin-right: 10px;
+    margin-right: 10px;
 }
+
 .buttons {
-  text-align: right;
-  margin-right: -10px;
+    text-align: right;
+    margin-right: -10px;
 }
+
 .buttons .forth {
-  float: right;
+    float: right;
 }
+
 .buttons .back {
-  text-align: left;
+    text-align: left;
 }

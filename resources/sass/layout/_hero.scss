@@ -1,0 +1,52 @@
+.hero {
+    @include full;
+
+    background-color: $black;
+
+    // position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 300px;
+    height: 350px;
+
+    @include breakpoint(large) {
+        height: 500px;
+    }
+}
+
+#home-hero {
+    background-image: url(/img/hero/pvr-valley.jpg);
+}
+
+#links-hero {
+    background-image: url(/img/hero/salinas-valley.jpg);
+}
+
+#ranch-hero {
+    background-image: url(/img/hero/ranch-gate.jpg);
+}
+
+#main-house {
+    background-image: url(/img/hero/main-house.jpg);
+}
+
+#bunk-house {
+    background-image: url(/img/hero/bunk-house.jpg);
+}
+
+#party-pad-hero {
+    background-image: url(/img/hero/party-pad.jpg);
+}
+
+#riding-hero {
+    background-image: url(/img/hero/riding.jpg);
+}
+
+#activites-hero {
+    background-image: url(/img/hero/activities.jpg);
+}
+
+#hunting-hero {
+    background-image: url(/img/hero/hunting.jpg);
+}

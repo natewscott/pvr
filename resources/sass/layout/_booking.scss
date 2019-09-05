@@ -1,0 +1,27 @@
+.booking {
+    background-image: url("/img/misc/pvr-booking-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+    // height: 100vh;
+
+    form {
+        max-width: 500px;
+        background-color: white;
+    }
+
+    fieldset {
+        border: none;
+    }
+
+    .buttons {
+        .book {
+            margin-right: 10%;
+            margin-bottom: 5%;
+        }
+    }
+
+    .c-navlist__link {
+        color: white;
+    }
+}
