@@ -45,7 +45,7 @@ class PageContentController extends Controller
     public function hunting() {
         return view ('pages/hunting');
     }
-    public function book_hunting() {
-        return view ('pages/book_hunting');
-    }
+    // public function book_hunting() {
+    //     return view ('pages/book_hunting');
+    // }
 }

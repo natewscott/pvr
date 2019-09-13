@@ -2053,12 +2053,6 @@ img {
   background-image: url(/img/hero/hunting.jpg);
 }
 
-.booking {
-  background-image: url("/img/misc/pvr-booking-bg.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .booking form {
   max-width: 500px;
   background-color: white;
@@ -2075,6 +2069,18 @@ img {
 
 .booking .c-navlist__link {
   color: white;
+}
+
+#book {
+  background-image: url("/img/misc/pvr-booking-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#book-hunting {
+  background-image: url("/img/activities/hunting-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #article-img-text .img-text {

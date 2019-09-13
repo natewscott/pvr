@@ -30,4 +30,4 @@ Route::get('contact', 'PageContentController@contact')->name('contact');
 Route::get('booking', 'PageContentController@booking')->name('booking');
 
 Route::get('hunting', 'PageContentController@hunting')->name('hunting');
-Route::get('book_hunting', 'PageContentController@book_hunting')->name('book hunting');
+Route::get('book_hunting', 'BookHuntingController@show')->name('book hunting');
