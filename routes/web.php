@@ -27,7 +27,10 @@ Route::get('activities', 'PageContentController@activities')->name('activities')
 Route::get('shooting', 'PageContentController@shooting')->name('shooting');
 Route::get('accommodations', 'PageContentController@accommodations')->name('accommodations');
 Route::get('contact', 'PageContentController@contact')->name('contact');
-Route::get('booking', 'PageContentController@booking')->name('booking');
+Route::get('riding', 'PageContentController@riding')->name('riding');
 
+//Booking Pages
+Route::get('booking', 'PageContentController@booking')->name('booking');
 Route::get('hunting', 'PageContentController@hunting')->name('hunting');
 Route::get('book_hunting', 'BookHuntingController@show')->name('book hunting');
+Route::post('book_hunting', 'BookHuntingController@mail')->name('hunt send');

@@ -5,7 +5,7 @@
 	@section('content')
 	<section class="content" style="margin:0;">
 		<article class="inner-content">
-			<form action="" method="POST">
+			<form action="{{ route('book hunt')}} " method="POST">
 				{{ csrf_field() }}
 				<fieldset>
 					<div class="formrow">

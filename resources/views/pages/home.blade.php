@@ -10,7 +10,7 @@
 		<h1>Paris Valley Ranch</h1>
 		<hr>
 		<p>
-			Paris Valley Ranch sits on 1,000 Acres nestled in the rolling hills of San Ardo, California. The Ranch is about 45 minutes north of Paso Robles and close to some of the finest wineries in Monterey County and Paso Robles. This open range provides our guests with some picturesque views and wide range of activities like sport shooting, hunting and miles of trails perfect for quadding or dirt biking. In the evening you can relax with family and friends, while enjoying exceptional food from our private chef, ensuring you will have an adventure you will never forget.
+			Paris Valley Ranch sits on 1,000 Acres nestled in the rolling hills of San Ardo, California. The Ranch is about 45 minutes north of Paso Robles and close to some of the finest wineries in Monterey County and Paso Robles. This open range provides our guests with some picturesque views and wide range of activities like sport shooting, hunting and miles of trails perfect for riding a quad or dirt bike. In the evening you can relax with family and friends, while enjoying exceptional food from our private chef, ensuring you will have an adventure you will never forget.
 		</p>
 		{{-- <p>
 			At Paris Valley Ranch, 
@@ -37,7 +37,7 @@
 					<div class="card-content">
 						<div class="card-title">Ranch Activities</div>
 						<p class="card-text">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, impedit nostrum nulla non quis repellat ad mollitia! Eos earum animi minus. Laboriosam suscipit explicabo voluptates voluptatem quae, unde similique quos.
+							The Ranch has plenty of activities to partake in. We have several hunting packages that you can choose from as well as shooting ranges to get your practice in. The Ranch also boast miles and miles of trails to ride quads of dirt bikes on.
 						</p>
 						<a href="{{ route('activities')}} ">Read More</a>
 					</div>
@@ -49,7 +49,7 @@
 					<div class="card-content">
 						<div class="card-title">Ranch Info</div>
 						<p class="card-text">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, laboriosam obcaecati. Consequuntur totam facilis quibusdam quia, nobis quis ut minus neque nesciunt autem facere odit at architecto, necessitatibus. Deleniti, obcaecati.
+							On your way to and from the Ranch there are many hidden gems, farms, shops, wineries, markets that are unique to the area. Make to stop off some where to enjoy some of these country gems.
 						</p>
 						<a href="{{ route('info')}} ">Read More</a>
 					</div>

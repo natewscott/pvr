@@ -11,7 +11,7 @@
 				Riding Trails
 			</h1>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis perspiciatis, repellendus quo saepe tempore, nemo rem esse, accusantium pariatur obcaecati iure cum eveniet aut aliquid, quod laudantium dolor doloremque praesentium!
+				The Ranch has three valleys with well groomed tracks to ride quads or dirt bikes through. For those that wish to try more rugged riding there are miles and miles of tracks that are not as maintained. The Ranch but up to BLM land giving riders acess to hundreds of other trails.
 			</p>
 		</article>
 	</section>
