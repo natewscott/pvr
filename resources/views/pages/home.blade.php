@@ -1,20 +1,22 @@
 @extends('main')
 @section('content')
-<section class="hero" id="home-hero">
+{{-- <section class="hero" id="home-hero"> --}}
 	<article>
-		
+		<div>
+			<img src="img/misc/PVR - Lines.svg" alt="">
+			<h1 style="color:white;">
+				Coming Soon
+			</h1>
+		</div>
 	</article>
-</section>
-<section class="content">
+{{-- </section> --}}
+{{-- <section class="content">
 	<article class="inner-content">
 		<h1>Paris Valley Ranch</h1>
 		<hr>
 		<p>
 			Paris Valley Ranch sits on 1,000 Acres nestled in the rolling hills of San Ardo, California. The Ranch is about 45 minutes north of Paso Robles and close to some of the finest wineries in Monterey County and Paso Robles. This open range provides our guests with some picturesque views and wide range of activities like sport shooting, hunting and miles of trails perfect for riding a quad or dirt bike. In the evening you can relax with family and friends, while enjoying exceptional food from our private chef, ensuring you will have an adventure you will never forget.
 		</p>
-		{{-- <p>
-			At Paris Valley Ranch, 
-		</p> --}}
 		<hr>
 	</article>
 	<article class="grid-cards">
@@ -57,5 +59,5 @@
 			</li>
 		</ul>
 	</article>
-</section>
+</section> --}}
 @stop
