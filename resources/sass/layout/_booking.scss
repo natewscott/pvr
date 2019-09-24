@@ -1,7 +1,4 @@
 .booking {
-    background-image: url("/img/misc/pvr-booking-bg.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
 
     // height: 100vh;
 
@@ -24,4 +21,16 @@
     .c-navlist__link {
         color: white;
     }
+}
+
+#book {
+    background-image: url("/img/misc/pvr-booking-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#book-hunting {
+    background-image: url("/img/activities/hunting-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
 }

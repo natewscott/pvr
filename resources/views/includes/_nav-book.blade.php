@@ -1,12 +1,12 @@
 <header>
     <a href="{{ route('home')}} " class="logo o-link" id="brand">
-      <img src="img/misc/PVR - Lines.svg" alt="Paris Valley Ranch Logo" title="Paris Valley Ranch Logo">
+      <img src="img/misc/PVR - Lines - White.svg" alt="Paris Valley Ranch Logo" title="Paris Valley Ranch Logo">
     </a>
     <nav class="c-top-nav o-container t-slideH">
         <a href="#" class="c-mobile-navlist-trigger nav-right o-link">&#9776;</a>
         <ul class="c-navlist">
             <li class="c-navlist__item">
-                <a href="#" class="c-navlist__link o-link">Home</a>
+                <a href="{{ route('home')}} " class="c-navlist__link o-link">Home</a>
             </li>
             <li class="c-navlist__item">
                 <a href="#" class="c-navlist__link o-link has-dd">Accommodations</a>
