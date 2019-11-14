@@ -3,7 +3,7 @@
 /public/storage
 /storage/*.key
 /vendor
-/public/img/video/.mp4
+.mp4
 .env
 .phpunit.result.cache
 Homestead.json
