@@ -83,13 +83,13 @@
 						<textarea name="message" id="message" cols="40" rows="5" required="required"></textarea>
 					</div>
 				</div>
-				</fieldset>
-				<div class="buttons">
-					<div class="forth">
-						<button class="primary button">Submit</button>
-					</div>
+			</fieldset>
+			<div class="buttons">
+				<div class="forth">
+					<button class="primary button">Submit</button>
 				</div>
-			</form>
-		</article>
-	</footer>
-	@endsection
+			</div>
+		</form>
+	</article>
+</footer>
+@endsection
