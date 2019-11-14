@@ -22,6 +22,7 @@
 			<hr>
 		</article>
 		<article class="img-grid">
+			<h1>Plan your stay with us</h1>
 			<ol>
 				<figure class="img-desc">
 					<img src="img/cards/main-house.jpg" alt="sq-sample26"/>
@@ -85,7 +86,7 @@
 			</fieldset>
 			<div class="buttons">
 				<div class="forth">
-					<button class="primary button">Submit</button>
+					<button class="primary button" id="foot-contact">Submit</button>
 				</div>
 			</div>
 		</form>

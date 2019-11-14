@@ -29,7 +29,7 @@
 			</fieldset>
 			<div class="buttons">
 				<div class="forth">
-					<button class="primary button">Submit</button>
+					<button class="primary button" id="foot-contact">Submit</button>
 				</div>
 			</div>
 		</form>

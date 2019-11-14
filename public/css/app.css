@@ -1216,6 +1216,7 @@ footer {
 }
 
 form {
+  text-align: left;
   margin-left: 5%;
   padding-bottom: 10%;
   max-width: 35%;
@@ -1231,11 +1232,11 @@ textarea:focus {
   background-color: white;
 }
 
-.primary {
+#foot-contact {
   background-color: #B58B2D;
 }
 
-.primary:hover {
+#foot-contact:hover {
   background-color: #112533;
 }
 
@@ -2094,7 +2095,16 @@ img {
   text-align: center;
 }
 
+#home .img-grid h1 {
+  font-size: 2.25rem;
+  font-weight: 300;
+  margin-bottom: 0;
+  margin-top: 5%;
+  text-align: center;
+}
+
 #home ol {
+  margin-top: 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -2104,8 +2114,6 @@ img {
   position: relative;
   overflow: hidden;
   margin: 10px;
-  min-width: 230px;
-  max-width: 315px;
   width: 100%;
   color: #000000;
   text-align: center;
