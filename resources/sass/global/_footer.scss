@@ -109,3 +109,27 @@ footer {
         justify-content: center;
     }
 }
+footer {
+        margin-top: 0;
+        background-color: $primary;
+    }
+    form {
+        margin-left: 5%;
+        padding-bottom: 10%;
+        max-width: 35%;
+    }
+    input,
+    textarea {
+        background-color: $primary;
+
+        &:focus {
+            background-color: white;
+        }
+    }
+    .primary {
+        background-color: $link;
+
+        &:hover {
+            background-color: $secondary;
+        }
+    }

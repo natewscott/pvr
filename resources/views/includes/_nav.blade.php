@@ -5,9 +5,9 @@
     <nav class="c-top-nav o-container t-slideH">
         <a href="#" class="c-mobile-navlist-trigger nav-right o-link">&#9776;</a>
         <ul class="c-navlist">
-            <li class="c-navlist__item">
+            {{-- <li class="c-navlist__item">
                 <a href="{{ route('home')}} " class="c-navlist__link o-link">Home</a>
-            </li>
+            </li> --}}
             <li class="c-navlist__item">
                 <a href="#" class="c-navlist__link o-link has-dd">Accommodations</a>
                 <ul class="c-dropdown">

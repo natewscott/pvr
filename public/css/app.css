@@ -1210,6 +1210,35 @@ footer #copyright {
   justify-content: center;
 }
 
+footer {
+  margin-top: 0;
+  background-color: #5B5639;
+}
+
+form {
+  margin-left: 5%;
+  padding-bottom: 10%;
+  max-width: 35%;
+}
+
+input,
+textarea {
+  background-color: #5B5639;
+}
+
+input:focus,
+textarea:focus {
+  background-color: white;
+}
+
+.primary {
+  background-color: #B58B2D;
+}
+
+.primary:hover {
+  background-color: #112533;
+}
+
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -2175,35 +2204,6 @@ img {
 #home .pvr-map {
   width: 100%;
   min-height: 450px;
-}
-
-#home footer {
-  margin-top: 0;
-  background-color: #5B5639;
-}
-
-#home form {
-  margin-left: 5%;
-  padding-bottom: 10%;
-  max-width: 35%;
-}
-
-#home input,
-#home textarea {
-  background-color: #5B5639;
-}
-
-#home input:focus,
-#home textarea:focus {
-  background-color: white;
-}
-
-#home .primary {
-  background-color: #B58B2D;
-}
-
-#home .primary:hover {
-  background-color: #112533;
 }
 
 .hero {
