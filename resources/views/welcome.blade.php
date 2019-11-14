@@ -11,6 +11,5 @@
         </section>
     </main>
     @yield('scripts')
-    {{-- @include('includes/_footer') --}}
 </body>
 </html>

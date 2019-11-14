@@ -55,9 +55,8 @@
 	</section>
 </main>
 <footer id="home-footer">
-	<article>
-		
-	</article>
+{{-- 	<article>
+	</article> --}}
 	<article class="contact">
 		<form action="POST">
 			<fieldset>
