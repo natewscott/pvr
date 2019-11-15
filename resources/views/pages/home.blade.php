@@ -69,8 +69,8 @@
 						<input type="text" name="name" id="name" placeholder="First Name" x-autocompletetype="given-name"/>
 					</div>
 					<div class="formitem col1of2">
-						<label class="label" for="last-name">Last Name</label>
-						<input type="text" name="last-name" id="last-name" placeholder="Last Name" x-autocompletetype=""/>
+						<label class="label" for="lastname">Last Name</label>
+						<input type="text" name="lastname" id="lastname" placeholder="Last Name" x-autocompletetype=""/>
 					</div>
 				</div>
 				<div class="formrow">
@@ -87,8 +87,8 @@
 				</div>
 				<div class="formrow">
 					<div class="formitem">
-						<label class="label req" for="message">Message</label>
-						<textarea name="message" id="message" cols="40" rows="5" required="required"></textarea>
+						<label class="label req" for="msg">Message</label>
+						<textarea name="msg" id="msg" cols="40" rows="5" required="required"></textarea>
 					</div>
 				</div>
 			</fieldset>
