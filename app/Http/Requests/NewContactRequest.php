@@ -24,7 +24,7 @@ class NewContactRequest extends FormRequest
     public function rules()
     {
         return [
-            "name" => 'requierd',
+            "name" => 'required',
             "lastname" => 'required',
             "email" => 'required|email',
             "subject" => 'required',
