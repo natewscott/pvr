@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Request\NewContactRequest;
-use Mail,
+use Mail;
 use App\Mail\NewContact;
 use Sessions;
 

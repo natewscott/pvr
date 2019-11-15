@@ -31,7 +31,7 @@ class NewContact extends Mailable
     public function build()
     {
         return $this->from($this->NewContact->name)
-                    ->view('view.name')
+                    ->markdow('emails.contact')
                     ->subject($this->NewContact->subject);
     }
 }
