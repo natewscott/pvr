@@ -1,1 +1,1 @@
-@
+@component('mail::message')
