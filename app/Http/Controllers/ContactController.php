@@ -15,9 +15,27 @@ class ContactController extends Controller
     	return view ('pages.contact');
     }
 
-    public function mail(NewContactRequest $request) {
-    	Mail::to('nscott@rbcompany.com')->send(new NewContact($request));
-
-    	return redirect()->back()->with('success', 'Thank you for your message, we will get in touch with you as soon as possible');
+    public function mail(Request $request) {
+    	$this->validate($request, [
+    		"name" => 'required',
+            "lastname" => 'required',
+            "email" => 'required|email',
+            "subject" => 'required',
+            "msg" => 'required|min:10',
+    	]);
+    	
+    	Mail::send('emails.contact', [
+    		'name' => $request->name,
+            'lastname' => $request->lastname,
+            'email' => $request->email,
+            'subject' => $request->subject,
+            'msg' => $request->msg,
+    	],
+    	function($contact) use ($request) {
+    		$contact->from($request->email, $request->name);
+    		$contact->to('nscott@rbcompany.com')
+    				->subject('New Contact');
+    	});
+    	return redirect()->back()->with('success', 'Your email has benn sent.')
     }
 }
