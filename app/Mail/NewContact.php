@@ -20,7 +20,7 @@ class NewContact extends Mailable
      */
     public function __construct(NewContact $NewContact)
     {
-        $this->NewContact = $NewContact
+        $this->NewContact = $NewContact;
     }
 
     /**
