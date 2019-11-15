@@ -1,7 +1,7 @@
 @component('mail::message')
-{{ $name }}
-{{ $lastname }}
-{{ $email }}
-{{ $subject }}
-{{ $msg }}
+{{ $request->$name }}
+{{ $request->$lastname }}
+{{ $request->$email }}
+{{ $request->$subject }}
+{{ $request->$msg }}
 @endcomponent
