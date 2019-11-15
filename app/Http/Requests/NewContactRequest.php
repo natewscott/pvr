@@ -25,7 +25,7 @@ class NewContactRequest extends FormRequest
     {
         return [
             "name" => 'required',
-            "lastname" => 'required',
+            "last-name" => 'required',
             "email" => 'required|email',
             "subject" => 'required',
             "message" => 'required|min:10',
