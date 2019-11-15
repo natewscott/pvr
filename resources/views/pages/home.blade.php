@@ -1,6 +1,7 @@
 @extends('welcome')
 @section('content')
 <main class="page-wrap">
+	@include('includes/messages')
 	<section class="main-content">
 		<div class="fullscreen-bg">
 			<video autoplay muted loop class="fullscreen-bg_video">
@@ -59,22 +60,29 @@
 	<article>
 	</article>
 	<article class="contact">
-		<form action="POST">
+		<form action="{{ route('contact form')}} " method="POST">
+			{{ csrf_field() }}
 			<fieldset>
 				<div class="formrow">
 					<div class="formitem col1of2">
 						<label class="label" for="name">Name</label>
-						<input type="text" name="name" id="name" x-autocompletetype="given-name"/>
+						<input type="text" name="name" id="name" placeholder="First Name" x-autocompletetype="given-name"/>
 					</div>
 					<div class="formitem col1of2">
 						<label class="label" for="last-name">Last Name</label>
-						<input type="text" name="last-name" id="last-name" x-autocompletetype=""/>
+						<input type="text" name="last-name" id="last-name" placeholder="Last Name" x-autocompletetype=""/>
 					</div>
 				</div>
 				<div class="formrow">
 					<div class="formitem">
 						<label class="label" for="email">Email</label>
-						<input type="email" name="email" id="email" x-autocompletetype="email"/>
+						<input type="email" name="email" id="email" placeholder="Contact email" x-autocompletetype="email"/>
+					</div>
+				</div>
+				<div class="formrow">
+					<div class="formitem">
+						<label class="label" for="subject"></label>
+						<input type="text" name="subject" id="subject" placeholder="Subject of your message" x-autocompletetype="email"/>
 					</div>
 				</div>
 				<div class="formrow">
