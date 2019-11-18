@@ -36,6 +36,6 @@ class ContactController extends Controller
     		$contact->to('nscott@rbcompany.com')
     				->subject('New Contact');
     	});
-    	return redirect()->back()->with('success', 'Your email has benn sent.')
+    	return redirect()->back()->with('success', 'Your email has benn sent.');
     }
 }
