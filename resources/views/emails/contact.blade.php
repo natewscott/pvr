@@ -13,9 +13,9 @@
 			}
 			body {
 				font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 1.8;
+			    font-weight: 400;
+			    font-size: 15px;
+			    line-height: 1.8;
 			}
 			.email-section {
 				padding: 2.5em;

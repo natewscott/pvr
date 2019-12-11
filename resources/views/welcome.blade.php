@@ -5,11 +5,11 @@
     <![endif]-->
     <!-- Add your site or application content here -->
     @include('includes/_nav-book')
-    <main class="page-wrap">
-        <section class="main-content">
+    {{-- <main class="page-wrap">
+        <section class="main-content"> --}}
             @yield('content')
-        </section>
-    </main>
+      {{--   </section>
+    </main> --}}
     @yield('scripts')
 </body>
 </html>
