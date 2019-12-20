@@ -1,372 +1,414 @@
-.o-link {
-    text-decoration: none;
-    color: $link;
+
+body {
+  /* These styles don't have to be on body,
+     they could be on an element that wraps around
+     the left-flyout-nav and the content. 
+     This is to prevent a problem on Chrome that
+     leaves the width of the container with the 
+     added width of the flyout nav even after it's been
+     hidden. */
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
 }
 
-.o-container {
-    width: 80%;
-    margin: auto;
+.layout-left-flyout {
+  height: 100%;
+  position: fixed;
+  visibility: hidden;
+  z-index: 0;
+  transition: visibility 0 linear .2s;
+  background: #383838;
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
 }
 
-header {
+.layout-left-flyout.isCbFlyNavActive {
+  visibility: visible;
+  transition: z-index 0 linear .2s;
+  z-index: 1;
+}
+
+.cbFlyNav-wrap {
+  display: block;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  width: 270px;
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+}
+.cbFlyNav-wrap > nav {
+  transform: translateY(0);
+  transition: transform 0 ease-in-out;
+  /*    height: 100%;
+      overflow-y: auto;
+      overflow-x: hidden;*/
+}
+
+.nav-collapse {
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
+}
+
+.layout-right-content {
+  transition: transform .2s ease-in-out;
+  transform: translate3d(0, 0, 0);
+  -webkit-perspective: 1000;
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  z-index: 1;
+  /* NOTE! Put container bg here so you don't
+     get any clipping when the content is 
+     transitioning. Any tips on alternate 
+     solutions are welcome.
+  */
+  background: #fff;
+  background: #E72534;
+}
+
+.layout-right-content.isCbFlyNavActive {
+  transform: translate3d(270px, 0, 0);
+  min-width: 320px;
+}
+
+.icon-cbmore {
+  content: "";
+  float: right;
+  margin-top: 4.5px;
+  padding: 4.5px;
+  box-shadow: 1px -1px 0 0px #FFF inset;
+  -webkit-transform: rotate(225deg);
+}
+
+.nav-flyout-navmask, .nav-flyout-contentmask {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav-flyout-contentmask {
+  z-index: 1;
+}
+
+.nav-flyout-navmask {
+  right: 180px;
+  z-index: 1;
+}
+
+/* Menu Toggle */
+.btn-navbar {
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  padding: 4px 0;
+  display: block;
+  z-index: 1;
+}
+
+.btn-navbar-navtoggle {
+  left: 10px;
+}
+
+.btn-navbar .icon-bar {
+  display: block;
+  width: 28px;
+  height: 4px;
+  background-color: #4d4d4d;
+  margin: 7px auto 0 auto;
+}
+
+.btn-navbar .icon-bar + .icon-bar {
+  margin-top: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .btn-navbar {
+    display: none;
+  }
+}
+/* Navbar Styles */
+.navbar {
+  height: 40px;
+  margin: 0;
+  padding: 5px 0;
+  position: relative;
+  // background: #fafafa;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 0 10px;
+  // box-shadow: 0 1px 1px 0px #dddddd;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar .nav-collapse {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar {
+    height: auto;
     position: relative;
-
-    // background-color: $secondary;
-    min-height: 50px;
-}
-
-.logo {
-    position: absolute;
-    top: -30px;
-    left: 10px;
-    z-index: 1;
-    text-transform: uppercase;
-}
-
-.c-top-nav {
-    text-align: left;
-    display: inline-block;
-}
-
-.c-top-nav:hover .nav-right + .c-navlist {
-    right: 0;
-}
-
-.c-top-nav:hover .nav-left + .c-navlist {
-    left: 0;
-}
-
-.c-mobile-navlist-trigger {
-    position: absolute;
-    top: 0;
-    font-size: 21px;
-    display: inline-block;
-    background: #DCB149;
-    color: #242320;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    padding-top: 9px;
-}
-
-.c-navlist {
-    position: absolute;
+    // background: #fafafa;
+    margin-bottom: 10px;
+    width: 100%;
     padding: 0 10px;
-    list-style: none;
+  }
+}
+/* Mobile First Nav */
+.the-nav ul.nav-flyout {
+  display: block;
+  margin-bottom: 15px;
+  float: none;
+  height: 100%;
+}
+.the-nav ul.nav-flyout > li {
+  float: none;
+  display: block;
+  width: 270px;
+}
+.the-nav ul.nav-flyout li a {
+  color: #FFF;
+  display: block;
+  text-decoration: none;
+  padding: 11px 15px;
+  margin-right: 0;
+}
+.the-nav ul.nav-flyout li a:hover {
+  background: #ff8358;
+}
+.the-nav ul.nav-flyout .dropdown {
+  position: static;
+}
+.the-nav ul.nav-flyout .dropdown .subnav {
+  float: none;
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  left: auto;
+  width: 0;
+  min-width: 0;
+  margin: 0;
+  list-style: none;
+  z-index: 1000;
+  background: #595959;
+  transition: width .2s ease-in-out;
+}
+.the-nav ul.nav-flyout .dropdown .subnav > li {
+  width: 180px;
+}
+.the-nav ul.nav-flyout .dropdown .subnav.is-subnav-visible {
+  width: 180px;
+}
+.the-nav.is-inactive ul.nav-flyout > li > a {
+  opacity: .2;
+}
+.the-nav.is-inactive ul.nav-flyout > li.is-active > a {
+  opacity: 1;
+  background: #ff8358;
+}
+
+/* Large Screen Styles*/
+@media screen and (min-width: 768px) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .the-nav {
+    display: block;
+  }
+
+  .the-nav .nav {
+    display: block;
+  }
+
+  .the-nav .nav-pill:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .the-nav > .nav {
     margin: 0;
+    line-height: normal;
+  }
 
-    // background-color: white;
-
-    // background-color: $secondary;
-    text-align: left;
-    transition: all 400ms ease;
-    -webkit-transform-origin: top;
-    transform-origin: top;
-}
-
-.c-navlist__link {
+  .the-nav > .nav > li {
     display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
+    margin-bottom: 0;
+    position: relative;
+  }
+
+  .the-nav > .nav > li .caret {
+    margin-top: 8px;
+    margin-left: 2px;
+    border-top-color: white;
+    border-bottom-color: white;
+  }
+  
+
+  #nav-right > li a {
+    display: block;
+    padding: 10px 10px 10px;
     color: $link;
-    padding: 15px;
-    min-width: 200px;
-    border-bottom: 1px solid #4e4b43;
-}
+    text-decoration: none;
 
-.c-navlist__link.has-dd:after {
-    content: "+";
+    &:hover {
+      background-color: $hover;
+      color: darken($link, 50);
+    }
+  }
+
+  #home {
+      .the-nav > .nav > li a {
+        color: white;
+      }
+  }
+
+  .the-nav > .nav > li:nth-of-type(1) > a {
+    padding-left: 0;
+  }
+
+  .the-nav > .nav > li:last-of-type > a {
+    padding-right: 0;
+  }
+
+  /* Active State */
+  .the-nav > .nav > li:hover > a {
+    color: #303030;
+  }
+
+  .the-nav > .nav > li:hover .subnav {
+    display: block;
+  }
+
+  .the-nav > .nav > li:hover .caret {
+    border-top-color: #303030;
+    border-bottom-color: #303030;
+  }
+
+  /* Subnav */
+  .nav > li > .subnav {
+    display: none;
     position: absolute;
-    right: 15px;
-    display: inline-block;
-    width: 10px;
-    padding-left: 5px;
-}
-
-.c-navlist__link.has-dd:hover:after {
-    content: "-";
-}
-
-.c-navlist__link:hover {
-    color: darken($link, 50);
-    background-color: $hover;
-}
-
-.c-navlist__link + .c-dropdown {
-    top: 48px;
-}
-
-.c-navlist__item,
-.c-dropdown__item {
-    position: relative;
-}
-
-.c-navlist__item:hover > .c-dropdown,
-.c-dropdown__item:hover > .c-dropdown {
-    max-height: 1000px;
-}
-
-.c-dropdown {
-    width: 100%;
-    text-align: left;
-    padding-left: 10px;
+    top: 100%;
+    left: 0;
+    z-index: 20;
+    margin: 0;
+    padding: 0;
+    min-width: 160px;
     background: #242320;
-    list-style: none;
-    transition: all 1400ms ease;
-    -webkit-transform-origin: top;
-    transform-origin: top;
-    max-height: 0px;
-    overflow: hidden;
+    box-shadow: 0 1px 1px 0px #DDDDDD;
+  }
+
+  .nav > li > .subnav > li {
+    margin-bottom: 0;
+  }
+
+  .nav > li > .subnav > li a {
+    color: $link;
+    transition: all .2s;
+    
+
+  }
+
+  // .nav > li > .subnav > li:hover a {
+  //   background: #ff8358;
+  //   color: white;
+  // }
+}
+/* General Mobile First Styles */
+.hidden-sm {
+  display: none;
 }
 
-.c-dropdown__link {
-    display: inline-block;
-    width: 100%;
-    padding: 10px 15px 10px 5px;
+@media screen and (min-width: 768px) {
+  .visible-sm {
+    display: none;
+  }
+
+  .hidden-sm {
+    display: block;
+  }
 }
 
-.c-dropdown__link.has-dd {
-    position: relative;
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  margin: 0;
 }
 
-.c-dropdown__link.has-dd:after {
-    content: "+";
-    position: absolute;
-    right: 0;
+.pull-left {
+  float: left;
 }
 
-.c-dropdown__link.has-dd:hover:after {
-    content: "-";
+.pull-right {
+  float: right;
 }
 
-.c-dropdown__link:hover {
-    color: #DCB149;
+.dropdown .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: top;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid gray;
+  content: "";
 }
 
-.c-btn {
-    display: inline-block;
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.c-fixed-nav {
-    position: fixed;
-    right: 0;
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+.container.navbar {
+  width: 100%;
+}
+.container:before, .container:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-@media (min-width: 768px) {
-    .is-left {
-        left: -118%;
-        left: calc(-100% - 32px);
-        position: relative;
-        border: 1px solid #999;
-    }
 
-    .is-left:before, .is-left:after {
-        left: 100%;
-        top: 12px;
-        border: solid transparent;
-        content: " ";
-        height: 0;
-        width: 0;
-        position: absolute;
-        pointer-events: none;
-    }
 
-    .is-left:after {
-        border-color: rgba(36, 35, 32, 0);
-        border-left-color: #242320;
-        border-width: 6px;
-        margin-top: 0px;
-    }
 
-    .is-left:before {
-        border-color: rgba(78, 75, 67, 0);
-        border-left-color: #4e4b43;
-        border-width: 8px;
-        margin-top: -2px;
-    }
-
-    .is-right {
-        right: -118%;
-        right: calc(-100% - 32px);
-        position: relative;
-        border: 1px solid #4e4b43;
-    }
-
-    .is-right:before, .is-right:after {
-        right: 100%;
-        top: 12px;
-        border: solid transparent;
-        content: " ";
-        height: 0;
-        width: 0;
-        position: absolute;
-        pointer-events: none;
-    }
-
-    .is-right:after {
-        border-color: rgba(36, 35, 32, 0);
-        border-right-color: #242320;
-        border-width: 6px;
-        margin-top: 0px;
-    }
-
-    .is-right:before {
-        border-color: rgba(78, 75, 67, 0);
-        border-right-color: #4e4b43;
-        border-width: 8px;
-        margin-top: -2px;
-    }
-
-    .c-top-nav {
-        display: block;
-        width: 100%;
-    }
-
-    .c-mobile-navlist-trigger {
-        display: none;
-    }
-
-    .c-navlist {
-        -webkit-transform: scaleY(1);
-        transform: scaleY(1);
-        position: relative;
-        text-align: right;
-    }
-
-    .c-navlist__item {
-        display: inline-block;
-    }
-
-    .c-navlist__link {
-        min-width: unset;
-        border-bottom: none;
-        text-transform: capitalize;
-    }
-
-    .c-navlist__link.has-dd:after {
-        content: "+";
-        position: static;
-        display: inline-block;
-        width: 10px;
-        padding-left: 5px;
-    }
-
-    .c-navlist__link.has-dd:hover:after {
-        content: "-";
-    }
-
-    .c-navlist__item,
-    .c-dropdown__item {
-        position: relative;
-    }
-
-    .c-navlist__item:hover > .c-dropdown,
-    .c-dropdown__item:hover > .c-dropdown {
-        visibility: visible;
-        opacity: 1;
-    }
-
-    .c-dropdown__item {
-        border-bottom: 1px solid #4e4b43;
-    }
-
-    .c-dropdown {
-        position: absolute;
-        top: 0;
-        width: 190px;
-        border: 1px solid #4e4b43;
-        padding: 0 10px;
-        transition: all 200ms ease;
-        max-height: unset;
-        overflow: visible;
-        visibility: hidden;
-        opacity: 0;
-    }
-
-    /* Drodpwn animations for Desktop only */
-    .t-scaleY .c-dropdown {
-        -webkit-transform: scaleY(0);
-        transform: scaleY(0);
-    }
-
-    .t-scaleY .c-navlist__item:hover > .c-dropdown,
-    .t-scaleY .c-dropdown__item:hover > .c-dropdown {
-        -webkit-transform: scaleY(1);
-        transform: scaleY(1);
-    }
-
-    .t-slideV .c-dropdown {
-        top: 10px;
-    }
-
-    .t-slideV .c-navlist__item > .c-dropdown {
-        top: 60px;
-    }
-
-    .t-slideV .c-navlist__item:hover > .c-dropdown {
-        top: 50px;
-    }
-
-    .t-slideV .c-dropdown__item:hover > .c-dropdown {
-        top: 0;
-    }
-
-    .t-slideH .c-navlist__item > .c-dropdown {
-        top: 60px;
-    }
-
-    .t-slideH .c-navlist__item:hover > .c-dropdown {
-        top: 50px;
-    }
-
-    .t-slideH .c-dropdown__item > .c-dropdown.is-right {
-        right: -120%;
-        right: calc(-100% - 50px);
-    }
-
-    .t-slideH .c-dropdown__item:hover > .c-dropdown.is-right {
-        right: -118%;
-        right: calc(-100% - 32px);
-    }
-
-    .t-slideH .c-dropdown__item > .c-dropdown.is-left {
-        left: -120%;
-        left: calc(-100% - 50px);
-    }
-
-    .t-slideH .c-dropdown__item:hover > .c-dropdown.is-left {
-        left: -118%;
-        left: calc(-100% - 32px);
-    }
+a.gh-btn {
+  display: inline-block;
+  width: 250px;
+  background: white;
+  color: #1D1F21;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 25px;
+  transition: all .2s ease-in-out;
+}
+a.gh-btn:hover {
+  background: #e6e6e6;
 }
 
-@media (max-width: 768px) {
-    .c-navlist {
-        top: 50px;
-    }
-
-    .nav-left,
-    .nav-left + .c-navlist {
-        left: 0;
-    }
-
-    .nav-left + .c-navlist,
-    .nav-left + .c-navlist + .c-navlist {
-        left: -240px;
-    }
-
-    .nav-right {
-        right: 0;
-    }
-
-    .nav-right + .c-navlist {
-        right: -240px;
-    }
-
-    .nav-center,
-    .nav-center + .c-navlist {
-        left: 50%;
-        -webkit-transform: translateX(-50%);
-        transform: translateX(-50%);
-    }
+.align-center {
+  text-align: center;
 }
+
+
+

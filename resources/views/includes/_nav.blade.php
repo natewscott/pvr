@@ -1,50 +1,62 @@
-<header>
-    <a href="{{ route('home')}} " class="logo o-link" id="brand">
-      <img src="img/misc/PVR - Lines.svg" alt="Paris Valley Ranch Logo" title="Paris Valley Ranch Logo">
-    </a>
-    <nav class="c-top-nav o-container t-slideH">
-        <a href="#" class="c-mobile-navlist-trigger nav-right o-link">&#9776;</a>
-        <ul class="c-navlist">
-            {{-- <li class="c-navlist__item">
-                <a href="{{ route('home')}} " class="c-navlist__link o-link">Home</a>
-            </li> --}}
-            <li class="c-navlist__item">
-                <a href="#" class="c-navlist__link o-link has-dd">Accommodations</a>
-                <ul class="c-dropdown">
-                    <li class="c-dropdown__item">
-                        <a href="{{ route('main house')}} " class="c-dropdown__link o-link">Main House</a>
-                    </li>
-                    <li class="c-dropdown__item">
-                        <a href="{{ route('bunk_house')}}" class="c-dropdown__link o-link">Bunk House</a>
-                    </li>
-                    <li class="c-dropdown__item">
-                        <a href="{{ route('party pad')}}" class="c-dropdown__link o-link">Party Pad</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="c-navlist__item">
-                <a href="#" class="c-navlist__link o-link has-dd">Ranch Activities</a>
-                <ul class="c-navlist__dropdown c-dropdown">
-                    <li class="c-dropdown__item">
-                        <a href="{{ route('hunting')}} " class="c-dropdown__link o-link">Hunting</a>
-                    </li>
-                    <li class="c-dropdown__item">
-                        <a href="{{ route('riding')}} " class="c-dropdown__link o-link">Riding</a>
-                    </li>
-                    <li class="c-dropdown__item">
-                        <a href="{{ route('shooting')}} " class="c-dropdown__link o-link">Shooting Range</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="c-navlist__item">
-                <a href="{{ route('about')}} " class="c-navlist__link o-link">About</a>
-            </li>
-            <li class="c-navlist__item">
-                <a href="{{ route('info')}} " class="c-navlist__link o-link">Ranch Info</a>
-            </li>
-            <li class="c-navlist__item">
-                <a href="{{ route('contact')}} " class="c-navlist__link o-link">Contact</a>
-            </li>
-        </ul>
-    </nav>
+<div id="left-flyout-nav" class="layout-left-flyout visible-sm"></div>
+<div class="layout-right-content">
+	<header class="the-header">
+		<div class="navbar container">
+			
+			<!-- Trigger -->
+			<a class="btn-navbar btn-navbar-navtoggle btn-flyout-trigger" href="#">
+				<span class="icon-bar btn-flyout-trigger"></span>
+				<span class="icon-bar btn-flyout-trigger"></span>
+				<span class="icon-bar btn-flyout-trigger"></span>
+			</a>
+			
+			<!-- Structure -->
+			<nav class="the-nav nav-collapse clearfix">
+				<ul class="nav nav-pill pull-left">
+					<li>
+						<a href=" {{ route('home')}} ">
+						<img src="img/misc/PVR - Lines.svg" alt="Paris Valley Ranch Logo" title="Paris Valley Ranch Logo">
+					</a>
+				</li>
+				
+			</ul>
+			<ul class="nav nav-pill pull-right" id="nav-right">
+				<li class="dropdown">
+						<a href="#">Accomodations
+							<b class="caret"></b>
+						</a>
+						<ul class="subnav">
+							<li>
+								<a href="{{ route('main house')}} ">Main House</a>
+							</li>
+							<li>
+								<a href="{{ route('bunk_house')}} ">Bunk House</a>
+							</li>
+							<li>
+								<a href="{{ route('party pad')}} ">Party Pad</a>
+							</li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#">Ranch Activities
+							<b class="caret"></b>
+						</a>
+						<ul class="subnav">
+							<li>
+								<a href="{{ route('hunting')}} ">Hunting</a>
+							</li>
+							<li>
+								<a href="{{ route('riding')}} ">Riding</a>
+							</li>
+							<li>
+								<a href="{{ route('shooting')}} ">Shooting Range</a>
+							</li>
+						</ul>
+					</li>
+				<li><a href="{{ route('about') }} ">About</a></li>
+				<li><a href="{{ route('info') }} ">Around the Ranch</a></li>
+				<li><a href="{{ route('contact') }} ">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
 </header>

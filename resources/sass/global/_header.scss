@@ -1,18 +1,9 @@
 header {
     @include full;
-}
-
-#brand {
-    position: absolute;
-    padding-left: 20px;
-    float: left;
-    max-width: 250px;
-    line-height: 70px;
-    text-transform: uppercase;
-    font-size: 1.4em;
+	
 }
 
 #brand a,
 #brand a:visited {
-    text-decoration: none;
+    color: rgba($link, 0) !important;
 }
