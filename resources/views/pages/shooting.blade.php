@@ -11,7 +11,10 @@
 				Shooting Range
 			</h1>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis perspiciatis, repellendus quo saepe tempore, nemo rem esse, accusantium pariatur obcaecati iure cum eveniet aut aliquid, quod laudantium dolor doloremque praesentium!
+				Need to brush up on your shooting skills? Paris Valley has a full target practice course to help you get dialed. This course is perfect for beginners.
+			</p>
+			<p>
+				Paris Valley Ranch also has a small sporting clays range for more advanced shooters looking to get some practice in. This range can also be used for shooting competitions.
 			</p>
 		</article>
 	</section>

@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateBookHuntingTable extends Migration
+class CreateHuntsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,12 @@ class CreateBookHuntingTable extends Migration
      */
     public function up()
     {
-        Schema::create('book_hunting', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('check-in');
-            $table->string('check-out');
-            $table->string('number-guests');
-            $table->string('hunting-package');
+        Schema::create('hunts', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->string('name');
+            $table->integer('guests');
+            $table->integer('price');
+            $table->text('description');
             $table->timestamps();
         });
     }
@@ -30,6 +30,6 @@ class CreateBookHuntingTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('book_hunting');
+        Schema::dropIfExists('hunts');
     }
 }

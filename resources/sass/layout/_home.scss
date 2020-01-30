@@ -32,7 +32,11 @@
 	  }
 	}
 	#video-cap {
-		height: 100vh;
+		height: auto;
+		@include breakpoint(medium) {
+			height: 100vh;
+		}
+		
 		display: flex;
 		flex-direction:column;
 		align-items:center;
@@ -47,9 +51,12 @@
 		color: white;
 	}
 	#home-about {
+		max-width: 85%;
 		text-align: center;
 	}
 	.img-grid{
+		width: 100%;
+		
 		h1 {
 		font-size: 2.25rem;
 		font-weight: 300;
@@ -61,14 +68,22 @@
 	ol {
 		margin-top: 0;
 		display: flex;
-		flex-direction:row;
+		flex-direction: column;
+		padding: 0;
+		@include breakpoint(medium) {
+			flex-direction:row;
+		}
 		justify-content: center;
 	}
 	figure.img-desc {
 	  position: relative;
 	  overflow: hidden;
 	  margin: 10px;
-	  width: 100%;
+	  width: 95%;
+	  @include breakpoint(medium) {
+	  	width: 100%;
+	  }
+	  // width: 100%;
 	  color: #000000;
 	  text-align: center;
 	  -webkit-perspective: 50em;

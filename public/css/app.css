@@ -1534,20 +1534,6 @@ footer .site-footer a {
   }
 }
 
-footer .site-footer article {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 10%;
-}
-
-@media (min-width: 47em) {
-  footer .site-footer article {
-    align-items: flex-start;
-    margin-bottom: 0;
-  }
-}
-
 footer .site-footer h2 {
   text-align: center;
   large-em: 1.6470588235rem;
@@ -1626,28 +1612,42 @@ footer {
   background-color: #5B5639;
 }
 
-form {
-  text-align: left;
-  margin-left: 5%;
-  padding-bottom: 10%;
-  max-width: 35%;
+footer .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-input,
-textarea {
+@media (min-width: 47em) {
+  footer .footer {
+    flex-direction: row;
+  }
+}
+
+footer article {
+  padding: 1.5%;
+  width: 45%;
+}
+
+footer #weather {
+  margin: 40px 0;
+}
+
+footer input,
+footer textarea {
   background-color: #5B5639;
 }
 
-input:focus,
-textarea:focus {
+footer input:focus,
+footer textarea:focus {
   background-color: white;
 }
 
-#foot-contact {
+footer #foot-contact {
   background-color: #B58B2D;
 }
 
-#foot-contact:hover {
+footer #foot-contact:hover {
   background-color: #112533;
 }
 
@@ -2486,11 +2486,17 @@ img {
 }
 
 #home #video-cap {
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+@media (min-width: 47em) {
+  #home #video-cap {
+    height: 100vh;
+  }
 }
 
 #home #home-title {
@@ -2503,7 +2509,12 @@ img {
 }
 
 #home #home-about {
+  max-width: 85%;
   text-align: center;
+}
+
+#home .img-grid {
+  width: 100%;
 }
 
 #home .img-grid h1 {
@@ -2517,19 +2528,32 @@ img {
 #home ol {
   margin-top: 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  padding: 0;
   justify-content: center;
+}
+
+@media (min-width: 47em) {
+  #home ol {
+    flex-direction: row;
+  }
 }
 
 #home figure.img-desc {
   position: relative;
   overflow: hidden;
   margin: 10px;
-  width: 100%;
+  width: 95%;
   color: #000000;
   text-align: center;
   -webkit-perspective: 50em;
   perspective: 50em;
+}
+
+@media (min-width: 47em) {
+  #home figure.img-desc {
+    width: 100%;
+  }
 }
 
 #home figure.img-desc * {
@@ -2645,6 +2669,16 @@ img {
   }
 }
 
+.hero h1 {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1.2rem;
+  bottom: -380px;
+  left: 5%;
+  color: #3c3825;
+}
+
 #home-hero {
   background-image: url(/img/hero/pvr-valley.jpg);
 }
@@ -2687,6 +2721,26 @@ img {
 
 #about-hero {
   background-image: url(/img/hero/about.jpg);
+}
+
+#bird-hunt-hero {
+  background-image: url(/img/hero/bird_hunt.jpg);
+}
+
+#spring-hunt-hero {
+  background-image: url(/img/hero/turkey_hunt.jpg);
+}
+
+#day-hunt-hero {
+  background-image: url(/img/hero/day_hunt.jpg);
+}
+
+#two-day-hero {
+  background-image: url(/img/hero/two_day.jpg);
+}
+
+#three-day-hero {
+  background-image: url(/img/hero/three_day.jpg);
 }
 
 .booking form {
@@ -2883,5 +2937,47 @@ img {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+#hunts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 47em) {
+  #hunts {
+    flex-direction: row;
+  }
+}
+
+#hunts .hunt-info {
+  margin-right: 10%;
+  width: 60%;
+}
+
+#hunts .reserve {
+  width: 40%;
+}
+
+#hunts ul li {
+  margin-left: 10%;
+  list-style-type: disc;
+}
+
+#hunts .button {
+  background-color: #B58B2D;
+  color: #3c3825;
+  font-weight: normal;
+  transition: all 0.2s;
+  margin: 4px 0;
+  padding: 7px 16px;
+  border-radius: 20px;
+}
+
+#hunts .button:hover {
+  background-color: #8c6c23;
+  color: #1c1b12;
+  border-radius: 0;
 }
 

@@ -36,5 +36,19 @@ Route::post('contact', 'ContactController@mail')->name('contact form');
 //Booking Pages
 Route::get('booking', 'PageContentController@booking')->name('booking');
 Route::get('hunting', 'PageContentController@hunting')->name('hunting');
+Route::get('bird_hunt', 'HuntingTripsController@bird')->name('bird hunt');
+Route::get('spring_hunt', 'HuntingTripsController@spring')->name('spring hunt');
+Route::get('day_hunt', 'HuntingTripsController@day_hunt')->name('day hunt');
+Route::get('two_day_hunt', 'HuntingTripsController@two_day')->name('two day');
+Route::get('three_day_hunt', 'HuntingTripsController@three_day')->name('three day');
 Route::get('book_hunting', 'BookHuntingController@show')->name('book hunting');
 Route::post('book_hunting', 'BookHuntingController@mail')->name('hunt send');
+
+
+Route::group(['prefix'=>'admin'], function(){
+	Route::get('/', 'BackEndController@index')->name('admin home');
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

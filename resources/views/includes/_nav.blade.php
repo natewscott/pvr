@@ -15,13 +15,13 @@
 				<ul class="nav nav-pill pull-left">
 					<li>
 						<a href=" {{ route('home')}} ">
-						<img src="img/misc/PVR - Lines.svg" alt="Paris Valley Ranch Logo" title="Paris Valley Ranch Logo">
-					</a>
-				</li>
-				
-			</ul>
-			<ul class="nav nav-pill pull-right" id="nav-right">
-				<li class="dropdown">
+							<img src="img/misc/PVR - Lines.svg" alt="Paris Valley Ranch Logo" title="Paris Valley Ranch Logo">
+						</a>
+					</li>
+					
+				</ul>
+				<ul class="nav nav-pill pull-right" id="nav-right">
+					<li class="dropdown">
 						<a href="#">Accomodations
 							<b class="caret"></b>
 						</a>
@@ -37,26 +37,11 @@
 							</li>
 						</ul>
 					</li>
-					<li class="dropdown">
-						<a href="#">Ranch Activities
-							<b class="caret"></b>
-						</a>
-						<ul class="subnav">
-							<li>
-								<a href="{{ route('hunting')}} ">Hunting</a>
-							</li>
-							<li>
-								<a href="{{ route('riding')}} ">Riding</a>
-							</li>
-							<li>
-								<a href="{{ route('shooting')}} ">Shooting Range</a>
-							</li>
-						</ul>
-					</li>
-				<li><a href="{{ route('about') }} ">About</a></li>
-				<li><a href="{{ route('info') }} ">Around the Ranch</a></li>
-				<li><a href="{{ route('contact') }} ">Contact</a></li>
-			</ul>
-		</nav>
-	</div>
-</header>
+					<li><a href="{{ route('hunting')}} ">Hunt Packages</a></li>
+					<li><a href="{{ route('about') }} ">About</a></li>
+					<li><a href="{{ route('info') }} ">Around the Ranch</a></li>
+					<li><a href="{{ route('contact') }} ">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>

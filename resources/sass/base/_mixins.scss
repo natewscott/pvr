@@ -5,6 +5,22 @@
     border-radius: $radius;
 }
 
+@mixin send-button {
+    background-color: $tertiary;
+    color: darken($primary, 10%);
+    font-weight: normal;
+    transition: all 0.2s;
+    margin: 4px 0;
+    padding: 7px 16px;
+    border-radius: 20px;
+
+    &:hover {
+        background-color: darken($tertiary, 10%);
+        color: darken($primary, 20%);
+        border-radius: 0;
+    }
+}
+
 @mixin full {
     clear: both;
     width: 100%;

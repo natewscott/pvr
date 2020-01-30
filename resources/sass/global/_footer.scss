@@ -58,17 +58,17 @@ footer {
         }
 
 
-        article {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-bottom: 10%;
+        // article {
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: center;
+        //     margin-bottom: 10%;
 
-            @include breakpoint(medium) {
-                align-items: flex-start;
-                margin-bottom: 0;
-            }
-        }
+        //     @include breakpoint(medium) {
+        //         align-items: flex-start;
+        //         margin-bottom: 0;
+        //     }
+        // }
 
         h2 {
             text-align: center;
@@ -112,13 +112,31 @@ footer {
 footer {
         margin-top: 0;
         background-color: $primary;
+        .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        @include breakpoint(medium) {
+            flex-direction:row;
+        }
     }
-    form {
-        text-align: left;
-        margin-left: 5%;
-        padding-bottom: 10%;
-        max-width: 35%;
+    article {
+        padding: 1.5%;
+        width: 45%;
     }
+    #weather {
+      margin: 40px 0;
+
+    }
+    // form {
+    //     text-align: left;
+    //     padding: 5%;
+    //     padding-bottom: 10%;
+    //     width: 95%;
+    //     @include breakpoint(medium) {
+    //         width: 50%;
+    //     }
+    // }
     input,
     textarea {
         background-color: $primary;
@@ -134,3 +152,5 @@ footer {
             background-color: $secondary;
         }
     }
+    }
+

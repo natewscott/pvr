@@ -2,12 +2,12 @@
 @section('content')
 <section class="hero" id="hunting-hero">
 	<article>
-		
+		<h1>Your Next Tag</h1><br>
+		<h1>is Waiting</h1>
 	</article>
 </section>
 <section class="content">
 	<article class="inner-content">
-		<h1>Hunting Packages</h1>
 		<p>
 			<em>
 			* All hunts require a non-refundabke deposit to book (this will go towards your payment).
@@ -29,7 +29,7 @@
 								<li>Dueling rack</li>
 								<li>Lunch included</li>
 							</ul>
-							<a href="{{ route('book hunting')}} ">Book Now</a>
+							{{-- <a href="{{ route('book hunting')}} ">Book Now</a> --}}
 						</div>
 					</div>
 				</li>
@@ -46,7 +46,7 @@
 								<li>2 hunter, 1 guide</li>
 								<li>Lunch included</li>
 							</ul>
-							<a href="#">Book Now</a>
+							<a href="{{ route('bird hunt')}} ">Learn more</a>
 						</div>
 					</div>
 				</li>
@@ -62,7 +62,7 @@
 								<li>2 hunters are required</li>
 								<li>Up to 2 Turkeys per hunter</li>
 							</ul>
-							<a href="#">Book Now</a>
+							<a href="{{ route('spring hunt')}} ">Learn More</a>
 						</div>
 					</div>
 				</li>
@@ -78,7 +78,7 @@
 								<li>Up to 2 hunters, 1 guide</li>
 								<li>Up to 2 Turkeys per hunter</li>
 							</ul>
-							<a href="#">Book Now</a>
+							<a href="{{ route('day hunt')}} ">Learn More</a>
 						</div>
 					</div>
 				</li>
@@ -90,13 +90,13 @@
 							<div class="card-price">$3700 per person</div>
 							<hr>
 							<ul class="card-text">
-								<li> 2 Day's hunting</li>
-								<li>Turley, Pig and birds</li>
+								<li>2 Day's hunting</li>
+								<li>Turkey, Pig and birds</li>
 								<li>Breakfast, lunch and dinner are included</li>
 								<li>Includes lodging</li>
 								<li>Additional fees may apply</li>
 							</ul>
-							<a href="#">Book Now</a>
+							<a href="{{ route('two day')}} ">Learn More</a>
 						</div>
 					</div>
 				</li>
@@ -116,7 +116,7 @@
 							<p class="card-text">
 								<em>* Must be booked 6 months in advance.</em>
 							</p>
-							<a href="#">Book Now</a>
+							<a href="{{ route('three day')}} ">Learn More</a>
 						</div>
 					</div>
 				</li>
