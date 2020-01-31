@@ -17,8 +17,8 @@
 							<input type="text" name="name" id="name" x-autocompletetype="given-name"/>
 						</div>
 						<div class="formitem col1of2">
-							<label class="label" for="last-name">Last Name</label>
-							<input type="text" name="last-name" id="last-name" x-autocompletetype=""/>
+							<label class="label" for="last_name">Last Name</label>
+							<input type="text" name="last_name" id="last_name" x-autocompletetype=""/>
 						</div>
 					</div>
 					<div class="formrow">

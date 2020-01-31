@@ -18,7 +18,7 @@ class ContactController extends Controller
     public function mail(Request $request) {
     	$this->validate($request, [
     		"name" => 'required',
-            "last-name" => 'required',
+            "last_name" => 'required',
             "email" => 'required|email',
             "subject" => 'required',
             "msg" => 'required|min:10',
@@ -26,7 +26,7 @@ class ContactController extends Controller
     	
     	Mail::send('emails.contact', [
     		'name' => $request->name,
-            'last-name' => $request->lastname,
+            'last_name' => $request->lastname,
             'email' => $request->email,
             'subject' => $request->subject,
             'msg' => $request->msg,

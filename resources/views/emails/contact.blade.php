@@ -67,7 +67,7 @@
 										{{ $subject }}
 									</h2>
 								<p>
-									{{ $name }} {{ $lastname }} has sent a message.
+									{{ $name }} {{ $last_name }} has sent a message.
 								</p>
 
 								<p>
