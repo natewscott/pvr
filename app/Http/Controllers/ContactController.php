@@ -15,7 +15,7 @@ class ContactController extends Controller
     	return view ('pages.contact');
     }
 
-    public function mail(Request $NewContact) {
+    public function mail(NewContactRequest $request) {
     	
         Mail::to('parisvalleyinfo@gmail.com')->send(new NewContact($request));
     	return redirect()->back()->with('success', 'Your email has been sent.');
