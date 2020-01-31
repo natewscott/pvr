@@ -33,7 +33,7 @@ class ContactController extends Controller
     	],
     	function($contact) use ($request) {
     		$contact->from($request->email, $request->name);
-    		$contact->to('nscott@rbcompany.com')
+    		$contact->to('parisvalleyinfo@gmail.com')
     				->subject('New Contact');
     	});
     	return redirect()->back()->with('success', 'Your email has benn sent.');

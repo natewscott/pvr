@@ -1,7 +1,8 @@
 <footer>
 	<section class="footer">
 		<article class="contact">
-			<form action="POST">
+			<form {{route('contact form')}} action="POST">
+				{{ csrf_field() }}
 				<fieldset>
 					<div class="formrow">
 						<div class="formitem col1of2">
