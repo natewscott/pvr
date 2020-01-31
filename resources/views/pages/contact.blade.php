@@ -29,8 +29,14 @@
 					</div>
 					<div class="formrow">
 						<div class="formitem">
-							<label class="label req" for="message">Message</label>
-							<textarea name="message" id="message" cols="40" rows="5" required="required"></textarea>
+							<label class="label" for="email">Reason for Inquiry</label>
+							<input type="subject" name="subject" id="subject" />
+						</div>
+					</div>
+					<div class="formrow">
+						<div class="formitem">
+							<label class="label req" for="msg">Message</label>
+							<textarea name="msg" id="msg" cols="40" rows="5" required="required"></textarea>
 						</div>
 					</div>
 					<div class="buttons">
