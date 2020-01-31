@@ -63,9 +63,9 @@
 						<tr>
 							<td class="email-section">
 								<div class="heading-section" style="text-align: center; padding: 0 30px;">
-									<h2 class="subheading">
+									{{-- <h2 class="subheading">
 										{{ $subject }}
-									</h2>
+									</h2> --}}
 								<p>
 									{{ $name }} {{ $last_name }} has sent a message.
 								</p>
