@@ -7,7 +7,7 @@
 </section>
 <section class="content">
 	<article class="inner-content">
-		<form {{ route('contact form')}} action="POST">
+		<form action="{{ route('contact form')}}" method="POST">
 				{{ csrf_field() }}
 				<fieldset>
 					<div class="formrow">
