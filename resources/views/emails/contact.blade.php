@@ -64,14 +64,14 @@
 							<td class="email-section">
 								<div class="heading-section" style="text-align: center; padding: 0 30px;">
 									<h2 class="subheading">
-										{{ $request->$subject }}
+										{{ $request-subject }}
 									</h2>
 								<p>
-									{{ $request->$name }} {{ $request->$last_name }} has sent a message.
+									{{ $request->name }} {{ $request->last_name }} has sent a message.
 								</p>
 
 								<p>
-									{{ $request->$msg }}
+									{{ $request->msg }}
 								</p>
 								</div>
 							</td>
@@ -83,7 +83,7 @@
 										Contact Information
 									</h2>
 								<p>
-									{{ $request->$name }} can be reached at: {{ $request->$email }}
+									{{ $request->name }} can be reached at: {{ $request->email }}
 								</p>
 							</div>
 							</td>
