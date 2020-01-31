@@ -7,6 +7,7 @@
 </section>
 <section class="content">
 	<article class="inner-content">
+		@include('includes/messages')
 		<form action="{{ route('contact form')}}" method="POST">
 				{{ csrf_field() }}
 				<fieldset>
