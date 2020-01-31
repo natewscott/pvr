@@ -30,7 +30,7 @@
 					<div class="formrow">
 						<div class="formitem">
 							<label class="label" for="email">Reason for Inquiry</label>
-							<input type="subject" name="subject" id="subject" />
+							<input type="text" name="subject" id="subject" />
 						</div>
 					</div>
 					<div class="formrow">

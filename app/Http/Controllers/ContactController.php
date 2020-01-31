@@ -31,11 +31,12 @@ class ContactController extends Controller
             'subject' => $request->subject,
             'msg' => $request->msg,
     	],
-    	function($contact) use ($request) {
-    		$contact->from($request->email, $request->name);
-    		$contact->to('parisvalleyinfo@gmail.com')
-    				->subject('New Contact');
-    	});
-    	return redirect()->back()->with('success', 'Your email has benn sent.');
+    	function($contactMessage) use ($request){
+                        $contactMessage->from($request->email, $request->name, $request->last_name);
+
+                $contactMessage->to('parisvalleyinfo@gmail.com')
+                                ->subject('New Inquiry From Contact Page');
+        });
+    	return redirect()->back()->with('success', 'Your email has been sent.');
     }
 }
