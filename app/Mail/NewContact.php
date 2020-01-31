@@ -18,7 +18,7 @@ class NewContact extends Mailable
      *
      * @return void
      */
-    public function __construct(Request $request)
+    public function __construct($request)
     {
         $this->request = $request;
     }
