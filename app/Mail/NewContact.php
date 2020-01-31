@@ -18,7 +18,7 @@ class NewContact extends Mailable
      *
      * @return void
      */
-    public function __construct(Request $request)
+    public function __construct($request)
     {
         $this->request = $request;
     }
@@ -30,6 +30,8 @@ class NewContact extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.contact');
+        return $this->from($this->request->name)
+                    ->view('emails.contact')
+                    ->subject($this->request->subject);
     }
 }
