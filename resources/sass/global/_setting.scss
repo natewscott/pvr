@@ -82,3 +82,9 @@ a {
 #contact {
     @include send-button;
 }
+
+#about {
+    .cards {
+        justify-content:center;
+    }
+}

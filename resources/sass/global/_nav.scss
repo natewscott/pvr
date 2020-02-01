@@ -235,7 +235,7 @@ body {
   }
 
   .the-nav > .nav {
-    margin: 0;
+    // margin: 0;
     line-height: normal;
   }
 
@@ -354,6 +354,7 @@ ul li {
 }
 
 .pull-right {
+  margin: 3% 0;
   float: right;
 }
 

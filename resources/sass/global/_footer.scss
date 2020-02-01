@@ -58,17 +58,6 @@ footer {
         }
 
 
-        // article {
-        //     display: flex;
-        //     flex-direction: column;
-        //     align-items: center;
-        //     margin-bottom: 10%;
-
-        //     @include breakpoint(medium) {
-        //         align-items: flex-start;
-        //         margin-bottom: 0;
-        //     }
-        // }
 
         h2 {
             text-align: center;
@@ -128,15 +117,17 @@ footer {
       margin: 40px 0;
 
     }
-    // form {
-    //     text-align: left;
-    //     padding: 5%;
-    //     padding-bottom: 10%;
-    //     width: 95%;
-    //     @include breakpoint(medium) {
-    //         width: 50%;
-    //     }
-    // }
+    .footer-logo {
+        display: flex;
+        align-items:center;
+        img {
+            width: 20%;
+        }
+        h2 {
+            margin-bottom: 0;
+        }
+    }
+
     input,
     textarea {
         background-color: $primary;

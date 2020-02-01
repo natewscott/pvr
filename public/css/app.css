@@ -682,6 +682,10 @@ a {
   border-radius: 0;
 }
 
+#about .cards {
+  justify-content: center;
+}
+
 header {
   clear: both;
   width: 100%;
@@ -1316,7 +1320,6 @@ body {
   }
 
   .the-nav > .nav {
-    margin: 0;
     line-height: normal;
   }
 
@@ -1428,6 +1431,7 @@ ul li {
 }
 
 .pull-right {
+  margin: 3% 0;
   float: right;
 }
 
@@ -1647,6 +1651,19 @@ footer article {
 
 footer #weather {
   margin: 40px 0;
+}
+
+footer .footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+footer .footer-logo img {
+  width: 20%;
+}
+
+footer .footer-logo h2 {
+  margin-bottom: 0;
 }
 
 footer input,
@@ -2399,6 +2416,18 @@ img {
 
 .card-image-three-day-hunt {
   background-image: url(/img/cards/hunting/3-day-hunting.jpg);
+}
+
+.card-image-reed {
+  background-position: center;
+  background-size: contain;
+  background-image: url(/img/cards/about/reed-mack.jpg);
+}
+
+.card-image-spencer {
+  background-position: center;
+  background-size: contain;
+  background-image: url(/img/cards/about/spencer-keiser.jpg);
 }
 
 .list {

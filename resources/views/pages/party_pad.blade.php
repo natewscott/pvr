@@ -8,12 +8,48 @@
 <section class="content">
 	<article class="inner-content">
 		<h1>
-			The Party Pad
+		The Party Pad
 		</h1>
 		<hr>
 		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id magni, amet nostrum consectetur cumque quod. Reiciendis ab impedit, ducimus ut consectetur explicabo. Consequuntur pariatur inventore, nemo animi doloremque amet minus!
+			The party pad is the perfect spot to if you want to be completely removed from the outside world. This little cabin is nestled far back in the ranch high a top a hill. The pad give you an amazing 360 degree views of the of the Sierra Nevadas, Central Valley and out to the coast. 
 		</p>
+	</article>
+	<article class="inner-content">
+		<hr>
+		<div class="list">
+			<div class="list-title">
+				<strong>
+				Amenities
+				</strong>
+			</div>
+			<div class="list-content">
+				<div class="list-item">
+					<i class="icon-fan"></i>
+					<span>Heating & Air-Conditioning</span>
+				</div>
+			</div>
+		</div>
+		<hr>
+	</article>
+	<article class="inner-content">
+		<div class="list">
+			<div class="list-title">
+				<strong>
+				General Pricing
+				</strong>
+			</div>
+			<div class="list-content">
+				<div class="list-item">
+					Price Per Night:
+					<strong>$1,000</strong>
+				</div>
+			</div>
+		</div>
+		<div class="buttons">
+			<a href="{{ route('booking')}} " class="book button">Book Now</a>
+		</div>
+		<hr>
 	</article>
 </section>
 <section id="masonry">
@@ -21,7 +57,7 @@
 	<img src="img/accommodations/party/pp-view.jpg" />
 	<img src="img/accommodations/party/pp-beds.jpg" />
 	<img src="img/accommodations/party/pp-beds-2.jpg" />
-	<img src="img/accommodations/party/pp-living-room.jpg" />	
+	<img src="img/accommodations/party/pp-living-room.jpg" />
 </section>
 <div class="lightbox">
 	<div class="title"></div>

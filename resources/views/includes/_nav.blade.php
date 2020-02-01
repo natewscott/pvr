@@ -22,7 +22,7 @@
 				</ul>
 				<ul class="nav nav-pill pull-right" id="nav-right">
 					<li class="dropdown">
-						<a href="#">Accomodations
+						<a href="#">Lodging
 							<b class="caret"></b>
 						</a>
 						<ul class="subnav">

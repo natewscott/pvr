@@ -8,12 +8,52 @@
 <section class="content">
 	<article class="inner-content">
 		<h1>
-			The Bunk House
+		The Bunk House
 		</h1>
 		<hr>
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id magni, amet nostrum consectetur cumque quod. Reiciendis ab impedit, ducimus ut consectetur explicabo. Consequuntur pariatur inventore, nemo animi doloremque amet minus!
 		</p>
+	</article>
+	<article class="inner-content">
+		<hr>
+		<div class="list">
+			<div class="list-title">
+				<strong>
+				Amenities
+				</strong>
+			</div>
+			<div class="list-content">
+				<div class="list-item">
+					<i class="icon-tv"></i>
+					<span>T.V.</span>
+				</div>
+				<div class="list-item">
+					<i class="icon-fan"></i>
+					<span>Heating & Air-Conditioning</span>
+				</div>
+			</div>
+		</div>
+		<hr>
+	</article>
+	<article class="inner-content">
+		<div class="list">
+			<div class="list-title">
+				<strong>
+				General Pricing
+				</strong>
+			</div>
+			<div class="list-content">
+				<div class="list-item">
+					Price Per Night:
+					<strong>$500</strong>
+				</div>
+			</div>
+		</div>
+		<div class="buttons">
+			<a href="{{ route('booking')}} " class="book button">Book Now</a>
+		</div>
+		<hr>
 	</article>
 </section>
 <section id="masonry">
