@@ -79,7 +79,7 @@
 				</div>
 			</article>
 			<aside class="reserve-booking">
-				<form action="">
+				<form action="{{ route('main house form') }}" method="POST">
 					<fieldset>
 						{{ csrf_field() }}
 						<div class="formrow">
