@@ -691,6 +691,7 @@ header {
   float: left;
   margin-left: 0;
   margin-right: 0;
+  z-index: 1;
 }
 
 #brand a,

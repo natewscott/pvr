@@ -26,7 +26,7 @@ class MainHouseRequest extends FormRequest
         return [
             "name" => 'required',
             "email" => 'required|email',
-            'checkin' => 'requiered|date_format:d/m/y',
+            'checkin' => 'required|date_format:d/m/y',
             'checkout' => 'required|date_format:d/m/y|after:checkin',
             'guests' => 'required|min:1|max:6',
         ];
