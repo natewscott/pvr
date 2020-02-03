@@ -1,16 +1,16 @@
-#hunts {
+#reservation {
 	display: flex;
 	flex-direction:column;
 	justify-content: space-between;
 	@include breakpoint(medium) {
 		flex-direction:row;
 	}
-	.hunt-info {
+	.reserve-info {
 		margin-right: 10%;
-		width:60%;
+		width:65%;
 	}
-	.reserve {
-		width: 40%;
+	.reserve-booking {
+		width: 35%;
 	}
 	ul {
 		li {

@@ -37,9 +37,6 @@
 		<article id="weather">
 			<div class="footer-logo">
 				<img src="img/misc/PVR - Lines - White.svg" alt="Paris Valley Ranch Logo" title="Paris Valley Ranch Logo">
-				<h2>
-				<em>5 day forecast</em>
-				</h2>
 			</div>
 			<a class="weatherwidget-io" href="https://forecast7.com/en/36d13n121d02/san-lucas/" data-label_1="SAN LUCAS" data-label_2="WEATHER" data-theme="desert" >SAN LUCAS WEATHER</a>
 			<script>

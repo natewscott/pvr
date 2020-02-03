@@ -410,7 +410,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
 
@@ -537,7 +537,7 @@ h4 {
 }
 
 p {
-  font-weight: 300;
+  font-weight: normal;
   margin-bottom: 24px;
 }
 
@@ -565,8 +565,7 @@ html {
   margin-left: 0;
   margin-right: 0;
   padding: 0;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
 }
 
 body *,
@@ -2463,12 +2462,6 @@ img {
   margin-bottom: 16px;
 }
 
-@media (min-width: 47em) {
-  .list .list-item {
-    flex: 0 0 50%;
-  }
-}
-
 .list .list-item > i {
   width: 25px;
   height: 25px;
@@ -2701,6 +2694,7 @@ img {
   margin-left: 0;
   margin-right: 0;
   background-color: #111820;
+  position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -2715,13 +2709,18 @@ img {
 }
 
 .hero h1 {
-  position: relative;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  line-height: 1.2rem;
-  bottom: -380px;
+  position: absolute;
+  bottom: 0;
   left: 5%;
-  color: #3c3825;
+  color: #5B5639;
+  font-family: "Permanent Marker", cursive;
+  text-align: left;
+}
+
+@media (min-width: 47em) {
+  .hero h1 {
+    text-align: center;
+  }
 }
 
 #home-hero {
@@ -2988,33 +2987,33 @@ img {
   left: 0;
 }
 
-#hunts {
+#reservation {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 @media (min-width: 47em) {
-  #hunts {
+  #reservation {
     flex-direction: row;
   }
 }
 
-#hunts .hunt-info {
+#reservation .reserve-info {
   margin-right: 10%;
-  width: 60%;
+  width: 65%;
 }
 
-#hunts .reserve {
-  width: 40%;
+#reservation .reserve-booking {
+  width: 35%;
 }
 
-#hunts ul li {
+#reservation ul li {
   margin-left: 10%;
   list-style-type: disc;
 }
 
-#hunts .button {
+#reservation .button {
   background-color: #B58B2D;
   color: #3c3825;
   font-weight: normal;
@@ -3024,7 +3023,7 @@ img {
   border-radius: 20px;
 }
 
-#hunts .button:hover {
+#reservation .button:hover {
   background-color: #8c6c23;
   color: #1c1b12;
   border-radius: 0;

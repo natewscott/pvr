@@ -7,8 +7,8 @@
 </section>
 <section class="content">
 	<article class="inner-content" id="hunting-content">
-		<div id="hunts">
-			<article class="hunt-info">
+		<div id="reservation">
+			<article class="reserve-info">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ut perspiciatis, aspernatur odio. Adipisci officia vel, ipsum modi iure corporis distinctio ducimus, aliquid nemo! Assumenda quisquam repellendus explicabo perferendis provident!</p>
 				<hr>
 				<h3>Hunt Rules</h3>
@@ -37,7 +37,7 @@
 					<li>Do not cosume alcohol or drugs before or while shooting.</li>
 				</ul>
 			</article>
-			<aside class="reserve">
+			<aside class="reserve-booking">
 				<form action="">
 					<fieldset>
 						{{ csrf_field() }}
@@ -67,7 +67,7 @@
 						</fieldset>
 					</form>
 				</aside>
-		</div>
+			</div>
 		</article>
 	</section>
 	@endsection

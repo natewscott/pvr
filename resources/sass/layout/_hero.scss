@@ -2,8 +2,7 @@
     @include full;
 
     background-color: $black;
-
-    // position: relative;
+    position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -14,15 +13,18 @@
         height: 500px;
     }
 
-    h1,
-    {
-        position: relative;
-        margin-bottom: 0;
-        padding-bottom: 0;
-        line-height: 1.2rem;
-        bottom: -380px;
+
+    h1 {
+        position: absolute;
+        bottom: 0;
         left: 5%;
-        color: darken($primary, 10%);
+        color: $primary;
+        font-family: $serif;
+        text-align: left;
+
+        @include breakpoint(medium) {
+            text-align: center;
+        }
     }
 }
 

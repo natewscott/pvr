@@ -14,7 +14,7 @@
         <link rel="mask-icon" href="{{asset('favico/safari-pinned-tab.svg')}}" color="#5bbad5">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Roboto+Slab:300,400,700">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/867d0cdcef.js"></script>
         <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
     </head>

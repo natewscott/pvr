@@ -29,11 +29,6 @@
 .list .list-item {
     flex: 0 0 100%;
 
-    @include breakpoint(medium) {
-        flex: 0 0 50%;
-    }
-
-
     margin-bottom: 16px;
 }
 
