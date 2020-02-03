@@ -20,9 +20,6 @@ Route::get('/', 'PageContentController@home')->name('home');
 Route::get('about', 'PageContentController@about')->name('about');
 Route::get('riding', 'PageContentController@riding')->name('riding');
 Route::get('info', 'PageContentController@info')->name('info');
-Route::get('main_house', 'PageContentController@main_house')->name('main house');
-Route::get('party_pad', 'PageContentController@party_pad')->name('party pad');
-Route::get('bunk_house', 'PageContentController@bunk_house')->name('bunk_house');
 Route::get('activities', 'PageContentController@activities')->name('activities');
 Route::get('shooting', 'PageContentController@shooting')->name('shooting');
 Route::get('accommodations', 'PageContentController@accommodations')->name('accommodations');
@@ -32,6 +29,11 @@ Route::get('riding', 'PageContentController@riding')->name('riding');
 
 Route::get('contact', 'ContactController@show')->name('contact');
 Route::post('contact', 'ContactController@mail')->name('contact form');
+
+//Lodging Page
+Route::get('main_house', 'LodgingController@showMainHouse')->name('main house');
+Route::get('party_pad', 'PageContentController@party_pad')->name('party pad');
+Route::get('bunk_house', 'PageContentController@bunk_house')->name('bunk_house');
 
 //Booking Pages
 Route::get('booking', 'PageContentController@booking')->name('booking');

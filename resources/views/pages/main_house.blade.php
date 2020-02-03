@@ -83,6 +83,18 @@
 					<fieldset>
 						{{ csrf_field() }}
 						<div class="formrow">
+							<div class="formitem">
+								<label class="label req" for="name">Name</label>
+								<input type="text" name="name" id="name" required="required" />
+							</div>
+						</div>
+						<div class="formrow">
+							<div class="formitem">
+								<label class="label req" for="email">Email</label>
+								<input type="email" name="email" id="email" required="required"/>
+							</div>
+						</div>
+						<div class="formrow">
 							<div class="formitem col1of2">
 								<label class="label req" for="checkin">Check-in</label>
 								<input type="date" name="checkin" id="checkin" required="required" />
@@ -93,7 +105,7 @@
 							</div>
 						</div>
 						<div class="formrow">
-							<div class="formitem col1of2">
+							<div class="formitem">
 								<label class="label req" for="guests">Number of Guests</label>
 								<input type="number" name="guests" id="guests" required="required" />
 							</div>
