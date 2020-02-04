@@ -25,7 +25,8 @@ class MainCabinRequest extends FormRequest
     {
         return [
             "name" => 'required',
-            "email" => 'required',
+            "email" => 'required|email',
+            "checkin" => 'required|date',
         ];
     }
 }
