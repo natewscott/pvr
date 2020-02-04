@@ -18,7 +18,7 @@ class BunkHouseBooking extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($request)
     {
         $this->request = $request;
     }
