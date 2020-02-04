@@ -18,6 +18,6 @@ class LodgingController extends Controller
 
     	Mail::to('parisvalleyinfo@gmail.com')->send(new MainCabinBooked($request));
 
-    	return redirect()->back->with('sucess', 'Thank you for your interest in the Cabin, some one will be in touch with you shortly');
+    	return redirect()->back()->with('sucess', 'Thank you for your interest in the Cabin, some one will be in touch with you shortly');
     }
 }
