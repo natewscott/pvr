@@ -26,7 +26,8 @@ class MainCabinRequest extends FormRequest
         return [
             "name" => 'required',
             "email" => 'required|email',
-            "checkin" => 'required|date_format:d-m-Y',
+            "checkin" => 'required|date',
+            "checkout" => 'required|date|after:checkin',
         ];
     }
 }

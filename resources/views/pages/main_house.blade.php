@@ -96,14 +96,14 @@
 							</div>
 						</div>
 						<div class="formrow">
-							<div class="formitem col1of2">
+							<div class="formitem ">
 								<label class="label req" for="checkin">Check-in</label>
 								<input type="date" name="checkin" id="checkin" required="required" />
 							</div>
-							{{-- <div class="formitem col1of2">
+							<div class="formitem ">
 								<label class="label req" for="checkout">Check-out</label>
 								<input type="date" name="checkout" id="checkout" required="required"/>
-							</div> --}}
+							</div>
 						</div>
 					{{-- 	<div class="formrow">
 							<div class="formitem">
