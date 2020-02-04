@@ -105,12 +105,12 @@
 								<input type="date" name="checkout" id="checkout" required="required"/>
 							</div>
 						</div>
-					{{-- 	<div class="formrow">
+						<div class="formrow">
 							<div class="formitem">
 								<label class="label req" for="guests">Number of Guests</label>
 								<input type="number" name="guests" id="guests" required="required" />
 							</div>
-						</div> --}}
+						</div>
 						<div class="buttons">
 							
 							<div class="buttons">
