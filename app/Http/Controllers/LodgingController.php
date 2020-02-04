@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Requests\MainHouseRequest;
-use Maill;
+use Mail;
 use App\Mail\MainHouseBooking;
 use Sessions;
 
