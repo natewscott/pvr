@@ -28,7 +28,7 @@ class MainCabinRequest extends FormRequest
             "email" => 'required|email',
             "checkin" => 'required|date',
             "checkout" => 'required|date|after:checkin',
-            "guest" => 'required|min:1',
+            "guests" => 'required|min:1',
         ];
     }
 }
