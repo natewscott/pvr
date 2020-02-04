@@ -11,14 +11,16 @@ class PartyPadBooking extends Mailable
 {
     use Queueable, SerializesModels;
 
+    public $request;
+
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($request)
     {
-        //
+        $this->request = $request;
     }
 
     /**
@@ -28,6 +30,7 @@ class PartyPadBooking extends Mailable
      */
     public function build()
     {
-        return $this->view('view.name');
+        return $this->view('emails.party_pad')
+                    ->subject('Some one is interested in booking the Party Pad');
     }
 }

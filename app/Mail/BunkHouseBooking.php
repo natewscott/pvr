@@ -31,6 +31,6 @@ class BunkHouseBooking extends Mailable
     public function build()
     {
         return $this->view('emails.bunk_house')
-                    ->subject('Some one is interested in booking the main cabin');
+                    ->subject('Some one is interested in booking the Bunk House');
     }
 }

@@ -13,7 +13,7 @@ class PartyPadRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,11 @@ class PartyPadRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            "name" => 'required',
+            "email" => 'required|email',
+            "checkin" => 'required|date',
+            "checkout" => 'required|date|after:checkin',
+            "guests" => 'required|min:1',
         ];
     }
 }
