@@ -80,8 +80,8 @@
 			</article>
 			<aside class="reserve-booking">
 				<form action="{{ route('main house form') }}" method="POST">
+					{{ csrf_field() }}
 					<fieldset>
-						{{ csrf_field() }}
 						<div class="formrow">
 							<div class="formitem">
 								<label class="label req" for="name">Name</label>
