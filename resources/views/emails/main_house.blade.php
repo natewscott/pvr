@@ -67,7 +67,7 @@
 										{{ $request->name }} would like to book Main Cabin.
 									</h2>
 								<p>
-									{{ $request->name }} has requested the Main Cabin from {{ $request->checkin }} to {{ $request->checkout }}. There will be {{ $request->guests}} staying.
+									{{ $request->name }} has requested the Main Cabin from {{ $request->checkin }} to {{ $request->checkout }}. There will be {{ $request->guests}} guests staying.
 								</p>
 								</div>
 							</td>

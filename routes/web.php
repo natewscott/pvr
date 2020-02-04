@@ -33,8 +33,10 @@ Route::post('contact', 'ContactController@mail')->name('contact form');
 //Lodging Page
 Route::get('main_house', 'LodgingController@show')->name('main house');
 Route::post('main_house', 'LodgingController@mail')->name('main house form');
-Route::get('party_pad', 'PageContentController@party_pad')->name('party pad');
-Route::get('bunk_house', 'PageContentController@bunk_house')->name('bunk_house');
+Route::get('party_pad', 'PartyPadController@show')->name('party pad');
+Route::post('party_pad', 'PartyPadController@mail')->name('party pad send');
+Route::get('bunk_house', 'BunkHouseController@show')->name('bunk_house');
+Route::post('bunk_house', 'BunkHouseController@mail')->name('bunk house send');
 
 //Booking Pages
 Route::get('booking', 'PageContentController@booking')->name('booking');
