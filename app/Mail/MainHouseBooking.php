@@ -30,7 +30,7 @@ class MainHouseBooking extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.main_house');
+        return $this->view('emails.main_house')
                     ->subject('Some one is inquiring about booking the Main Cabin');
 
     }
