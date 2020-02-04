@@ -7,6 +7,7 @@
     @include('includes/_nav')
     <main class="page-wrap" id="home">
         <section class="main-content">
+            @include('includes/messages')
             @yield('content')
             
         </section>

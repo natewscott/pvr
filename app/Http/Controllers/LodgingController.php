@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Requests\MainHouseRequest;
+use App\Http\Requests\MainCabinRequest;
 use Mail;
-use App\Mail\MainHouseBooking;
+use App\Mail\MainCabinBooked;
 use Sessions;
 
 class LodgingController extends Controller
@@ -14,11 +14,10 @@ class LodgingController extends Controller
     	return view('pages.main_house');
     }
 
-    public function mail(MainHouseRequest $request) {
-    	Mail::to('parisvalleyinfo@gmail.com')->send(new MainHouseBooking($request));
+    public function mail(MainCabinRequest $request) {
 
-    	return redirect()->back->with('sucess', 'Your booking request has been sent. Some one will contact you shortly.');
+    	Mail::to('parisvalleyinfo@gmail.com')->send(new MainCabinBooked($request));
+
+    	return redirect()->back->with('sucess', 'Thank you for your interest in the Cabin, some one will be in touch with you shortly');
     }
-
-
 }

@@ -7,7 +7,7 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class MainHouseBooking extends Mailable
+class MainCabinBooked extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -30,9 +30,7 @@ class MainHouseBooking extends Mailable
      */
     public function build()
     {
-        return $this->from('parisvalleyinfo@gmail.com')
-                    ->view('emails.main_house')
-                    ->subject('Some one is inquiring about booking the Main Cabin');
-
+        return $this->view('emails.main_house')
+                    ->subject('Some one is interested in booking the main cabin');
     }
 }

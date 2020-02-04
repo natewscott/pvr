@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class MainHouseRequest extends FormRequest
+class MainCabinRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -25,10 +25,7 @@ class MainHouseRequest extends FormRequest
     {
         return [
             "name" => 'required',
-            "email" => 'required|email',
-            'checkin' => 'required|date_format:d/m/y',
-            'checkout' => 'required|date_format:d/m/y|after:checkin',
-            'guests' => 'required|min:1|max:6',
+            "email" => 'required',
         ];
     }
 }
