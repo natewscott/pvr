@@ -7,10 +7,10 @@
 </section>
 <section class="content">
 	<article class="inner-content" id="hunting-content">
-		<div id="hunts">
-			<article class="hunt-info">
+		<div id="reservation">
+			<article class="reserve-info">
 				{{-- <h2>Paris Valley Bird Hunt</h2> --}}
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ut perspiciatis, aspernatur odio. Adipisci officia vel, ipsum modi iure corporis distinctio ducimus, aliquid nemo! Assumenda quisquam repellendus explicabo perferendis provident!</p>
+				<p>Each hunt will have a Paris Valley Ranch guide with it for the duration of the trip. Our guides are experienced in navigating the terrain of the ranch and know the best spots to locate animals. The guides will educate the hunters on the rules of the ranch and give you tips ensuring that you have the best possible hunting experience.</p>
 				<hr>
 				<h3>Hunt Rules</h3>
 				<ul>
@@ -38,7 +38,7 @@
 					<li>Do not cosume alcohol or drugs before or while shooting.</li>
 				</ul>
 			</article>
-			<aside class="reserve">
+			<aside class="reserve-booking">
 				<form action="">
 					<fieldset>
 						{{ csrf_field() }}

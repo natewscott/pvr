@@ -9,14 +9,21 @@
 	<article class="inner-content" id="hunting-content">
 		<div id="reservation">
 			<article class="reserve-info">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ut perspiciatis, aspernatur odio. Adipisci officia vel, ipsum modi iure corporis distinctio ducimus, aliquid nemo! Assumenda quisquam repellendus explicabo perferendis provident!</p>
+				<h2>The Hunt</h2>
+				<p>
+					The Paris Valley Turkey Hunt is a one day hunt that happens only in the Spring time. Taking down one of these large goblers can be one of the most challenging and rewarding hunting experiences. Each hunter is allowed to take up to 2 Turkeys.
+				</p>
+				<p>
+					<em style="font-size: 14px;">* Meals are included in this hunt</em>
+				</p>
 				<hr>
-				<h3>Hunt Rules</h3>
-				<ul>
-					<li>Day Hunt</li>
-					<li>2 hunters are required</li>
-					<li>Up to 2 Turkeys per hunter</li>
-				</ul>
+				<h3>What to Expect</h3>
+				<p>
+					Each hunt will have a Paris Valley Ranch guide with it for the duration of the trip. Our guides are experienced in navigating the terrain of the ranch and know the best spots to locate animals. The guides will educate the hunters on the rules of the ranch and give you tips ensuring that you have the best possible hunting experience.
+				</p>
+				<p>
+					Hunters are expected to come prepared for varying terrain as well any possible weather condition that can happen. Hunters are also expected to have a valid California hunting license.
+				</p>
 				<hr>
 				<h3>Safety Rules</h3>
 				<p>
@@ -42,17 +49,29 @@
 					<fieldset>
 						{{ csrf_field() }}
 						<div class="formrow">
-							<div class="formitem col1of2">
+							<div class="formitem">
+								<label for="name" class="label req">Name</label>
+								<input type="text" name="name" id="name" required="required">
+							</div>
+						</div>
+						<div class="formrow">
+							<div class="formitem">
+								<label for="email" class="label req">Email</label>
+								<input type="text" name="email" id="name" required="required">
+							</div>
+						</div>
+						<div class="formrow">
+							<div class="formitem ">
 								<label class="label req" for="checkin">Check-in</label>
 								<input type="date" name="checkin" id="checkin" required="required" />
 							</div>
-							<div class="formitem col1of2">
+							<div class="formitem ">
 								<label class="label req" for="checkout">Check-out</label>
 								<input type="date" name="checkout" id="checkout" required="required"/>
 							</div>
 						</div>
 						<div class="formrow">
-							<div class="formitem col1of2">
+							<div class="formitem">
 								<label class="label req" for="guests">Number of Hunters</label>
 								<input type="number" name="guests" id="guests" required="required" />
 							</div>

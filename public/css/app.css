@@ -2776,6 +2776,10 @@ img {
   background-image: url(/img/hero/bird_hunt.jpg);
 }
 
+#bird-hunt-hero h1 {
+  color: white;
+}
+
 #spring-hunt-hero {
   background-image: url(/img/hero/turkey_hunt.jpg);
 }

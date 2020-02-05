@@ -2,8 +2,8 @@
 @section('content')
 <section class="hero" id="hunting-hero">
 	<article>
-		<h1>Your Next Tag</h1><br>
-		<h1>is Waiting</h1>
+		<h1>Bag Your Next Tag</h1>
+		{{-- <h1>is Waiting</h1> --}}
 	</article>
 </section>
 <section class="content">
