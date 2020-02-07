@@ -9,18 +9,23 @@
 	<article class="inner-content" id="hunting-content">
 		<div id="reservation">
 			<article class="reserve-info">
-				{{-- <h2>Paris Valley Bird Hunt</h2> --}}
-				<p>Each hunt will have a Paris Valley Ranch guide with it for the duration of the trip. Our guides are experienced in navigating the terrain of the ranch and know the best spots to locate animals. The guides will educate the hunters on the rules of the ranch and give you tips ensuring that you have the best possible hunting experience.</p>
+				<h2>The Hunt</h2>
+				<p>
+					The Paris Valley Three Day Hunt is your chance to bag yourself a California Black Tail Deer. The rolling hills, oak tree and manzanita provide the perfect ground for you to stalk and catch your deer. These deer hunts are limited and must be booked 6 months in advance.
+				</p>
+				<p>
+					<em style="font-size: 14px;">* Meals and lodging are included in this hunt</em>
+				</p>
 				<hr>
-				<h3>Hunt Rules</h3>
-				<ul>
-					<li>Up to 3 day's of hunting</li>
-					<li>One deer</li>
-					<li>Breakfast, lunch and dinner are included</li>
-					<li>Includes lodging</li>
-				</ul>
+				<h2>What to Expect</h2>
+				<p>
+					Each hunt will have a Paris Valley Ranch guide with it for the duration of the trip. Our guides are experienced in navigating the terrain of the ranch and know the best spots to locate animals. The guides will educate the hunters on the rules of the ranch and give you tips ensuring that you have the best possible hunting experience
+				</p>
+				<p>
+					Hunters are expected to come prepared for varying terrain as well any possible weather condition that can happen. Hunters are also expected to have a valid California hunting license.
+				</p>
 				<hr>
-				<h3>Safety Rules</h3>
+				<h2>Safety Rules</h2>
 				<p>
 					All who are participating in the hunt must sign and return the hunter safefty rules before they can partake in the hunt. You can download the form here: <a href="img/pdf/pvr_gun_safety_rules.pdf" download>Hunter Safety Rules</a>
 				</p>
@@ -43,6 +48,18 @@
 				<form action="">
 					<fieldset>
 						{{ csrf_field() }}
+						<div class="formrow">
+							<div class="formitem">
+								<label for="name" class="label req">Name</label>
+								<input type="text" name="name" id="name" required="required">
+							</div>
+						</div>
+						<div class="formrow">
+							<div class="formitem">
+								<label for="email" class="label req">Email</label>
+								<input type="email" name="email" id="email">
+							</div>
+						</div>
 						<div class="formrow">
 							<div class="formitem col1of2">
 								<label class="label req" for="checkin">Check-in</label>

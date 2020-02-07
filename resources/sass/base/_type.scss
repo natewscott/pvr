@@ -104,7 +104,7 @@ h4 {
 
 p {
     font-weight: normal;
-
+    @include responsive-typography(16px, 18px);
     // font-weight: $sans-regular;
     margin-bottom: $base-spacing-unit;
 }

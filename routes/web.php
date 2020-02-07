@@ -41,11 +41,16 @@ Route::post('bunk_house', 'BunkHouseController@mail')->name('bunk house send');
 //Booking Pages
 Route::get('booking', 'PageContentController@booking')->name('booking');
 Route::get('hunting', 'PageContentController@hunting')->name('hunting');
-Route::get('bird_hunt', 'HuntingTripsController@bird')->name('bird hunt');
+Route::get('bird_hunt', 'BirdHuntController@show')->name('bird hunt');
+Route::post('bird_hunt', 'BirdHuntController@mial')->name('bird hunt send');
 Route::get('spring_hunt', 'HuntingTripsController@spring')->name('spring hunt');
+// Route::post()->name();
 Route::get('day_hunt', 'HuntingTripsController@day_hunt')->name('day hunt');
+// Route::post()->name();
 Route::get('two_day_hunt', 'HuntingTripsController@two_day')->name('two day');
+// Route::post()->name();
 Route::get('three_day_hunt', 'HuntingTripsController@three_day')->name('three day');
+// Route::post()->name();
 Route::get('book_hunting', 'BookHuntingController@show')->name('book hunting');
 Route::post('book_hunting', 'BookHuntingController@mail')->name('hunt send');
 

@@ -17,7 +17,7 @@
 					<em style="font-size: 14px;">* Meals are included in this hunt</em>
 				</p>
 				<hr>
-				<h3>What to Expect</h3>
+				<h2>What to Expect</h2>
 				<p>
 					Each hunt will have a Paris Valley Ranch guide with it for the duration of the trip. Our guides are experienced in navigating the terrain of the ranch and know the best spots to locate animals. The guides will educate the hunters on the rules of the ranch and give you tips ensuring that you have the best possible hunting experience.
 				</p>
@@ -25,7 +25,7 @@
 					Hunters are expected to come prepared for varying terrain as well any possible weather condition that can happen. Hunters are also expected to have a valid California hunting license.
 				</p>
 				<hr>
-				<h3>Safety Rules</h3>
+				<h2>Safety Rules</h2>
 				<p>
 					All who are participating in the hunt must sign and return the hunter safefty rules before they can partake in the hunt. You can download the form here: <a href="img/pdf/pvr_gun_safety_rules.pdf" download>Hunter Safety Rules</a>
 				</p>
@@ -57,7 +57,7 @@
 						<div class="formrow">
 							<div class="formitem">
 								<label for="email" class="label req">Email</label>
-								<input type="text" name="email" id="name" required="required">
+								<input type="email" name="email" id="name" required="required">
 							</div>
 						</div>
 						<div class="formrow">

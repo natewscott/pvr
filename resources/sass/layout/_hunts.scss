@@ -17,7 +17,14 @@
 			margin-left: 10%;
 			list-style-type: disc;
 		}
-		
+	}
+	h2 {
+		@include responsive-typography(20px, 28px, false);
+		margin-bottom: 0;
+		line-height: 1.2;
+	}
+	p {
+		margin-top: 0;
 	}
 	.button {
 		@include send-button;

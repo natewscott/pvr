@@ -9,17 +9,23 @@
 	<article class="inner-content" id="hunting-content">
 		<div id="reservation">
 			<article class="reserve-info">
-				{{-- <h2>Paris Valley Bird Hunt</h2> --}}
-				<p>Each hunt will have a Paris Valley Ranch guide with it for the duration of the trip. Our guides are experienced in navigating the terrain of the ranch and know the best spots to locate animals. The guides will educate the hunters on the rules of the ranch and give you tips ensuring that you have the best possible hunting experience.</p>
+				<h2>The Hunt</h2>
+				<p>
+					Hunters will meet guides early in the morning at the main cabin for this day hunt. Depending on the season that you book the hunt, you will be able to bag either a Turkey, Pig or some Quail. 
+				</p>
+				<p>
+					<em style="font-size: 14px;">* Meals and lodging are included in this hunt</em>
+				</p>
 				<hr>
-				<h3>Hunt Rules</h3>
-				<ul>
-					<li>Day Hunt</li>
-					<li>Up to 2 hunters, 1 guide</li>
-					<li>Up to 2 Turkeys per hunter</li>
-				</ul>
+				<h2>What to Expect</h2>
+				<p>
+					Each hunt will have a Paris Valley Ranch guide with it for the duration of the trip. Our guides are experienced in navigating the terrain of the ranch and know the best spots to locate animals. The guides will educate the hunters on the rules of the ranch and give you tips ensuring that you have the best possible hunting experience.
+				</p>
+				<p>
+					Hunters are expected to come prepared for varying terrain as well any possible weather condition that can happen. Hunters are also expected to have a valid California hunting license.
+				</p>
 				<hr>
-				<h3>Safety Rules</h3>
+				<h2>Safety Rules</h2>
 				<p>
 					All who are participating in the hunt must sign and return the hunter safefty rules before they can partake in the hunt. You can download the form here: <a href="img/pdf/pvr_gun_safety_rules.pdf" download>Hunter Safety Rules</a>
 				</p>
@@ -43,11 +49,23 @@
 					<fieldset>
 						{{ csrf_field() }}
 						<div class="formrow">
-							<div class="formitem col1of2">
+							<div class="formitem">
+								<label for="name" class="label req">Name</label>
+								<input type="text" name="name" id="name" required="required">
+							</div>
+						</div>
+						<div class="formrow">
+							<div class="formitem">
+								<label for="email" class="label req">Email</label>
+								<input type="email" name="email" id="name" required="required">
+							</div>
+						</div>
+						<div class="formrow">
+							<div class="formitem">
 								<label class="label req" for="checkin">Check-in</label>
 								<input type="date" name="checkin" id="checkin" required="required" />
 							</div>
-							<div class="formitem col1of2">
+							<div class="formitem">
 								<label class="label req" for="checkout">Check-out</label>
 								<input type="date" name="checkout" id="checkout" required="required"/>
 							</div>
