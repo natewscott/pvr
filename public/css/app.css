@@ -2789,6 +2789,10 @@ img {
   background-image: url(/img/hero/about.jpg);
 }
 
+#about-hero h1 {
+  color: white;
+}
+
 #contact-hero {
   background-image: url(/img/hero/contact.jpg);
 }
