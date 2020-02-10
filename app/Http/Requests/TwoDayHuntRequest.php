@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class BirdHuntRequest extends FormRequest
+class TwoDayHuntRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -25,7 +25,7 @@ class BirdHuntRequest extends FormRequest
     {
         return [
             "name" => 'required',
-            "email" => 'required',
+            "email" => 'required|email',
             "checkin" => 'required|date',
             "checkout" => 'required|date|after:checkin',
             "guests" => 'required|min:1',

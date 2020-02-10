@@ -1,4 +1,4 @@
-@if (Session::has('seccess'))
+@if (Session::has('success'))
 	<div class="alert-messages">
 		<p class="alert" role="alert">
 			{{ Session::get('success')}}

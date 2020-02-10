@@ -42,18 +42,15 @@ Route::post('bunk_house', 'BunkHouseController@mail')->name('bunk house send');
 Route::get('booking', 'PageContentController@booking')->name('booking');
 Route::get('hunting', 'PageContentController@hunting')->name('hunting');
 Route::get('bird_hunt', 'BirdHuntController@show')->name('bird hunt');
-Route::post('bird_hunt', 'BirdHuntController@mial')->name('bird hunt send');
-Route::get('spring_hunt', 'HuntingTripsController@spring')->name('spring hunt');
-// Route::post()->name();
-Route::get('day_hunt', 'HuntingTripsController@day_hunt')->name('day hunt');
-// Route::post()->name();
-Route::get('two_day_hunt', 'HuntingTripsController@two_day')->name('two day');
-// Route::post()->name();
-Route::get('three_day_hunt', 'HuntingTripsController@three_day')->name('three day');
-// Route::post()->name();
-Route::get('book_hunting', 'BookHuntingController@show')->name('book hunting');
-Route::post('book_hunting', 'BookHuntingController@mail')->name('hunt send');
-
+Route::post('bird_hunt', 'BirdHuntController@mail')->name('bird hunt send');
+Route::get('spring_hunt', 'SpringHuntController@show')->name('spring hunt');
+Route::post('spring_hunt', 'SpringHuntController@mail')->name('spring hunt send');
+Route::get('day_hunt', 'DayHuntController@show')->name('day hunt');
+Route::post('day_hunt', 'DayHuntController@mail')->name('day hunt send');
+Route::get('two_day_hunt', 'TwoDayHuntController@show')->name('two day');
+Route::post('two_day_hunt', 'TwoDayHuntController@mail')->name('two day send');
+Route::get('three_day_hunt', 'threeDayHuntController@show')->name('three day');
+Route::post('three_day_hunt', 'threeDayHuntController@mail')->name('three day send');
 
 Route::group(['prefix'=>'admin'], function(){
 	Route::get('/', 'BackEndController@index')->name('admin home');

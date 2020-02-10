@@ -40,7 +40,7 @@
 				</ul>
 			</article>
 			<aside class="reserve-booking">
-				<form action="">
+				<form action="{{ route('bird hunt send')}}" method="POST">
 					<fieldset>
 						{{ csrf_field() }}
 						<div class="formrow">
