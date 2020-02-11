@@ -1,4 +1,6 @@
 @extends('main')
+@section('description', '')
+@section('keywords', '')
 @section('content')
 <section class="hero" id="about-hero">
 	<article>
