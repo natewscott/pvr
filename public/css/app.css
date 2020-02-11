@@ -2763,6 +2763,10 @@ img {
   background-image: url(/img/hero/salinas-valley.jpg);
 }
 
+#links-hero h1 {
+  color: white;
+}
+
 #ranch-hero {
   background-image: url(/img/hero/ranch-gate.jpg);
 }

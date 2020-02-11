@@ -2,12 +2,12 @@
 @section('content')
 <section class="hero" id="links-hero">
 	<article>
-		
+		<h1>Around the Valley</h1>
 	</article>
 </section>
 <section class="content" id="article-img-text">
 	<article class="inner-content">
-		<h1>Things to do near by</h1>
+		<p>The Ranch is about 45 minutes north of Paso Robles and close to some of the finest wineries in Monterey County and Paso Robles. Below you will find a short list of things that you can do close by while staying at Paris Valley Ranch.</p>
 		<hr>
 		<article class="img-text">
 			<img src="img/links/street-scene.jpg" alt="">
