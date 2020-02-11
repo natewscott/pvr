@@ -32,7 +32,7 @@
 	  }
 	}
 	#video-cap {
-		height: auto;
+		// height: auto;
 		@include breakpoint(medium) {
 			height: 100vh;
 		}
