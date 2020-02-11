@@ -1650,7 +1650,7 @@ footer #copyright {
 
 footer {
   margin-top: 0;
-  background-color: #5B5639;
+  background-color: #b3a898;
 }
 
 footer .footer {
@@ -1665,6 +1665,22 @@ footer .footer {
   }
 }
 
+footer .button {
+  background-color: #B58B2D;
+  color: #3c3825;
+  font-weight: normal;
+  transition: all 0.2s;
+  margin: 4px 0;
+  padding: 7px 16px;
+  border-radius: 20px;
+}
+
+footer .button:hover {
+  background-color: #8c6c23;
+  color: #1c1b12;
+  border-radius: 0;
+}
+
 footer article {
   padding: 1.5%;
   width: 45%;
@@ -1676,7 +1692,7 @@ footer #weather {
 
 footer .footer-logo {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 footer .footer-logo img {
@@ -1687,22 +1703,16 @@ footer .footer-logo h2 {
   margin-bottom: 0;
 }
 
-footer input,
+footer input[type=text],
+footer input[type=email],
 footer textarea {
-  background-color: #5B5639;
+  background-color: #b8b28e;
 }
 
-footer input:focus,
+footer input[type=text]:focus,
+footer input[type=email]:focus,
 footer textarea:focus {
   background-color: white;
-}
-
-footer #foot-contact {
-  background-color: #B58B2D;
-}
-
-footer #foot-contact:hover {
-  background-color: #112533;
 }
 
 button::-moz-focus-inner,
@@ -2795,6 +2805,10 @@ img {
 
 #contact-hero {
   background-image: url(/img/hero/contact.jpg);
+}
+
+#contact-hero h1 {
+  color: white;
 }
 
 #bird-hunt-hero {
