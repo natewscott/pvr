@@ -1,4 +1,7 @@
 @extends('main')
+@section('title', '| Ranch Activities')
+@section('description', 'Paris Valley Ranch has a little something for everyone to do, we offer full hunting packages, target practice on our shooting range, tons of trails for to cycle or hike.')
+@section('keywords', 'hunting, shooting, motorcycle, motorcycling, hiking')
 @section('content')
 <section class="hero" id="activites-hero">
 	<article>

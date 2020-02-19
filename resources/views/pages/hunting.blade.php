@@ -1,4 +1,7 @@
 @extends('main')
+@section('title', '| Hunting Packages')
+@section('description', 'Paris Valley Ranch has the perfect hunt for everybody no matter the skill level. All our hunts are guided with experts that know the terrain and all the best spots to find the prey that you are looking for.')
+@section('keywords', 'hunting, bird hunts, pig hunts, turkey hunts, guided, shooting, outdoors, skill.')
 @section('content')
 <section class="hero" id="hunting-hero">
 	<article>
@@ -10,7 +13,7 @@
 	<article class="inner-content">
 		<p>
 			<em>
-			* All hunts require a non-refundabke deposit to book (this will go towards your payment).
+			* All hunts require a non-refundable deposit to book (this will go towards your payment).
 			</em>
 		</p>
 		<hr>

@@ -1,4 +1,7 @@
 @extends('main')
+@section('title', '| Day Hunt')
+@section('description', 'Spend the day navigating the terrain of Paris Valley Ranch with an expert guide as you stake out a Turkey, Pig or Quail.')
+@section('keywords', 'day hunt, hunting, turkey, pig, quail, ranch, valley')
 @section('content')
 <section class="hero" id="day-hunt-hero">
 	<article>
@@ -27,7 +30,7 @@
 				<hr>
 				<h2>Safety Rules</h2>
 				<p>
-					All who are participating in the hunt must sign and return the hunter safefty rules before they can partake in the hunt. You can download the form here: <a href="img/pdf/pvr_gun_safety_rules.pdf" download>Hunter Safety Rules</a>
+					All who are participating in the hunt must sign and return the hunter safety rules before they can partake in the hunt. You can download the form here: <a href="img/pdf/pvr_gun_safety_rules.pdf" download>Hunter Safety Rules</a>
 				</p>
 				<ul>
 					<li>Guns need to carried in there cases to and from the shooting area.</li>
@@ -41,7 +44,7 @@
 					<li>Always check the back stop.</li>
 					<li>Make sure you are using the correct ammunition.</li>
 					<li>Always wear eye and ear protection.</li>
-					<li>Do not cosume alcohol or drugs before or while shooting.</li>
+					<li>Do not consume alcohol or drugs before or while shooting.</li>
 				</ul>
 			</article>
 			<aside class="reserve-booking">
@@ -51,13 +54,13 @@
 						<div class="formrow">
 							<div class="formitem">
 								<label for="name" class="label req">Name</label>
-								<input type="text" name="name" id="name" required="required">
+								<input type="text" name="name" id="name" value="{{ old('name')}} " required="required">
 							</div>
 						</div>
 						<div class="formrow">
 							<div class="formitem">
 								<label for="email" class="label req">Email</label>
-								<input type="email" name="email" id="name" required="required">
+								<input type="email" name="email" value="{{ old('email')}} " id="name" required="required">
 							</div>
 						</div>
 						<div class="formrow">
@@ -80,7 +83,7 @@
 							
 							<div class="buttons">
 								<div class="back">
-									<button class="primary button" type="submit" value="">Check Availabily</button>
+									<button class="primary button" type="submit" value="">Check Availability</button>
 								</div>
 							</div>
 						</fieldset>

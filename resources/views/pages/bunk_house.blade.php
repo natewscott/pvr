@@ -63,11 +63,11 @@
 							<strong>
 							Check out:
 							</strong>
-							before 12pm
+							before 12 PM
 						</div>
 						<div class="list-item">
 							<strong>
-							Cancelation:
+							Cancellation:
 							</strong>
 							24 hour notice is required
 						</div>
@@ -81,13 +81,13 @@
 						<div class="formrow">
 							<div class="formitem">
 								<label class="label req" for="name">Name</label>
-								<input type="text" name="name" id="name" required="required" />
+								<input type="text" name="name" value="{{ old('name')}}" id="name" required="required" />
 							</div>
 						</div>
 						<div class="formrow">
 							<div class="formitem">
 								<label class="label req" for="email">Email</label>
-								<input type="email" name="email" id="email" required="required"/>
+								<input type="email" name="email" value="{{ old('email')}}" id="email" required="required"/>
 							</div>
 						</div>
 						<div class="formrow">
@@ -110,7 +110,7 @@
 							
 							<div class="buttons">
 								<div class="back">
-									<button class="primary button" type="submit" value="">Check Availabily</button>
+									<button class="primary button" type="submit" value="">Check Availability</button>
 								</div>
 							</div>
 						</fieldset>

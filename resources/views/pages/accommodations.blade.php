@@ -1,4 +1,7 @@
 @extends('main')
+@section('title', '| Accommodations')
+@section('description', 'Paris Valley Ranch has lodging to fit everyones need and budgets. With 3 lodging options you are sure to find the perfect accomodation for you.')
+{{-- @section('keywords', 'rental, lodging, countr') --}}
 @section('content')
 <section class="hero" id="ranch-hero">
 	<article>
@@ -7,7 +10,7 @@
 </section>
 <section class="content" id="article-img-text">
 	<article class="inner-content">
-		<h1>Accomodations</h1>
+		<h1>Accommodations</h1>
 		<hr>
 		<articele class="img-text">
 			<div class="left">

@@ -22,7 +22,7 @@
 				<hr>
 				<h3>Ranch Safety Rules</h3>
 				<p>
-					All who are participating in the hunt must sign and return the hunter safefty rules before they can partake in the hunt. You can download the form here: <a href="img/pdf/pvr_gun_safety_rules.pdf" download>Hunter Safety Rules</a>
+					All who are participating in the hunt must sign and return the hunter safety rules before they can partake in the hunt. You can download the form here: <a href="img/pdf/pvr_gun_safety_rules.pdf" download>Hunter Safety Rules</a>
 				</p>
 				<ul>
 					<li>Guns need to carried in there cases to and from the shooting area.</li>
@@ -46,13 +46,19 @@
 						<div class="formrow">
 							<div class="formitem">
 								<label for="name" class="label req">Name</label>
-								<input type="text" name="name" id="name" required="required">
+								<input type="text" name="name" value="{{ old('name')}}" id="name" required="required">
+							</div>
+						</div>
+						<div class="formrow">
+							<div class="formitem">
+								<label for="phone" class="label req">Phone</label>
+								<input type="text" name="phone" value="{{ old('phone')}} " id="phone" required="required">
 							</div>
 						</div>
 						<div class="formrow">
 							<div class="formitem">
 								<label for="email" class="label req">Email</label>
-								<input type="text" name="email" id="name" required="required">
+								<input type="text" name="email" value="{{ old('email')}} " id="name" required="required">
 							</div>
 						</div>
 						<div class="formrow">
@@ -75,7 +81,7 @@
 							
 							<div class="buttons">
 								<div class="back">
-									<button class="primary button" type="submit" value="">Check Availabily</button>
+									<button class="primary button" type="submit" value="">Check Availability</button>
 								</div>
 							</div>
 						</fieldset>

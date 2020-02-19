@@ -2,35 +2,38 @@
 	.c-navlist__link {
 		color:white;
 	}
+	.home-vid {
+		max-height: 980px;
+	}
    .fullscreen-bg {
 	  	position: absolute;
 	  	top: 0;
-	  	right: 0;
-	  	bottom: 0;
-	  	left: 0;
-	  	overflow: hidden;
+	  	// right: 0;
+	  	// bottom: 0;
+	  	// left: 0;
+	  	// overflow: hidden;
 	  	z-index: -100;
 	}
    .fullscreen-bg_video {
 	  position: absolute;
-	  top: 0;
-	  left: 0;
-	  width: 100%;
-	  height: auto;
+	  // top: 0;
+	  // left: 0;
+	  // width: 100%;
+	  // height: auto;
 	}
-	@media (min-aspect-ratio: 16/9) {
-	  .fullscreen-bg_video {
-	    height: 300%;
-	    top: -100%;
-	  }
-	}
+	// @media (min-aspect-ratio: 16/9) {
+	//   .fullscreen-bg_video {
+	//     height: 300%;
+	//     top: -100%;
+	//   }
+	// }
 
-	@media (max-aspect-ratio: 16/9) {
-	  .fullscreen-bg_video {
-	    width: 300%;
-	    left: -100%;
-	  }
-	}
+	// @media (max-aspect-ratio: 16/9) {
+	//   .fullscreen-bg_video {
+	//     width: 300%;
+	//     left: -100%;
+	//   }
+	// }
 	#video-cap {
 		// height: auto;
 		@include breakpoint(medium) {
@@ -75,89 +78,7 @@
 		}
 		justify-content: center;
 	}
-	figure.img-desc {
-	  position: relative;
-	  overflow: hidden;
-	  margin: 10px;
-	  width: 95%;
-	  @include breakpoint(medium) {
-	  	width: 100%;
-	  }
-	  // width: 100%;
-	  color: #000000;
-	  text-align: center;
-	  -webkit-perspective: 50em;
-	  perspective: 50em;
-	}
-	figure.img-desc * {
-	  -webkit-box-sizing: padding-box;
-	  box-sizing: padding-box;
-	  -webkit-transition: all 0.2s ease-out;
-	  transition: all 0.2s ease-out;
-	}
-	figure.img-desc img {
-	  max-width: 100%;
-	  vertical-align: top;
-	}
-	figure.img-desc figcaption {
-	  top: 50%;
-	  left: 20px;
-	  right: 20px;
-	  position: absolute;
-	  opacity: 0;
-	  z-index: 1;
-	}
-	figure.img-desc h1,
-	figure.img-desc h2 {
-	  margin: 0;
-	}
-	figure.img-desc h1 {
-	  font-size: 1.75rem;
-	  line-height: 1.5;
-	}
-	figure.img-desc h2 {
-	  font-size: 1.5rem;
-	}
-	figure.img-desc:after {
-	  background-color: #ffffff;
-	  position: absolute;
-	  content: "";
-	  display: block;
-	  top: 20px;
-	  left: 20px;
-	  right: 20px;
-	  bottom: 20px;
-	  -webkit-transition: all 0.4s ease-in-out;
-	  transition: all 0.4s ease-in-out;
-	  -webkit-transform: rotateX(-90deg);
-	  transform: rotateX(-90deg);
-	  -webkit-transform-origin: 50% 50%;
-	  -ms-transform-origin: 50% 50%;
-	  transform-origin: 50% 50%;
-	  opacity: 0;
-	}
-	figure.img-desc a {
-	  left: 0;
-	  right: 0;
-	  top: 0;
-	  bottom: 0;
-	  position: absolute;
-	  z-index: 1;
-	}
-	figure.img-desc:hover figcaption,
-	figure.img-desc.hover figcaption {
-	  -webkit-transform: translateY(-50%);
-	  transform: translateY(-50%);
-	  opacity: 1;
-	  -webkit-transition-delay: 0.2s;
-	  transition-delay: 0.2s;
-	}
-	figure.img-desc:hover:after,
-	figure.img-desc.hover:after {
-	  -webkit-transform: rotateX(0);
-	  transform: rotateX(0);
-	  opacity: 0.9;
-	}
+	
 	.map {
 		@include full;
 		line-height: 0;

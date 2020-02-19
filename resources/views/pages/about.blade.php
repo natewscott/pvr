@@ -1,6 +1,7 @@
 @extends('main')
-@section('description', '')
-@section('keywords', '')
+@section('title', '| About Us')
+@section('description', 'Paris Valley Ranch is family owned and operated by the Mack Family. The Ranch sites on 1,000 acres in the rolling hills of the San Ardo CA.')
+@section('keywords', 'ranch, san ardo, family')
 @section('content')
 <section class="hero" id="about-hero">
 	<article>
@@ -10,7 +11,7 @@
 <section class="content">
 	<article class="inner-content">
 		<p>
-			Paris Valley Ranch was founded in 2016 by the Mack Family. The Ranch sites on 1,000 acres in the rolling hills of the San Ardo CA. The Ranch was founded with the intent of giving providing it's guest with world class aminities, but allow you to be completely removed from the modern world. Weither you are looking for a quick realxing weekend get away or a chance to do some hunt Paris Valley Ranch has it all for you.
+			Paris Valley Ranch was founded in 2016 by the Mack Family. The Ranch sites on 1,000 acres in the rolling hills of the San Ardo CA. The Ranch was founded with the intent of giving providing it's guest with world class amenities, but allow you to be completely removed from the modern world. Whether you are looking for a quick relaxing weekend get away or a chance to do some hunt Paris Valley Ranch has it all for you.
 		</p>
 	</article>
 	<hr>
@@ -22,7 +23,7 @@
 					<div class="card-content">
 						<div class="card-title">Reed Mack</div>
 						<div class="card-price">Owner</div>
-						{{-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi officiis ea dignissimos, exercitationem aut corporis dolore sunt debitis expedita illo voluptatibus aliquid cumque voluptas, itaque vel! Voluptatum provident, laboriosam rem?</p> --}}
+						{{-- <p class="card-text"></p> --}}
 					</div>
 				</div>
 			</li>
@@ -32,7 +33,17 @@
 					<div class="card-content">
 						<div class="card-title">Spencer Keiser</div>
 						<div class="card-price">Facilities Manager</div>
-						{{-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis molestiae, enim consectetur iste cum aperiam facere, quasi nobis ea numquam dolores error facilis quia velit optio saepe, animi minima sed.</p> --}}
+						{{-- <p class="card-text"></p> --}}
+					</div>
+				</div>
+			</li>
+			<li class="cards-item">
+				<div class="card">
+					<div class="card-image card-image-spencer"></div>
+					<div class="card-content">
+						<div class="card-title">Lisa LaMack</div>
+						<div class="card-price">Booking Coordinator</div>
+						{{-- <p class="card-text">.</p> --}}
 					</div>
 				</div>
 			</li>

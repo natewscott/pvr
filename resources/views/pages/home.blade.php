@@ -1,19 +1,26 @@
 @extends('welcome')
+@section('description', 'Paris Valley Ranch is the perfect place for you to plan your next escape to. We have something to accommodate everyones tastes, whether you are looking for an amazing hunt, epic dirt bike ride or just a quiet weekend retreat.')
+@section('keywords', 'ranch, hunting, dirt bike, riding, hiking, retreat, relaxing')
 @section('content')
 <main class="page-wrap">
 	@include('includes/messages')
 	<section class="main-content">
-		<div class="fullscreen-bg">
-			<video autoplay muted loop class="fullscreen-bg_video">
-				<source src="img/video/pvr-video.mp4" type="video/mp4">
-			</video>
-		</div>
-		<div id="video-cap">
-			<article id="home-title">
-				<h1>Paris Valley Ranch</h1>
-				<h2>Find your prefect place.</h2>
-			</article>
-		</div>
+		{{-- <section class="hero" id="home-hero">
+			
+		</section> --}}
+		<article class="home-vid">
+			<div class="fullscreen-bg">
+				<video autoplay muted loop class="fullscreen-bg_video">
+					<source src="img/video/pvr-video.mp4" type="video/mp4">
+				</video>
+			</div>
+			<div id="video-cap">
+				<article id="home-title">
+					<h1>Paris Valley Ranch</h1>
+					<h2>Find your prefect place.</h2>
+				</article>
+			</div>
+		</article>
 		<article class="inner-content" id="home-about">
 			<h1>Paris Valley Ranch</h1>
 			<hr>
