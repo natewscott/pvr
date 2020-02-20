@@ -1,4 +1,7 @@
 @extends('main')
+@section('title', '| Party Pad')
+@section('description', 'Enjoy panoramic views from the ocean to the Sierra Nevada mountains all while staying in this luxurious two bed cabin.')
+@section('keywords', 'luxury, cabin, panoramic, california, mountains, hunting')
 @section('content')
 <section class="hero" id="party-pad-hero">
 	<article>
@@ -12,7 +15,7 @@
 		<div id="reservation">
 			<article class="reserve-info">
 				<p>
-					The party pad is the perfect spot to if you want to be completely removed from the outside world. This little cabin is nestled far back in the ranch high a top a hill. The pad give you an amazing 360 degree views of the of the Sierra Nevadas, Central Valley and out to the coast.
+					The party pad is the perfect spot to if you want to be completely removed from the outside world. This little cabin is nestled far back in the ranch high a top a hill. The pad give you an amazing 360 degree views of the of the Sierra Nevada's, the Central Valley and out to the Pacific Ocean.
 				</p>
 				<hr>
 				<div class="list">
@@ -25,6 +28,14 @@
 						<div class="list-item">
 							<i class="icon-fan"></i>
 							<span>Heating & Air-Conditioning</span>
+						</div>
+						<div class="list-item">
+							<i class="icon-bbq"></i>
+							<span>BBQ Grill</span>
+						</div>
+						<div class="list-item">
+							<i class="icon-fire"></i>
+							<span>Fire Pit</span>
 						</div>
 					</div>
 				</div>
@@ -53,17 +64,17 @@
 							<strong>
 							Check in:
 							</strong>
-							After 2PM
+							After 2 PM
 						</div>
 						<div class="list-item">
 							<strong>
 							Check out:
 							</strong>
-							before 12pm
+							before 12 PM
 						</div>
 						<div class="list-item">
 							<strong>
-							Cancelation:
+							Cancellation:
 							</strong>
 							24 hour notice is required
 						</div>
@@ -77,13 +88,19 @@
 						<div class="formrow">
 							<div class="formitem">
 								<label class="label req" for="name">Name</label>
-								<input type="text" name="name" id="name" required="required" />
+								<input type="text" name="name" value="{{ old('name')}} " id="name" required="required" />
+							</div>
+						</div>
+						<div class="formrow">
+							<div class="formitem">
+								<label class="label req" for="phone">Phone</label>
+								<input type="tel" name="phone" value="{{ old('phone')}} " id="phone" required="required" />
 							</div>
 						</div>
 						<div class="formrow">
 							<div class="formitem">
 								<label class="label req" for="email">Email</label>
-								<input type="email" name="email" id="email" required="required"/>
+								<input type="email" name="email" value="{{ old('email')}}" id="email" required="required"/>
 							</div>
 						</div>
 						<div class="formrow">
@@ -106,7 +123,7 @@
 							
 							<div class="buttons">
 								<div class="back">
-									<button class="primary button" type="submit" value="">Check Availabily</button>
+									<button class="primary button" type="submit" value="">Check Availability</button>
 								</div>
 							</div>
 						</fieldset>

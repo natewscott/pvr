@@ -1,9 +1,12 @@
 @extends('main')
+@section('title', '| Main Cabin')
+@section('description', 'Enjoy first class luxury away from all the hustle and bustle of city life at Paris Valley Ranch. The main cabin has all the luxuries and furnishings that you need to fully decompress.')
+@section('keywords', 'cabin, ranch, relaxing, luxury, furnished')
 @section('content')
 <section class="hero" id="main-house">
 	<article>
 		<h1>
-		Main House
+			Main House
 		</h1>
 	</article>
 </section>
@@ -35,6 +38,14 @@
 							<i class="icon-fan"></i>
 							<span>Heating & Air-Conditioning</span>
 						</div>
+						<div class="list-item">
+							<i class="icon-kitchen"></i>
+							<span>Full Kitchen</span>
+						</div>
+						<div class="list-item">
+							<i class="icon-bath"></i>
+							<span>Full Bathroom</span>
+						</div>
 					</div>
 				</div>
 				<hr>
@@ -62,17 +73,17 @@
 							<strong>
 							Check in:
 							</strong>
-							After 2PM
+							After 2 PM
 						</div>
 						<div class="list-item">
 							<strong>
 								Check out:
 							</strong>
-							before 12pm
+							before 12 PM
 						</div>
 						<div class="list-item">
 							<strong>
-								Cancelation:
+								Cancellation:
 							</strong>
 							24 hour notice is required
 						</div>
@@ -86,13 +97,19 @@
 						<div class="formrow">
 							<div class="formitem">
 								<label class="label req" for="name">Name</label>
-								<input type="text" name="name" id="name" required="required" />
+								<input type="text" name="name" value="{{ old('name')}} " id="name" required="required" />
+							</div>
+						</div>
+						<div class="formrow">
+							<div class="formitem">
+								<label class="label req" for="phone">Phone</label>
+								<input type="tel" name="phone" value="{{ old('phone')}} " id="phone" required="required" />
 							</div>
 						</div>
 						<div class="formrow">
 							<div class="formitem">
 								<label class="label req" for="email">Email</label>
-								<input type="email" name="email" id="email" required="required"/>
+								<input type="email" name="email" value="{{ old('email')}} " id="email" required="required"/>
 							</div>
 						</div>
 						<div class="formrow">
@@ -115,7 +132,7 @@
 							
 							<div class="buttons">
 								<div class="back">
-									<button class="primary button" type="submit" value="">Check Availabily</button>
+									<button class="primary button" type="submit" value="">Check Availability</button>
 								</div>
 							</div>
 						</fieldset>

@@ -4,23 +4,18 @@
 @section('content')
 <main class="page-wrap">
 	@include('includes/messages')
+	<section class="header-video">
+		<video class="video-bg" autoplay muted loop>
+			<source src="img/video/pvr-video.mp4" type="video/mp4">
+		</video>
+		<div class="video-overlay">
+			<h1>
+				<strong>Paris Valley Ranch </strong>
+				<br>The Perfect Escape
+			</h1>
+		</div>
+	</section>
 	<section class="main-content">
-		{{-- <section class="hero" id="home-hero">
-			
-		</section> --}}
-		<article class="home-vid">
-			<div class="fullscreen-bg">
-				<video autoplay muted loop class="fullscreen-bg_video">
-					<source src="img/video/pvr-video.mp4" type="video/mp4">
-				</video>
-			</div>
-			<div id="video-cap">
-				<article id="home-title">
-					<h1>Paris Valley Ranch</h1>
-					<h2>Find your prefect place.</h2>
-				</article>
-			</div>
-		</article>
 		<article class="inner-content" id="home-about">
 			<h1>Paris Valley Ranch</h1>
 			<hr>
