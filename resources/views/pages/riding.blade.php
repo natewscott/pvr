@@ -5,24 +5,26 @@
 @section('content')
 <section class="hero" id="riding-hero">
 	<article>
-		
+		<h1>
+			Off Road Trails
+		</h1>
 	</article>
 </section>
 <section class="content">
-	<div id="reservation">
-		<article class="inner-content">
-			<div class="reserve-info">
-				<h1>
-				Riding Trails
-				</h1>
+	<article class="inner-content">
+		<section class="two-col-layout">
+			<article>
 				<p>
 					The Ranch has three valleys with well groomed tracks to ride quads or dirt bikes through. For those that wish to try more rugged riding there are miles and miles of tracks that are not as maintained. The Ranch but up to BLM land giving riders acess to hundreds of other trails.
 				</p>
-			</div>
-		</article>
-		<aside id="earth-map">
-			<img src="img/activities/pvr_earth_view.jpg" alt="">
-		</aside>
-	</div>
+				<img src="img/activities/pvr_earth_view.jpg" alt="">
+			</article>
+			<aside>
+				<video autoplay muted loop>
+					<source src="img/video/pvr-riding-video.mp4" type="video/mp4" />
+				</video>
+			</aside>
+		</section>
+	</article>
 </section>
 @stop

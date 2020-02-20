@@ -1,0 +1,16 @@
+.two-col-layout {
+	display: flex;
+	justify-content: space-around;
+
+	article,
+	aside {
+		flex: 1;
+		margin: 0 50px;
+	}
+}
+
+video {
+	box-shadow: 5px 10px #888888;
+	max-width: 600px;
+
+}
