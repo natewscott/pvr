@@ -11,7 +11,7 @@
 <section class="content">
 	<article class="inner-content">
 		<p>
-			Paris Valley Ranch was founded in 2016 by the Mack Family. The Ranch sites on 1,000 acres in the rolling hills of the San Ardo CA. The Ranch was founded with the intent of giving providing it's guest with world class amenities, but allow you to be completely removed from the modern world. Whether you are looking for a quick relaxing weekend get away or a chance to do some hunting. Paris Valley Ranch has it all for you.
+			Paris Valley Ranch was founded in 2016 by the Mack Family. The Ranch sits on 1,000 acres in the rolling hills of the San Ardo CA. The Ranch was founded with the intent of providing it's guest with world class amenities, but allow you to be completely removed from the modern world. Whether you are looking for a quick relaxing weekend get away or a chance to do some hunting. Paris Valley Ranch has it all for you.
 		</p>
 	</article>
 	<hr>
@@ -39,7 +39,7 @@
 			</li>
 			<li class="cards-item">
 				<div class="card">
-					<div class="card-image card-image-spencer"></div>
+					<div class="card-image card-image-lisa"></div>
 					<div class="card-content">
 						<div class="card-title">Lisa LaMack</div>
 						<div class="card-price">Booking Coordinator</div>

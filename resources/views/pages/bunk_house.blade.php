@@ -12,7 +12,7 @@
 		<div id="reservation">
 			<article class="reserve-info">
 				<p>
-					The bunkhouse is large rustic style room that can comfortably sleep 4. The bunkhouse has a queen size bed, a set of bunk beds and a private bathroom with shower. There is a large wrap around cover porch with two fire pits available to keep you warm on chilly nights.
+					The bunkhouse is large rustic style room. The bunkhouse has a queen size bed, a set of bunk beds and a private bathroom with shower. There is a large wrap around covered porch with two fire pits available to keep you warm on chilly nights.
 				</p>
 				<hr>
 				<div class="list">
@@ -55,21 +55,31 @@
 					<div class="list-content">
 						<div class="list-item">
 							<strong>
+								Sleeps:
+							</strong>
+							<br>
+							<em>Up to 4 people</em>
+						</div>
+						<div class="list-item">
+							<strong>
 							Check in:
 							</strong>
-							After 2PM
+							<br>
+							<em>After 2PM</em>
 						</div>
 						<div class="list-item">
 							<strong>
 							Check out:
 							</strong>
-							before 12 PM
+							<br>
+							<em>before 12 PM</em>
 						</div>
 						<div class="list-item">
 							<strong>
 							Cancellation:
 							</strong>
-							24 hour notice is required
+							<br>
+							<em>24 hour notice is required</em>
 						</div>
 					</div>
 				</div>

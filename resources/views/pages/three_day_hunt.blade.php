@@ -11,7 +11,7 @@
 			<article class="reserve-info">
 				<h2>The Hunt</h2>
 				<p>
-					The Paris Valley Three Day Hunt is your chance to bag yourself a California Black Tail Deer. The rolling hills, oak tree and manzanita provide the perfect ground for you to stalk and catch your deer. These deer hunts are limited and must be booked 6 months in advance.
+					The Paris Valley Three Day Hunt is your chance to bag yourself a California Black Tail Deer. The rolling hills, oak trees and manzanita provide the perfect ground for you to stalk and catch your deer. These deer hunts are limited and must be booked 6 months in advance.
 				</p>
 				<p>
 					<em style="font-size: 14px;">* Meals and lodging are included in this hunt</em>

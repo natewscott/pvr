@@ -2466,6 +2466,12 @@ img {
   background-image: url(/img/cards/about/spencer-keiser.jpg);
 }
 
+.card-image-lisa {
+  background-position: center;
+  background-size: contain;
+  background-image: url(/img/cards/about/lisa-lamaack.jpg);
+}
+
 .list {
   display: flex;
   flex-wrap: nowrap;
@@ -3073,6 +3079,7 @@ ol {
 }
 
 #reservation .reserve-info {
+  margin-right: 10%;
   width: 85%;
 }
 

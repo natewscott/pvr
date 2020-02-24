@@ -48,7 +48,7 @@
 				<div class="img-details">
 					<h1>Pismo Beach</h1>
 					<p>
-						If you drive an hour south of the ranch you can can enjoy California's beautiful Pismo Beach. Here you can gold, surf, ride horse back or just take a stroll along Pismo's beautiful white beaches.
+						If you drive an hour south of the ranch you can can enjoy California's beautiful Pismo Beach. Here you can golf, surf, ride horse back or just take a stroll along Pismo's beautiful white beaches.
 					</p>
 					<a href="https://www.experiencepismobeach.com/" target="_blank">Visit Site</a>
 				</div>
@@ -76,7 +76,7 @@
 				<div class="img-details">
 					<h1>National Steinbeck Center</h1>
 					<p>
-						The National Steinbeck Center is a museum and 501(c)3 nonprofit organization in Salinas, CA that honors Nobel prize winning author John Steinbeck. The National Steinbeck Center houses a variety of artifacts, first edition Steinbeck books, newspapers, and interviews pertaining to John Steinbeck in its archives.
+						The National Steinbeck Center is a museum and nonprofit organization in Salinas, CA that honors Nobel prize winning author John Steinbeck. The National Steinbeck Center houses a variety of artifacts, first edition Steinbeck books, newspapers, and interviews pertaining to John Steinbeck in its archives.
 					</p>
 					<a href="http://www.steinbeck.org/" target="_blank">Visit Site</a>
 				</div>

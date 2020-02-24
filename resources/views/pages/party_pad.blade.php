@@ -15,7 +15,7 @@
 		<div id="reservation">
 			<article class="reserve-info">
 				<p>
-					The party pad is the perfect spot to if you want to be completely removed from the outside world. This little cabin is nestled far back in the ranch high a top a hill. The pad give you an amazing 360 degree views of the of the Sierra Nevada's, the Central Valley and out to the Pacific Ocean.
+					The party pad is the perfect spot to if you want to be completely removed from the outside world. This little cabin is nestled far back in the ranch high a top a hill. The pad gives you an amazing 360 degree views of the of the Sierra Nevada's, the Central Valley and out to the Pacific Ocean.
 				</p>
 				<hr>
 				<div class="list">
@@ -62,21 +62,31 @@
 					<div class="list-content">
 						<div class="list-item">
 							<strong>
+								Sleeps:
+							</strong>
+							<br>
+							<em>Up to 6 people</em>
+						</div>
+						<div class="list-item">
+							<strong>
 							Check in:
 							</strong>
-							After 2 PM
+							<br>
+							<em>After 2 PM</em>
 						</div>
 						<div class="list-item">
 							<strong>
 							Check out:
 							</strong>
-							before 12 PM
+							<br>
+							<em>before 12 PM</em>
 						</div>
 						<div class="list-item">
 							<strong>
 							Cancellation:
 							</strong>
-							24 hour notice is required
+							<br>
+							<em>24 hour notice is required
 						</div>
 					</div>
 				</div>
@@ -88,7 +98,7 @@
 						<div class="formrow">
 							<div class="formitem">
 								<label class="label req" for="name">Name</label>
-								<input type="text" name="name" value="{{ old('name')}} " id="name" required="required" />
+								<input type="text" name="name" value="{{ old('name')}} " id="name" 	required="required" />
 							</div>
 						</div>
 						<div class="formrow">

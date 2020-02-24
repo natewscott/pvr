@@ -22,10 +22,10 @@
 				<hr>
 				<h2>What to Expect</h2>
 				<p>
-					Each hunt will have a Paris Valley Ranch guide with it for the duration of the trip. Our guides are experienced in navigating the terrain of the ranch and know the best spots to locate animals. The guides will educate the hunters on the rules of the ranch and give you tips ensuring that you have the best possible hunting experience.
+					Each hunt will have a Paris Valley Ranch guide present for the duration of the trip. Our guides are experienced in navigating the terrain of the ranch and know the best spots to locate animals. The guides will educate the hunters on the rules of the ranch and give you tips ensuring that you have the best possible hunting experience.
 				</p>
 				<p>
-					Hunters are expected to come prepared for varying terrain as well any possible weather condition that can happen. Hunters are also expected to have a valid California hunting license.
+					Hunters are expected to come prepared for varying terrain and any possible weather condition that can happen. Hunters are also expected to have a valid California hunting license.
 				</p>
 				<hr>
 				<h2>Safety Rules</h2>

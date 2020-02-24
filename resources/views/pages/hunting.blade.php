@@ -27,10 +27,10 @@
 							<div class="card-price">$450 per person</div>
 							<hr>
 							<ul class="card-text">
-								<li>1/2 day or all day hunt</li>
+								<li>1/2 day</li>
 								<li>Timed plate rack shooting</li>
 								<li>Dueling rack</li>
-								<li>Lunch included</li>
+								<li>Lunch is included</li>
 							</ul>
 							{{-- <a href="{{ route('book hunting')}} ">Book Now</a> --}}
 						</div>
@@ -46,8 +46,8 @@
 							<ul class="card-text">
 								<li>Day Hunt</li>
 								<li>2 hunters are required</li>
-								<li>2 hunter, 1 guide</li>
-								<li>Lunch included</li>
+								<li>2 hunters, 1 guide</li>
+								<li>Lunch is included</li>
 							</ul>
 							<a href="{{ route('bird hunt')}} ">Learn more</a>
 						</div>
@@ -64,6 +64,7 @@
 								<li>Day Hunt</li>
 								<li>2 hunters are required</li>
 								<li>Up to 2 Turkeys per hunter</li>
+								<li>Breakfast, Lunch and Dinner are included</li>
 							</ul>
 							<a href="{{ route('spring hunt')}} ">Learn More</a>
 						</div>
@@ -80,6 +81,7 @@
 								<li>Day Hunt</li>
 								<li>Up to 2 hunters, 1 guide</li>
 								<li>Up to 2 Turkeys per hunter</li>
+								<li>Breakfast, Lunch and Dinner are included</li>
 							</ul>
 							<a href="{{ route('day hunt')}} ">Learn More</a>
 						</div>
@@ -97,7 +99,6 @@
 								<li>Turkey, Pig and birds</li>
 								<li>Breakfast, lunch and dinner are included</li>
 								<li>Includes lodging</li>
-								<li>Additional fees may apply</li>
 							</ul>
 							<a href="{{ route('two day')}} ">Learn More</a>
 						</div>

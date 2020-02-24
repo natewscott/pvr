@@ -10,14 +10,14 @@
 		<div id="reservation">
 			<article class="reserve-info">
 				<h2>The Hunt</h2>
-				<p>The Paris Valley Bird Hunt is a one day hunt. All our bird hunts are seasonal you will have to contact us to find out what birds are currently in season.</p>
+				<p>The Paris Valley Bird Hunt is a one day hunt. All our bird hunts are seasonal - you will have to contact us to find out what birds are currently in season.</p>
 				<hr>
 				<h3>What to Expect</h3>
 				<p>
-					Each hunt will have a Paris Valley Ranch guide with it for the duration of the trip. Our guides are experienced in navigating the terrain of the ranch and know the best spots to locate animals. The guides will educate the hunters on the rules of the ranch and give you tips ensuring that you have the best possible hunting experience.
+					Each hunt will have a Paris Valley Ranch guide present for the duration of the trip. Our guides are experienced in navigating the terrain of the ranch and know the best spots to locate animals. The guides will educate the hunters on the rules of the ranch and give you tips ensuring that you have the best possible hunting experience.
 				</p>
 				<p>
-					Hunters are expected to come prepared for varying terrain as well any possible weather condition that can happen. Hunters are also expected to have a valid California hunting license.
+					Hunters are expected to come prepared for varying terrain and any possible weather condition that can happen. Hunters are also expected to have a valid California hunting license.
 				</p>
 				<hr>
 				<h3>Ranch Safety Rules</h3>

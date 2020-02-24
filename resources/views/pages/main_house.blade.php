@@ -16,7 +16,7 @@
 		<div id="reservation">
 			<article class="reserve-info">
 				<p>
-					The main cabin has two bedrooms and two bathrooms, a living room and a full kitchen. This cabin can comfortably sleep up to 6 people. The main cabin is available for both hunting parties as well as special events.
+					The main cabin has two bedrooms and two bathrooms, a living room and a full kitchen. The main cabin is available for both hunting parties as well as special events.
 				</p>
 				<hr>
 				<div class="list">
@@ -71,21 +71,31 @@
 					<div class="list-content">
 						<div class="list-item">
 							<strong>
+								Sleeps:
+							</strong>
+							<br>
+							<em>Up to 6 people</em>
+						</div>
+						<div class="list-item">
+							<strong>
 							Check in:
 							</strong>
-							After 2 PM
+							<br>
+							<em>After 2 PM</em>
 						</div>
 						<div class="list-item">
 							<strong>
 								Check out:
 							</strong>
-							before 12 PM
+							<br>
+							<em>before 12 PM</em>
 						</div>
 						<div class="list-item">
 							<strong>
 								Cancellation:
 							</strong>
-							24 hour notice is required
+							<br>
+							<em>24 hour notice is required</em>
 						</div>
 					</div>
 				</div>
