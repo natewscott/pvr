@@ -15,7 +15,7 @@
 		<section class="two-col-layout">
 			<article>
 				<p>
-					The Ranch has three valleys with well groomed tracks to ride quads or dirt bikes through. For those that wish to try more rugged riding there are miles and miles of tracks that are not as maintained. The Ranch but up to BLM land giving riders acess to hundreds of other trails.
+					The Ranch has three valleys with well groomed tracks to ride quads or dirt bikes through. For those that wish to try more rugged riding there are miles and miles of tracks that are not as maintained. The Ranch is adjacent to BLM land giving riders acess to hundreds of other trails.
 				</p>
 				<img src="img/activities/pvr_earth_view.jpg" alt="">
 			</article>
