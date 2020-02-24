@@ -2655,7 +2655,7 @@ figure.img-desc.hover:after {
   grid-area: var(--fullGrid);
   /* Re-size video to cover full screen while maintaining aspect ratio */
   min-width: 100%;
-  min-height: 100%;
+  min-height: 100vh;
   object-fit: cover;
   /* Display video below overlay */
   z-index: -1;
