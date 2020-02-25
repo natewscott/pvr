@@ -16,7 +16,7 @@
 		<div id="reservation">
 			<article class="reserve-info">
 				<p>
-					The main cabin has two bedrooms and two bathrooms, a living room and a full kitchen. The main cabin is available for both hunting parties as well as special events.
+					The spacious and beautiful main house has two bedrooms and two bathrooms, a living room and a full kitchen. The main cabin is available for both hunting parties as well as special events.
 				</p>
 				<hr>
 				<div class="list">

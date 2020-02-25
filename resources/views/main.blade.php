@@ -6,7 +6,7 @@
     <!-- Add your site or application content here -->
     @include('includes/_nav')
     <main class="page-wrap" id="home">
-        <section class="main-content">
+        <section class="main-content" id="app">
             @include('includes/messages')
             @yield('content')
             

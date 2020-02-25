@@ -13,7 +13,7 @@
 	<article class="inner-content">
 		<p>
 			<em>
-			* All hunts require a non-refundable deposit to book (this will go towards your payment).
+			* All hunts require a non-refundable deposit to book (deposits will be applied towards your payment).
 			</em>
 		</p>
 		<hr>

@@ -33,7 +33,7 @@
 					<h2>Riding</h2>
 					<h3></h3>
 					<p>
-					Ride the groomed trails that wined between the 3 valleys or venture off the maintained tracks to test your riding skills.
+					Ride the winding groomed trails between the three valleys or venture off the maintained tracks to test your riding skills.
 					 <a href="{{ route('riding') }} ">Learn More</a>
 					</p>
 				</div>
