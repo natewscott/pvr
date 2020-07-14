@@ -6,8 +6,10 @@
 
 require('./bootstrap');
 
+import CoolLightBox from 'vue-cool-lightbox'
+
 window.Vue = require('vue');
-require = ('vue-cool-lightbox');
+Vue.use(CoolLightBox);
 
 /**
  * The following block of code may be used to automatically register your
@@ -20,7 +22,7 @@ require = ('vue-cool-lightbox');
 // const files = require.context('./', true, /\.vue$/i);
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
-Vue.component('lightbox', require('./components/lightbox.vue').default);
+Vue.component('lightbox', require('./components/LightBox.vue').default);
 
 
 /**
@@ -31,5 +33,6 @@ Vue.component('lightbox', require('./components/lightbox.vue').default);
 
 const app = new Vue({
     el: '#app',
+
 });
 

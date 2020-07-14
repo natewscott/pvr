@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests\BirdHuntRequest;
 use Mail;
 use App\Mail\BirdHuntBooked;
-use Sessiosn;
+use Session;
 
 class BirdHuntController extends Controller
 {

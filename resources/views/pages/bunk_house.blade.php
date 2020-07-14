@@ -127,11 +127,10 @@
 					</form>
 				</aside>
 			</article>
-		</section>
-		{{-- <lightbox></lightbox> --}}
-	</div>
-	
-
+	</section>
+	{{-- <lightbox></lightbox> --}}
+</div>
+{{-- @endsection --}}
 <section id="masonry">
 	<img src="img/accommodations/bunk/bh-living-space.jpg" />
 	<img src="img/accommodations/bunk/bh-bathroom.jpg" />
@@ -146,7 +145,7 @@
 	<div class="arrowl"></div>
 	<div class="close"></div>
 </div>
-@endsection
+@stop
 @section('scripts')
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script>

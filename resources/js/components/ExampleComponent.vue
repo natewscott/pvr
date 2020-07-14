@@ -1,7 +1,5 @@
 <template>
-    <div class="container">
 
-    </div>
 </template>
 
 <script>
@@ -9,5 +7,5 @@
         mounted() {
             console.log('Component mounted.')
         }
-    }
+    };
 </script>
